@@ -22,6 +22,7 @@ results <- list()
 metas <- list()
 
 
+
 # ACS5 --------------------------------------------------------------------
 
 
@@ -114,6 +115,48 @@ get_str(acs1)
 dat <- bind_rows(dat, acs1)
 get_str(dat)
   
+
+
+# Smooth Population -------------------------------------------------------
+
+
+# Smoothing out 5-year population to be even steps between those years
+
+# First make sure population5Year is properly capitalized
+# TODO: Remove this once we run census API calls again - will be moot
+get_str(dat)
+dat <- dat %>% 
+  mutate(variable_name = case_when(
+    variable_name == 'population5year' ~ 'population5Year',
+    .default = variable_name
+  ))
+
+pop <- filter(dat, variable_name == 'population5Year')
+get_str(pop)
+
+# Complete range of years
+range(pop$year)
+(full_range <- 2013:2023)
+pop <- pop %>% 
+  tidyr::complete(fips, year = full_range, variable_name)
+get_str(pop)
+pop
+
+# Group by year and fips, fill in missing values
+pop <- pop %>% 
+  group_by(fips) %>% 
+  mutate(
+    value = na.approx(value, na.rm = FALSE),
+    variable_name = 'population5YearSmooth'
+  ) %>% 
+  ungroup()
+pop
+get_str(pop)
+
+# Add it back to rest of dataset
+get_str(dat)
+dat <- bind_rows(dat, pop)
+
 
 
 # Metadata ----------------------------------------------------------------

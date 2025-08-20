@@ -10,7 +10,8 @@ pacman::p_load(
   tidyr,
   vegan,
   readr,
-  e1071
+  e1071,
+  zoo
 )
 
 
@@ -441,6 +442,41 @@ get_str(dat)
 dat <- bind_rows(dat, combine)
 get_str(dat)
 
+
+
+# Smooth Acres Operated ---------------------------------------------------
+
+
+# Smoothing out acres opreated to be even steps between those years
+ac <- filter(dat, variable_name == 'acresOperated')
+get_str(ac)
+
+# Complete range of years
+range(ac$year)
+(full_range <- 2002:2022)
+ac <- ac %>% 
+  mutate(year = as.numeric(year)) %>% 
+  tidyr::complete(fips, year = full_range, variable_name)
+get_str(ac)
+ac
+
+# Group by year and fips, fill in missing values
+ac <- ac %>% 
+  group_by(fips) %>% 
+  mutate(
+    value = na.approx(value, na.rm = FALSE),
+    variable_name = 'acresOperatedSmooth'
+  ) %>% 
+  ungroup()
+ac
+get_str(ac)
+
+# Add it back to rest of dataset
+get_str(dat)
+dat <- ac %>% 
+  mutate(year = as.character(year)) %>% 
+  bind_rows(dat)
+get_str(dat)
 
 
 

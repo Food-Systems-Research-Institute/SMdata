@@ -70,7 +70,7 @@ years <- seq(2008, 2023, 5)
 # Variables
 vars <- list(
   # Population
-  'population5year' = 'B01003_001E',
+  'population5Year' = 'B01003_001E',
   
   # Education
   # To get prop with HS/GED or higher, have to take total and substract:

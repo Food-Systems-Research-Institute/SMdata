@@ -1,0 +1,191 @@
+File Manifest for ICPSR 38962
+
+United States. Bureau of Justice Statistics. National Crime Victimization
+Survey, [United States], 2023. ICPSR38962-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2024-09-11. http://doi.org/10.3886/ICPSR38962.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-descriptioncitation.pdf       -       -         -       2024-09-11  -
+
+    38962-related_literature.txt        -       -         -       daily       -
+
+    38962-manifest.txt                  -       -         -       daily       -
+
+    38962-User_guide.pdf                -       -         -       2024-09-11  9ae70dc3e61871b98dca1197aaa09e6e
+
+
+DS0001 Address Record-Type File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-0001-Codebook-ICPSR.epub      -       -         -       2024-09-11  e6c15e7062f0561c7da69d61b693550e
+
+    38962-0001-Codebook-ICPSR.pdf       -       -         -       2024-09-11  d1808fe89f23e6834626f5abdaf42bfd
+
+    38962-0001-Data.dta                 -       255,901   10      2024-09-11  2e4fc140e9b3d1920d59e80ea7257ccf
+
+    38962-0001-Data.rda                 -       255,901   10      2024-09-11  abc7f1d73cf78a7043e5a89e56cfcc41
+
+    38962-0001-Data.sav                 -       255,901   10      2024-09-11  10385417373038207ab3a13bd5778150
+
+    38962-0001-Data.stc                 -       255,901   10      2024-09-11  8e4f313d48a3c4dd15b3f517ff99e881
+
+    38962-0001-Data.tsv                 -       255,901   10      2024-09-11  dee6d3975d9a43559b6922a0a2cd65fb
+
+    38962-0001-Data.txt                 69      255,901   10      2024-09-11  b2f1d481843d059665c6d5c60bea279c
+
+    38962-0001-Setup.dct                -       -         -       2024-09-11  1acc2203839b971444336744279e6ec1
+
+    38962-0001-Setup.do                 -       -         -       2024-09-11  2b8cd33f4053891be85aebda4b26b8c4
+
+    38962-0001-Setup.sas                -       -         -       2024-09-11  75d574c3018a8a7c950daf12e01e3d70
+
+    38962-0001-Setup.sps                -       -         -       2024-09-11  210c0cae380591a566ddfae575517c87
+
+    38962-0001-Supplemental_syntax.do   -       -         -       2024-09-11  dc3ac39afbc4b680e7b208af67aefc5c
+
+    38962-0001-Supplemental_syntax.sas  -       -         -       2024-09-11  2fb4016c2f1a1ca5312a91b39417bdb7
+
+
+DS0002 Household Record-Type File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-0002-Codebook-ICPSR.epub      -       -         -       2024-09-11  124cc048997ba9e45fd3f6d1563dbf3f
+
+    38962-0002-Codebook-ICPSR.pdf       -       -         -       2024-09-11  a8de137e6cbfb026e5cb6de6406cb19b
+
+    38962-0002-Data.dta                 -       255,901   448     2024-09-11  e588c31b90fe771fc70601d74e76f09f
+
+    38962-0002-Data.rda                 -       255,901   448     2024-09-11  63a4f8750fe85437fe4600cda8300308
+
+    38962-0002-Data.sav                 -       255,901   448     2024-09-11  6373674b493cbfeca769f533c71429c0
+
+    38962-0002-Data.stc                 -       255,901   448     2024-09-11  31a5b6af7d3bc42c40ac1f05892a97ca
+
+    38962-0002-Data.tsv                 -       255,901   448     2024-09-11  cddf16b3abcaaa1de003cb5f78bc89c8
+
+    38962-0002-Data.txt                 5094    255,901   448     2024-09-11  7a21c69627a68170f92b1f3abb531592
+
+    38962-0002-Setup.dct                -       -         -       2024-09-11  e24e4be0349278d9dbc89458cbe7f5ae
+
+    38962-0002-Setup.do                 -       -         -       2024-09-11  23718dcca0c10437158f0861832fcbdc
+
+    38962-0002-Setup.sas                -       -         -       2024-09-11  b05eb9e4f4285c9286f62e336acbac42
+
+    38962-0002-Setup.sps                -       -         -       2024-09-11  960b0951ea74d98eb0471f2f06b55f15
+
+    38962-0002-Supplemental_syntax.do   -       -         -       2024-09-11  708568fd41a1ea7fde8e15a5a4061d76
+
+    38962-0002-Supplemental_syntax.sas  -       -         -       2024-09-11  4d3c846dc610d9445017e13e7c9bc074
+
+
+DS0003 Person Record-Type File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-0003-Codebook-ICPSR.epub      -       -         -       2024-09-11  eba50075f085054d4d73500f8a26918a
+
+    38962-0003-Codebook-ICPSR.pdf       -       -         -       2024-09-11  6df3013a805338b1eb2fc992a2937098
+
+    38962-0003-Data.dta                 -       275,343   427     2024-09-11  d745574955c76bc6b63409c3874b9946
+
+    38962-0003-Data.rda                 -       275,343   427     2024-09-11  e1425a6cd9571995c2120dc1a416af52
+
+    38962-0003-Data.sav                 -       275,343   427     2024-09-11  b03132ace60ea2082bf951c5d19ea7e9
+
+    38962-0003-Data.stc                 -       275,343   427     2024-09-11  a545c44978af82366d25ee20acf9d33c
+
+    38962-0003-Data.tsv                 -       275,343   427     2024-09-11  25498ca40527718ed5ea64f10e11697c
+
+    38962-0003-Data.txt                 5088    275,343   427     2024-09-11  dfffcd07a4f6a10916d7c00ec2a77f92
+
+    38962-0003-Setup.dct                -       -         -       2024-09-11  50b8437ddb13819a2eb6d9f0668ed6c3
+
+    38962-0003-Setup.do                 -       -         -       2024-09-11  6bc54e4c14492612dd52de3de5002247
+
+    38962-0003-Setup.sas                -       -         -       2024-09-11  6136fdea2cd89acb2e8d9a08992dfd5e
+
+    38962-0003-Setup.sps                -       -         -       2024-09-11  2e035e997b8028307bd0b4a530f36e32
+
+    38962-0003-Supplemental_syntax.do   -       -         -       2024-09-11  f927a897eab135e9e9254430c9a1a1d5
+
+    38962-0003-Supplemental_syntax.sas  -       -         -       2024-09-11  6dfc0b784c0d0b768acf8ecb8b556c81
+
+
+DS0004 Incident Record-Type File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-0004-Codebook-ICPSR.epub      -       -         -       2024-09-11  7de480c58b2da2c34bd97ff6ccd1f787
+
+    38962-0004-Codebook-ICPSR.pdf       -       -         -       2024-09-11  1f1b512b09b35a45ca668c5de08e2658
+
+    38962-0004-Data.dta                 -       9,324     1261    2024-09-11  7ece9a1deb2f5992051e2caf9e048bb4
+
+    38962-0004-Data.rda                 -       9,324     1261    2024-09-11  d9055ec37d1f00c9da7367bcda635d55
+
+    38962-0004-Data.sav                 -       9,324     1261    2024-09-11  0bbfcb9b7e16afdcc8259f4e44d4064a
+
+    38962-0004-Data.stc                 -       9,324     1261    2024-09-11  6a4621675426b4ccde859e32939ac21b
+
+    38962-0004-Data.tsv                 -       9,324     1261    2024-09-11  152fe12c414c6cee6b5538a4815a749a
+
+    38962-0004-Data.txt                 10566   9,324     1261    2024-09-11  73a2606489fa366cd491e23047c3c25d
+
+    38962-0004-Setup.dct                -       -         -       2024-09-11  d0e169db3f43f61b49f62e9df871c1bb
+
+    38962-0004-Setup.do                 -       -         -       2024-09-11  89875dbcf6686e847c05eace308155e6
+
+    38962-0004-Setup.sas                -       -         -       2024-09-11  e43baa03410e0dbde2aa74dbe28213ea
+
+    38962-0004-Setup.sps                -       -         -       2024-09-11  4f684d7968176f869d7b8ab6b1f42564
+
+    38962-0004-Supplemental_syntax.do   -       -         -       2024-09-11  d6a0ab7dd45c5a29b743f3d2537c98bd
+
+    38962-0004-Supplemental_syntax.sas  -       -         -       2024-09-11  8f203e494c99828ded1688035edcbd9f
+
+
+DS0005 2023 Collection Year Incident-Level Extract File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38962-0005-Codebook-ICPSR.epub      -       -         -       2024-09-11  b97a5e90078db34a7317bf673a54a1e2
+
+    38962-0005-Codebook-ICPSR.pdf       -       -         -       2024-09-11  cd17ecc278fb7245919aa7c86b3f1a31
+
+    38962-0005-Data.dta                 -       9,324     1491    2024-09-11  7a67423258a3748b94c3d58ae162f631
+
+    38962-0005-Data.rda                 -       9,324     1491    2024-09-11  e216f48bd9613b0564d3ff8b17590ecc
+
+    38962-0005-Data.sav                 -       9,324     1491    2024-09-11  b390746c02117031839a27339496aedd
+
+    38962-0005-Data.stc                 -       9,324     1491    2024-09-11  f39edc03734921e4f2b5a8f813c77786
+
+    38962-0005-Data.tsv                 -       9,324     1491    2024-09-11  68e5b58289da1abf80e80bdeed160724
+
+    38962-0005-Data.txt                 11059   9,324     1491    2024-09-11  bb46ca4541a85f0ca2cdf199b9ebcf67
+
+    38962-0005-Setup.dct                -       -         -       2024-09-11  60dd384b7aa66ef71517f751152fad31
+
+    38962-0005-Setup.do                 -       -         -       2024-09-11  de18cb9be6b0bde3fc48c573b18ef9ee
+
+    38962-0005-Setup.sas                -       -         -       2024-09-11  2c0afac85fcd65bef3de0f5adf29506b
+
+    38962-0005-Setup.sps                -       -         -       2024-09-11  05d1bdac3180211b5a88d4161d71658f
+
+    38962-0005-Supplemental_syntax.do   -       -         -       2024-09-11  6f69f3fdd193ddeec7ce1956d31df95a
+
+    38962-0005-Supplemental_syntax.sas  -       -         -       2024-09-11  ce73fd001509563eec9f56f87d092835
+

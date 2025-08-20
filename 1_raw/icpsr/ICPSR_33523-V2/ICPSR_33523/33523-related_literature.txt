@@ -1,0 +1,748 @@
+Bibliography
+Uniform Crime Reporting Program Data: County-Level Detailed Arrest and
+Offense Data, United States, 2010
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 33523. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Acs, Gregory; Pendall, Rolf; Treskon, Mark; Khare, Amy, "The Cost of
+Segregation: National Trends and the Case of Chicago, 1990-2010." Research
+Report. Washington, DC: Urban Institute, Mar 2017.
+Full text PDF: http://www.urban.org/sites/default/files/publication/89201/the_cost_of_segregation.pdf
+
+2. Akpom, Uchenna N.; Doss, Adrian D., "Estimating the impact of state
+government spending and the economy on crime rates." Journal of Law and
+Conflict Resolution. Feb 2018, 10, (2), 9 - 18. DOI: 10.5897/JLCR2016.0250
+Full text PDF: http://www.urban.org/sites/default/files/publication/89201/the_cost_of_segregation.pdf
+
+3. Amidon, Ethan; Eassey, John M., "Examining the county-level political
+considerations associated with declining reliance on the death penalty from
+1990 to 2010." Criminology. May 2021, 59, (2), 318 - 350. DOI:
+10.1111/1745-9125.12272
+Full text PDF: http://www.urban.org/sites/default/files/publication/89201/the_cost_of_segregation.pdf
+
+4. Amin, Raid W.; Rivera-Muniz, Bradly; Guttmann, Rodney P., "A spatial
+study of quality of life in the USA." SN Social Sciences. 2021, 1, (110),.
+DOI: 10.1007/s43545-021-00111-y
+Full text PDF: http://www.urban.org/sites/default/files/publication/89201/the_cost_of_segregation.pdf
+
+5. Amuedo-Dorantes, Catalina; Bansak, Cynthia; Pozo, Susan, "Refugee
+Admissions and Public Safety: Are Refugee Settlement Areas More Prone to
+Crime?." IZA Discussion Paper No. 11612. Bonn, Germany: Institute of Labor
+Economics, Jun 2018.
+Full text PDF: http://ftp.iza.org/dp11612.pdf
+
+6. Andrews, Rodney J.; Deza, Monica, "Local natural resources and crime:
+Evidence from oil price fluctuations in Texas." Journal of Economic
+Behavior and Organization. Jul 2018, 151, 123 - 142. DOI:
+10.1016/j.jebo.2018.02.011
+Full text PDF: http://ftp.iza.org/dp11612.pdf
+
+7. Andrews, Rodney J.; Deza, Monica, "The Effects of Local Economic
+Activity on Crime: Evidence from Oil Price Shocks in Texas." 2016..
+Full text PDF: http://www.sole-jole.org/17747.pdf
+
+8. Aneja, Abhay; Donohue, John J., III; Zhang, Alexandria,, "The Impact of
+Right to Carry Laws and the NRC Report: The Latest Lessons for the
+Empirical Evaluation of Law and Policy." Stanford Law and Economics Olin
+Working Paper No. 461. Sep 4, 2014.
+Abstract: http://ssrn.com/abstract=2443681
+
+9. Auerbach, Alan J.; Gorodnichenko, Yuriy; Murphy, Daniel, "Demand
+Stimulus as Social Policy." IZA DP No. 15568. Bonn, Germany: Institute of
+Labor Economics, Sep 2022. DOI: 10.2139/ssrn.4232696
+Abstract: https://www.iza.org/publications/dp/15568/demand-stimulus-as-social-policy
+
+10. Babar, Yash, "Essays on Online-Offline Interactions." Dissertation,
+University of Minnesota, 2020.
+Full text PDF: https://conservancy.umn.edu/bitstream/handle/11299/216418/Babar_umn_0130E_21486.pdf
+
+11. Bennett, Neil M., "Essays on Migration and Immigration Policy."
+Dissertation, University of California, 2020.
+Abstract: https://escholarship.org/uc/item/9k8380wj
+
+12. Brasier, Kathryn; Davis, Lisa; Glenna, Leland; Kelsey, Tim; McLaughlin,
+Diane; Schafft, Kai; Babbie, Kristin; Biddle, Catherine; Delessio-Parson,
+Anne; Rhubart, Danielle, "The Marcellus Shale Impacts Study: Chronicling
+Social and Economic Change in North Central and Southwest Pennsylvania."
+Harrisburg, PA: Center for Rural Pennsylvania, Sep 2014.
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+13. Braun, Christine, "Crime and the Minimum Wage." Oct 5, 2017..
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+14. Braun, Christine, "Crime and the minimum wage." Review of Economic
+Dynamics. Apr 2019, 32, 122 - 152. DOI: 10.1016/j.red.2019.02.002
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+15. Braun, Christine, "Essays on Frictional Labor Markets and Measurement."
+Dissertation, University of California, 2018.
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+16. Burkhardt, Jesse; Bayham, Jude; Wilson, Ander; Berman, Jesse D.;
+O'Dell, Katelyn; Ford, Bonne; Fischer, Emily V.; Pierce, Jeffrey R., "The
+relationship between monthly air pollution and violent crime across the
+United States." Journal of Environmental Economics and Policy. in press
+2019,. DOI: 10.1080/21606544.2019.1630014
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+17. Burraston, Bert; McCutcheon, James C.; Watts, Stephen J., "Relative and
+absolute deprivation's relationship with violent crime in the United
+States: Testing an interaction effect between income inequality and
+disadvantage." Crime and Delinquency. Apr 2018, 64, (4), 542 - 560. DOI:
+10.1177/0011128717709246
+Full text PDF: http://www.rural.palegislature.us/documents/reports/The-Marcellus-Shale-Impacts-Study.pdf
+
+18. Burraston, Bert; McCutcheon, James C.; Watts, Stephen; Province, Karli,
+"Re-conceptualizing concentrated disadvantage: Disadvantage by inequality
+interaction (The concentration of disadvantage)." Presented at the Changes
+in Homicide Patterns and Implications for Research: Proceedings of the 2017
+Meeting of the Homicide Research Working Group, Homicide Research Working
+Group, Memphis, TN, Jun 9, 2017.
+Full text PDF: https://hrwg1991.org/wp-content/uploads/2021/04/2017-HRWG-Proceedings-LHC-5.8.2020.pdf
+
+19. Burraston, Bert; Watts, Stephen J.; McCutcheon, James C.; Province,
+Karli, "Relative deprivation, absolute deprivation, and homicide: Testing
+an interaction between income inequality and disadvantage." Homicide
+Studies. Feb 2019, 23, (1), 3 - 19. DOI: 10.1177/1088767918785205
+Full text PDF: https://hrwg1991.org/wp-content/uploads/2021/04/2017-HRWG-Proceedings-LHC-5.8.2020.pdf
+
+20. CJARS Team, "Justice Outcomes Explorer (JOE) Technical Documentation."
+Ann Arbor, MI: Criminal Justice Administrative Records System, 2023..
+Full text PDF: https://cdn.isr.umich.edu/pubFiles/cjars/2023Q3_JOE_Technical_Documentation.pdf
+
+21. Campbell, Walter; Lewenstein, Ari; Kling, Ryan; Gaes, Gerald,
+"Neighborhood prison admission rates and the Sunbelt: Variation in
+imprisonment, concentrated disadvantage, and their relationship across the
+United States." Crime and Delinquency. in press 2019,. DOI:
+10.1177/0011128719847449
+Full text PDF: https://cdn.isr.umich.edu/pubFiles/cjars/2023Q3_JOE_Technical_Documentation.pdf
+
+22. Chavez, Jacqueline S., "The Vanishing Jury: An Examination of How
+District Attorneys Perceive Justice." Dissertation, Mississippi State
+University, 2015.
+Full text PDF: https://cdn.isr.umich.edu/pubFiles/cjars/2023Q3_JOE_Technical_Documentation.pdf
+
+23. Ciccarelli, Nicole, "(Non-Elderly) Health Insurance Coverage, Moral
+Hazard and Crime." Brussels: European Center for Advanced Research in
+Economics and Statistics, Jan 21, 2015..
+Full text PDF: http://www.ashevil.ecares.org/ecaresdocuments/seminars1415/ciccarelli.pdf
+
+24. Circo, Giovanni; Scranton, Alexander, "Did Connecticut's 'raise the
+age' increase motor vehicle thefts?." Criminal Justice Policy Review. in
+press 2020,. DOI: 10.1177/0887403419892045
+Full text PDF: http://www.ashevil.ecares.org/ecaresdocuments/seminars1415/ciccarelli.pdf
+
+25. Cook, Alan; Reingle Gonzalez, Jennifer; Balasubramanian, Bijal A., "Do
+neighborhood demographics, crime rates, and alcohol outlet density predict
+incidence, severity, and outcome of hospitalization for traumatic injury? A
+cross-sectional study of Dallas County, Texas, 2010." Injury Epidemiology.
+2014, 1, (23),. DOI: 10.1186/s40621-014-0023-2
+Full text PDF: http://www.ashevil.ecares.org/ecaresdocuments/seminars1415/ciccarelli.pdf
+
+26. Cotti, Chad; Engelhardt, Bryan; Richie, Matt, "Government funding
+incentives and felony charge rates." Journal of Crime and Justice. in press
+2021,. DOI: 10.1080/0735648X.2021.1939765
+Full text PDF: http://www.ashevil.ecares.org/ecaresdocuments/seminars1415/ciccarelli.pdf
+
+27. D'Este, Rocco, "Drugs and Crime in the US: Evidence from OTC
+Regulations Targeting Crystal-Meth Precursors Chemicals." Mar 2015..
+Full text PDF: http://www.iza.org/conference_files/SUMS_2015/10326.pdf
+
+28. Deza, Monica; Maclean, Johanna C.; Solomon, Keisha, "Local Access to
+Mental Healthcare and Crime." Oct 1, 2019..
+Full text PDF: https://econ.uconn.edu/wp-content/uploads/sites/681/2019/10/mh_crime_paper_10_1_2019.pdf
+
+29. Deza, Monica; Maclean, Johanna C.; Solomon, Keisha T., "Local Access to
+Mental Healthcare and Crime." NBER Working Paper 27619. Cambridge, MA:
+National Bureau of Economic Research, Jul 2020. DOI: 10.3386/w27619
+Abstract: https://www.nber.org/papers/w27619
+Full text PDF: https://www.nber.org/system/files/working_papers/w27619/w27619.pdf
+
+30. Dragone, Davide; Prarolo, Giovanni; Vanin, Paolo; Zanella, Giulio,
+"Crime and the legalization of recreational marijuana." Bologna, Italy: IZA
+Institute of Labor Economics, Jan 2017.
+Abstract: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911460
+Full text PDF: http://ftp.iza.org/dp10522.pdf
+
+31. Dragone, Davide; Prarolo, Giovanni; Vanin, Paolo; Zanella, Giulio,
+"Crime and the legalization of recreational marijuana." Journal of Economic
+Behavior and Organization. Mar 2019, 159, 488 - 501. DOI:
+10.1016/j.jebo.2018.02.005
+Abstract: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911460
+Full text PDF: http://ftp.iza.org/dp10522.pdf
+
+32. Fan, Chun C.; Marshall, Andrew; Smolker, Harry; Gonzalez, Marybel R.;
+Tapert, Susan F.; Barch, Deanna M.; Sowell, Elizabeth; Dowling, Gayathri
+J.; Cardenas-Iniguez, Carlos; Ross, Jessica; Thompson, Wesley K.; Herting,
+Megan M., "Adolescent Brain Cognitive Development (ABCD) Study Linked
+External Data (LED): Protocol and Practices for Geocoding and Assignment of
+Environment Data." Jul 7, 2021.. DOI: 10.31234/osf.io/59z6b
+Abstract: https://psyarxiv.com/59z6b/
+
+33. Fay, Robert E., "Constructing and Disseminating Small Area Estimates
+from the National Crime Victimization Survey, 2007-2018." Final Report for
+Award #2017-BJ-CX-K030. NCJ 300603, Westat, Apr 2021.
+Abstract: https://www.ojp.gov/ncjrs/virtual-library/abstracts/constructing-and-disseminating-small-area-estimates-national-crime
+Full text PDF: https://www.ojp.gov/pdffiles1/bjs/grants/300603.pdf
+This report was produced by Westat, Inc., for BJS under award number 2017-
+BJ-CX-K030. It builds upon a previously released report that combined data
+from the National Crime Victimization Survey (NCVS) with small area
+estimation methods and data from the FBI’s Uniform Crime Reports to produce
+estimates for states for 1999–2013 and for some large counties and sub-
+state areas for 1998–2012. This report features state-level estimates for
+an expanded set of characteristics that have been produced as 3-year
+averages for 2007–2018. The report includes displays of the state estimates
+accompanied by a more simplified description for the interested public. The
+majority of the report focuses on the software and its underlying methods.
+
+34. Federal Bureau of Investigation, "Crime in the United States 2010."
+Updated 2011,.
+Full text: http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2010/crime-in-the-u.s.-2010
+
+35. Fone, Zachary, "Essays in Applied Microeconomics: Policy Interventions
+and Spillovers to Crime." Dissertation, University of New Hampshire, 2020.
+Full text: http://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2010/crime-in-the-u.s.-2010
+
+36. Fone, Zachary S.; Sabia, Joseph J.; Cesur, Resul, "Do Minimum Wage
+Increases Reduce Crime?." NBER Working Paper 25647. Cambridge, MA: National
+Bureau of Economic Research, Mar 2019. DOI: 10.3386/w25647
+Abstract: https://www.nber.org/papers/w25647
+Full text PDF: https://www.nber.org/papers/w25647.pdf
+
+37. Foote, Andrew, "Decomposing the effect of crime on population changes."
+Demography. Apr 2015, 52, (2), 705 - 728. DOI: 10.1007/s13524-015-0375-4
+Abstract: https://www.nber.org/papers/w25647
+Full text PDF: https://www.nber.org/papers/w25647.pdf
+
+38. Forrester, Andrew; Nowrasteh, Alex, "Do Immigration Enforcement
+Programs Reduce Crime? Evidence from the 287(g) Program in North Carolina."
+CATO Working Paper No. 52. Washington, DC: CATO Institute, Apr 11, 2018.
+Full text PDF: https://www.cato.org/sites/cato.org/files/pubs/pdf/working-paper-52-updated.pdf
+
+39. Fraser, Timothy, "Does social capital boost or block renewable energy
+siting? South African politics in comparison." Energy Research and Social
+Science. Jan 2021, 71,. DOI: 10.1016/j.erss.2020.101845
+Full text PDF: https://www.cato.org/sites/cato.org/files/pubs/pdf/working-paper-52-updated.pdf
+
+40. Gaskin, Darrell J.; Roberts, Eric T.; Chan, Kitty S.; McCleary,
+Rachael; Buttorff, Christine; Delarmente, Benjo A., "No man is an island:
+The impact of neighborhood disadvantage on mortality." International
+Journal of Environmental Research and Public Health. 2019, 16, (7),. DOI:
+10.3390/ijerph16071265
+Full text PDF: https://www.cato.org/sites/cato.org/files/pubs/pdf/working-paper-52-updated.pdf
+
+41. Gavrilova, Evelina; Kamada, Takuma; Zoutman, Floris, "Is Legal Pot
+Crippling Mexican Drug Trafficking Organizations? The Effect of Medical
+Marijuana Laws on US Crime." Oct 28, 2015.. DOI: 10.2139/ssrn.2350101
+Abstract: 10.2139/ssrn.2350101
+
+42. Gavrilova, Evelina; Kamada, Takuma; Zoutman, Floris, "Is legal pot
+crippling Mexican drug trafficking organisations? The effect of medical
+marijuana laws on US crime." Economic Journal. in press 2018,. DOI:
+10.1111/ecoj.12521
+Abstract: 10.2139/ssrn.2350101
+
+43. Greene, Marion; Wright, Eric, "Using Data to Identify Substance Abuse
+Prevention Needs." Improving Community Health Through Policy Research. 13-
+H42, Indianapolis, IN: IUPUI, Center for Health Policy, May 2013.
+Full text: http://hdl.handle.net/2450/7230
+
+44. Groh, Brianna, "Predictable Justice Systems: Community Desensitization
+of Violence and Capital Punishment Rates." thesis, Haverford College, 2015.
+Abstract: https://scholarship.tricolib.brynmawr.edu/handle/10066/16657
+Full text PDF: https://scholarship.tricolib.brynmawr.edu/bitstream/handle/10066/16657/2015GrohB.pdf?sequence=1&isAllowed=y
+
+45. Hale, Kathleen, "The Impact of Intersectoral Information Networks on
+Drug Court Policy." Dissertation, Kent State University, 2005.
+Abstract: https://scholarship.tricolib.brynmawr.edu/handle/10066/16657
+Full text PDF: https://scholarship.tricolib.brynmawr.edu/bitstream/handle/10066/16657/2015GrohB.pdf?sequence=1&isAllowed=y
+
+46. Hao, Zhuang, "Three Essays on Health Economics." Dissertation,
+Washington State University, 2018.
+Abstract: https://scholarship.tricolib.brynmawr.edu/handle/10066/16657
+Full text PDF: https://scholarship.tricolib.brynmawr.edu/bitstream/handle/10066/16657/2015GrohB.pdf?sequence=1&isAllowed=y
+
+47. Hao, Zhuang; Cowan, Benjamin, "The Cross-Border Spillover Effects of
+Recreational Marijuana Legalization." NBER Working Paper Series. Cambridge,
+MA: National Bureau of Economic Research, May 2017. DOI: 10.3386/w23426
+Abstract: http://www.nber.org/papers/w23426
+Full text PDF: http://www.nber.org/papers/w23426.pdf
+
+48. Harris, Casey T.; Feldmeyer, Ben, "A shot of morality? Hispanic
+immigration, religious contextual characteristics, and violence."
+Sociological Spectrum. 2015, 35, (3), 229 - 253. DOI:
+10.1080/02732173.2015.1021062
+Abstract: http://www.nber.org/papers/w23426
+Full text PDF: http://www.nber.org/papers/w23426.pdf
+
+49. Harris, Casey T.; Feldmeyer, Ben; Barranco, Raymond, "Religious
+contexts and violence in emerging and traditional immigrant destinations."
+Religions. 2018, 9, (4),. DOI: 10.3390/rel9040116
+Full text: http://www.mdpi.com/2077-1444/9/4/116/htm
+Full text PDF: http://www.mdpi.com/2077-1444/9/4/116/pdf
+
+50. Harris, Casey T.; Ulmer, Jeffery T., "'Mighty like a river': The Black
+Protestant church and violence in Black communities." Sociological
+Quarterly. 2017, 58, (2), 295 - 314. DOI: 10.1080/00380253.2017.1296336
+2015-R2-CX-0038
+Full text: http://www.mdpi.com/2077-1444/9/4/116/htm
+Full text PDF: http://www.mdpi.com/2077-1444/9/4/116/pdf
+
+51. He, Qiwei, "Health Insurance on Social Welfare." Dissertation, Clemson
+University, 2018.
+Abstract: https://tigerprints.clemson.edu/all_dissertations/2143
+
+52. He, Qiwei; Barkowski, Scott, "The effect of health insurance on crime:
+Evidence from the Affordable Care Act Medicaid expansion." Health
+Economics. Mar 2020, 29, (3), 261 - 277. DOI: 10.1002/hec.3977
+Abstract: https://tigerprints.clemson.edu/all_dissertations/2143
+
+53. He, Qwei, "The Effect of Health Insurance on Crime: Evidence from the
+Affordable Care Act Medicaid Expansion." Jan 9, 2018. DOI:
+10.2139/ssrn.3087500
+Abstract: https://ssrn.com/abstract=3087500
+
+54. Hoon, Lim Siew, "Does shale energy development mean more crime? The
+case of the Bakken oil boom." Growth and Change. Sep 2018, 49, (3), 413 -
+441. DOI: 10.1111/grow.12242
+Abstract: https://ssrn.com/abstract=3087500
+
+55. Hu, Hui; Zheng, Yi; Wen, Xiaoxiao; Smith, Sabrina S.; Nizomov, Javlon;
+Fishe, Jennifer; Hogan, William R.; Shenkman, Elizabeth A.; Bian, Jiang,
+"An external exposome-wide association study of COVID-19 mortality in the
+United States." Science of the Total Environment. May 2021, 768,. DOI:
+10.1016/j.scitotenv.2020.144832
+Abstract: https://pubmed.ncbi.nlm.nih.gov/33450687/
+
+56. Ibragimov, Umedjon; Beane, Stephanie; Friedman, Samuel R.; Tempalski,
+Barbara; Williams, Leslie D.; MPhil, Sarah; Admiora, Adaora A.; Wingood,
+Gina M.; Stall, Ron D.; Hall, H.I.; Johnson, Anna; Cooper, Hannah L.F.,
+"Evidence for HIV transmission across key populations: A longitudinal
+analysis of HIV and AIDS rates among Black people who inject drugs and
+Black heterosexuals in 84 large U.S. metropolitan areas, 2008--2016."
+Annals of Epidemiology. Mar 2021, 55, 69 - 77. DOI:
+10.1016/j.annepidem.2020.10.003
+Abstract: https://pubmed.ncbi.nlm.nih.gov/33450687/
+
+57. Indiana State Epidemiology and Outcomes Workgroup, "The Consumption and
+Consequences of Alcohol, Tobacco, and Drugs in Indiana: A State
+Epidemiological Profile 2012." Indianapolis, IN: Center for Health Policy
+at Indiana University-Purdue University Indiana (IUPUI), 2012.
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+58. James, Alexander; Smith, Brock, "There will be blood: Crime rates in
+shale-rich U.S. counties." OxCarre Research Paper 140, Oxford, UK:
+University of Oxford, Department of Economics, OxCarre, Oxford Centre for
+the Analysis of Resource Rich Economies, Jun 11, 2014..
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+59. Kajeepeta, Sandhya, "Estimating the Negative and Racialized
+Consequences of the Police-Centric Response to Intimate Partner Violence."
+Dissertation, Columbia University, 2022. DOI: 10.7916/0yy7-yj20
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+60. Kajeepeta, Sandhya; Mauro, Pia M.; Keyes, Katherine M.; El-Sayed,
+Abdulrahman M.; Rutherford, Caroline G.; Prins, Seth J., "Association
+between county jail incarceration and cause-specific county mortality in
+the USA, 1987-2017: A retrospective, longitudinal study." The Lancet Public
+Health. Apr 2021, 6, (4), e240 - e248. DOI: 10.1016/S2468-2667(20)30283-8
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+61. Karcher, Nicole R.; Schiffman, Jason; Barch, Deanna M., "Environmental
+risk factors and psychotic-like experiences in children aged 9-10." Journal
+of the American Academy of Child and Adolescent Psychiatry. Apr 2021, 60,
+(4), 490 - 500. DOI: 10.1016/j.jaac.2020.07.003
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+62. Kliamovich, Dakota, "Characterizing Neural and Psychosocial Predictors
+of Internalizing Psychopathology in Early Adolescence." Dissertation,
+Oregon Health and Science University, 2023.
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+63. Koerner, Aeric A.H., "Managing for the Health of It: Turbulence and
+Organizational Performance in the American Public Healthcare System."
+Dissertation, American University, 2021.
+Full text PDF: https://www.in.gov/pla/files/2012_State_Epidemiological_Profile.pdf
+
+64. LaRiviere, Jacob S.; Wolff, Hendrik, "The Power of the Little Blue
+Pill: Innovations and Implications of Life Style Drugs in an Aging
+Population." IZA Discussion Paper No. 8261. Jun 2014.
+Full text: http://ssrn.com/abstract=2460204
+
+65. LaRiviere, Jacob; Wolff, Hendrik, "The power of the little blue pill:
+Innovations and implications of lifestyle drugs in an aging population."
+Economic Inquiry. Jan 2015, 53, (1), 540 - 556. DOI: 10.1111/ecin.12147
+Full text: http://ssrn.com/abstract=2460204
+
+66. Lhila, Aparna; Amin, Vikesh, "Crime and Pregnancies: Does Area Crime
+Affect the Demand for Prenatal Care and the Health of Pregnant Women and
+Their Newborns?." 2015..
+Full text PDF: https://www.cmich.edu/colleges/cba/academic_programs/departments/eco/profiles/Documents/crime.pdf
+
+67. Long, Wei, "How does oversight affect police? Evidence from the police
+misconduct reform." Journal of Economic Behavior and Organization. in press
+2019,. DOI: 10.1016/j.jebo.2019.10.003
+Full text PDF: https://www.cmich.edu/colleges/cba/academic_programs/departments/eco/profiles/Documents/crime.pdf
+
+68. Luht, James A.B., "Racial Tensions in Modern Society: A Study of Arrest
+Related Shootings in Arkansas 2006-2011." Thesis, Arkansas State
+University, 2017.
+Full text PDF: https://www.cmich.edu/colleges/cba/academic_programs/departments/eco/profiles/Documents/crime.pdf
+
+69. Maguire-Jack, Kathryn; Font, Sarah A.; Dillard, Rebecca, "Child
+Protective Services decision-making: The role of children's race and county
+factors." American Journal of Orthopsychiatry. 2020, 90, (1), 48 - 62. DOI:
+10.1037/ort0000388
+Abstract: https://pubmed.ncbi.nlm.nih.gov/31081655/
+
+70. Maksuta, Kyle D.; Zhao, Yunhan; Yang, Tse-Chuan, "Race, disadvantage,
+and violence: A spatial exploration of macrolevel covariates of police-
+involved homicides within and between US counties." Social Science
+Research. Mar 2024, 119,. DOI: 10.1016/j.ssresearch.2024.102985
+Abstract: https://pubmed.ncbi.nlm.nih.gov/31081655/
+
+71. Medina, Angela Z., "The Effect of Anti-Gang Laws on Crime and Social
+Control." job market paper. 2023?..
+Full text PDF: https://azorromedina.com/wp-content/uploads/2023/08/JMP_ZorroMedina_28_08_23H.pdf
+
+72. Meehan, Brian, "The Political Economy of the United States Private
+Security Industry." dissertation, Florida State University, 2015.
+Abstract: http://purl.flvc.org/fsu/fd/FSU_migr_etd-9651
+Full text PDF: http://diginole.lib.fsu.edu/islandora/object/fsu:253114/datastream/PDF/download/citation.pdf
+
+73. Moon, Joni, "In the Realm of School Vouchers, Access Does Not Equal
+Utilization." Dissertation, Indiana University, 2017.
+Abstract: http://purl.flvc.org/fsu/fd/FSU_migr_etd-9651
+Full text PDF: http://diginole.lib.fsu.edu/islandora/object/fsu:253114/datastream/PDF/download/citation.pdf
+
+74. Owusu-Edusei, Kwame, Jr.; Chang, Brian, "Investigating multiple-
+reported bacterial sexually transmitted infection hot spot counties in the
+United States: Ordered spatial logistic regression." Sexually Transmitted
+Diseases. Dec 2019, 46, (12), 771 - 776. DOI: 10.1097/OLQ.0000000000001078
+Abstract: http://purl.flvc.org/fsu/fd/FSU_migr_etd-9651
+Full text PDF: http://diginole.lib.fsu.edu/islandora/object/fsu:253114/datastream/PDF/download/citation.pdf
+
+75. Palusci, Vincent J.; Vandervort, Frank E.; Lewis, Jessica M., "Does
+changing mandated reporting laws improve child maltreatment reporting in
+large U.S. counties?." Children and Youth Services Review. Jul 2016, 66,
+170 - 179. DOI: 10.1016/j.childyouth.2016.05.002
+Abstract: http://purl.flvc.org/fsu/fd/FSU_migr_etd-9651
+Full text PDF: http://diginole.lib.fsu.edu/islandora/object/fsu:253114/datastream/PDF/download/citation.pdf
+
+76. Papp, Jordan; Mueller-Smith, Michael, "Benchmarking the 2022 Q2 Vintage
+of the Criminal Justice Administrative Records System's Data
+Infrastructure." Ann Arbor, MI: Institute for Social Research, 2022.
+Full text PDF: https://cjars.isr.umich.edu/wp-content/uploads/CJARS_Benchmarking_Report_2022q2.pdf
+
+77. Papp, Jordan; Mueller-Smith, Michael, "Benchmarking the Criminal
+Justice Administrative Records System's Data Infrastructure." Ann Arbor,
+MI: Institute for Social Research at the University of Michigan, 2021.
+Full text PDF: https://cjars.isr.umich.edu/wp-content/uploads/2021_Benchmarking_White_Paper.pdf
+
+78. Pedroza, Juan M., "Deportation Discretion: Tiered Influence, Minority
+Threat, and 'Secure Communities' Deportations." Stanford, CA: Stanford
+University, Oct 9, 2017. DOI: 10.2139/ssrn.2584135
+Full text PDF: https://cjars.isr.umich.edu/wp-content/uploads/2021_Benchmarking_White_Paper.pdf
+
+79. Pedroza, Juan M., "Deportation discretion: Tiered influence, minority
+threat, and 'secure communities' deportations." Policy Studies Journal. Aug
+2019, 47, (3), 624 - 646. DOI: 10.1111/psj.12300
+Full text PDF: https://cjars.isr.umich.edu/wp-content/uploads/2021_Benchmarking_White_Paper.pdf
+
+80. Pedroza, Juan M., "Paths to Exclusion: Deportations, Housing
+Instability, and Scams." Dissertation, Stanford University, 2018.
+Abstract: https://searchworks.stanford.edu/view/12684988
+
+81. Petroulakis, Filippos, "Crime and Unemployment Insurance in the Great
+Recession." Apr 23, 2017..
+Abstract: https://ssrn.com/abstract=2968343
+
+82. Petti, Emily; Schiffman, Jason; Oh, Hans; Karcher, Nicole R., "Evidence
+for environmental risk factors and cumulative stress linking racial/ethnic
+identity and psychotic-like experiences in ABCD study data." Journal of the
+American Academy of Child and Adolescent Psychiatry. in press 2024,. DOI:
+10.1016/j.jaac.2024.04.017
+Abstract: https://ssrn.com/abstract=2968343
+
+83. Pettis, Robert W.; Williams, Breyon J.; Valencia, Zehra, "Pride and
+Prejudice: Same-Sex Marriage Legalization Announcements and Anti-LGBT Hate
+Crimes." 2021..
+Full text PDF: http://pettis.synology.me/articles/samesex.pdf
+
+84. Phelps, Michelle S.; Pager, Devah, "Inequality and punishment: A
+turning point for mass incarceration?." Annals of the American Academy of
+Political and Social Science. Jan 2016, 663, (1), 185 - 203. DOI:
+10.1177/0002716215596972
+Full text PDF: http://pettis.synology.me/articles/samesex.pdf
+
+85. Piatkowska, Sylwia J.; Messner, Steven F.; Hovermann, Andreas, "Black
+out-group marriages and hate crime rates: A cross-sectional analysis of
+U.S. metropolitan areas." Journal of Research in Crime and Delinquency. Feb
+2020, 57, (1), 105 - 135. DOI: 10.1177/0022427819864142
+Full text PDF: http://pettis.synology.me/articles/samesex.pdf
+
+86. Piatkowska, Sylwia J.; Messner, Steven F.; Yang, Tse-Chuan,
+"Understanding the relationship between relative group size and hate crime
+rates: Linking methods with concepts." Justice Quarterly. 2019, 36, (6),
+1072 - 1095. DOI: 10.1080/07418825.2018.1482942
+Full text PDF: http://pettis.synology.me/articles/samesex.pdf
+
+87. Pornpattananagkul, Narun; Wang, Yue; Anney, Richard; Riglin, Lucy;
+Thapar, Anita; Stringaris, Argyris, "Longitudinally Stable, Brain-Based
+Predictive Models Explain the Relationships of Childhood Intelligence with
+Socio-Demographic, Psychological and Genetic Factors." BioRxiv, Aug 26,
+2021.. DOI: 10.1101/2021.02.21.432130
+Full text PDF: http://pettis.synology.me/articles/samesex.pdf
+
+88. Redman, Virginia P., "Macro-Level Predictors of Assaults Against Police
+in Kentucky." Dissertation, University of Louisville, 2018.
+Abstract: https://ir.library.louisville.edu/etd/3025/
+
+89. Rhubart, Danielle C.; Brasier, Kathryn J., "Arrest rates during natural
+resource development: Drilling, drinking and disorderly conduct in the
+Marcellus Shale region." Society and Natural Resources. in press 2019,.
+DOI: 10.1080/08941920.2019.1574046
+Abstract: https://ir.library.louisville.edu/etd/3025/
+
+90. Sabia, Joseph J.; Mackay, Taylor; Nguyen, Thanh T.; Dave, Dhaval M.,
+"Do Ban the Box Laws Increase Crime?." NBER Working Paper Series. National
+Bureau of Economic Research, Mar 2018. DOI: 10.3386/w24381
+Abstract: http://www.nber.org/papers/w24381
+Full text PDF: http://www.nber.org/papers/w24381.pdf
+
+91. Sameem, Sediq; Sylwester, Kevin, "Crime during the business cycle:
+Urban-rural differences." Applied Economics. 2018, 50, (22), 2500 - 2508.
+DOI: 10.1080/00036846.2017.1400653
+Abstract: http://www.nber.org/papers/w24381
+Full text PDF: http://www.nber.org/papers/w24381.pdf
+
+92. Schmuhl, Margaret; Mills, Colleen E.; Silva, Jason; Capellan, Joel,
+"Racial and gender threat and the death penalty: A county-level examination
+of sociopolitical factors influencing death sentences." Criminal Justice
+Policy Review. in press 2022,. DOI: 10.1177/08874034221128939
+Abstract: http://www.nber.org/papers/w24381
+Full text PDF: http://www.nber.org/papers/w24381.pdf
+
+93. Seoela, Bonang, "Unemployment and crime dynamics: A time series
+approach." Presented at the Graduate Student Showcase, Boise State
+University, Boise, ID, Apr 10, 2019.
+Abstract: https://scholarworks.boisestate.edu/gss_2019/20/
+
+94. Shannon, Sarah K.S., "Does the Right Hand Know What the Left Hand is
+Doing? General Assistance Welfare, Crime, and Punishment in the United
+States." Dissertation, University of Minnesota, 2013.
+Abstract: http://hdl.handle.net/11299/159207
+
+95. Sharma, Keshob, "Essays on Health Economics." Dissertation, University
+of Georgia, 2022.
+Abstract: http://hdl.handle.net/11299/159207
+
+96. Silveus, Neil, "Essays in Public Economics and Empirical Political
+Economy." Dissertation, University of Pittsburgh, 2023.
+Full text PDF: http://d-scholarship.pitt.edu/44502/19/Dissertation_silveus.pdf
+
+97. Smart, Rosanna, "Essays on the Effects of Medical Marijuana Laws."
+Dissertation, University of California, 2016.
+Abstract: https://escholarship.org/uc/item/7842d9b4
+
+98. Stanley, Jordan, "The Effects of Childhood Atmospheric Lead Exposure on
+Crime." 2016..
+Full text PDF: https://jstanley.expressions.syr.edu/wp-content/uploads/2016/04/The-Effects-of-Childhood-Atmospheric-Lead-Exposure-on-Crime.pdf
+
+99. Stringer, Richard J., "Policing the Drinking Community: An Assessment
+of the Criminal Justice Response to Drunk Driving and Alcohol Related
+Crashes (1985-2014)." Dissertation, Old Dominion University, 2018.
+Abstract: https://digitalcommons.odu.edu/sociology_criminaljustice_etds/16
+
+100. Stringer, Richard J., "Policing the drinking community: An exploration
+of community alcohol norms and driving under the influence enforcement
+(1985-2014)." American Journal of Criminal Justice. Apr 2024, 49, 255 -
+273. DOI: 10.1007/s12103-023-09745-5
+Abstract: https://digitalcommons.odu.edu/sociology_criminaljustice_etds/16
+
+101. Stringer, Richard J., "Policing the drunk driving problem: A
+longitudinal examination of DUI enforcement and alcohol related crashes in
+the U.S. (1985-2015)." American Journal of Criminal Justice. in press 2018,
+44, (3), 474 - 498. DOI: 10.1007/s12103-018-9464-4
+Abstract: https://digitalcommons.odu.edu/sociology_criminaljustice_etds/16
+
+102. Stringer, Richard J.; Maggard, Scott R., "Reefer madness to marijuana
+legalization: Media exposure and American attitudes toward marijuana (1975-
+2012)." Journal of Drug Issues. Oct 2016, 46, (4), 428 - 445. DOI:
+10.1177/0022042616659762
+Abstract: https://digitalcommons.odu.edu/sociology_criminaljustice_etds/16
+
+103. Sugie, Naomi F.; Turney, Kristin, "Beyond incarceration: Criminal
+justice contact and mental health." American Sociological Review. Aug 2017,
+82, (4), 719 - 743. DOI: 10.1177/0003122417713188
+Abstract: https://digitalcommons.odu.edu/sociology_criminaljustice_etds/16
+
+104. Sullivan, Christopher J.; Park, Insun; Holmes, Bryan, "A Micro and
+Macro-Level Assessment of Juvenile Justice Placement Reform in Ohio." Final
+Technical Report. Mar 2019.
+Full text PDF: https://www.uc.edu/content/dam/uc/ccjr/docs/reports/UC%20OH%20JJ%20Reform%20Final%20Report%20to%20OJJDP%203-25-19.pdf
+
+105. Tempalski, Barbara; Williams, Leslie D.; West, Brooke S.; Cooper,
+Hannah L.F.; Beane, Stephanie; Ibragimov, Umedjon; Friedman, Samuel R.,
+"Predictors of historical change in drug treatment coverage among people
+who inject drugs in 90 large metropolitan areas in the USA, 1993-2007."
+Substance Abuse Treatment, Prevention, and Policy. Dec 2020, 15, (3),. DOI:
+10.1186/s13011-019-0235-0
+Full text PDF: https://www.uc.edu/content/dam/uc/ccjr/docs/reports/UC%20OH%20JJ%20Reform%20Final%20Report%20to%20OJJDP%203-25-19.pdf
+
+106. Thompson, Kristina J., "Revisiting Rural Crime: The Contributions of
+Labor Markets and Interdependency." Dissertation, University of Missouri,
+2020.
+Abstract: https://irl.umsl.edu/dissertation/937
+
+107. Thomson, Robert A., Jr., "Religion in civil society: The influence of
+Black religious ecology on crime in the South." Journal of Quantitative
+Criminology. in press 2020,. DOI: 10.1007/s10940-019-09444-7
+Abstract: https://irl.umsl.edu/dissertation/937
+
+108. Wang, Lingxiao, "Three Essays on Grocery Sales Taxes." University of
+Kentucky, 2021.
+Full text PDF: https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1103&context=agecon_etds
+
+109. Wang, Lingxiao; Zheng, Yuqing; Buck, Steven; Dong, Diansheng; Kaiser,
+Harry M., "Grocery food taxes and U.S. county obesity and diabetes rates."
+Health Economics Review. in press 2021,. DOI: 10.1186/s13561-021-00306-2
+Full text PDF: https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1103&context=agecon_etds
+
+110. Ward, Matthew, "Legacies of resistance and resilience: Antebellum free
+African Americans and contemporary minority social control in the
+Northeast." Social Forces. 2023, 2, (3), 100114. DOI: 10.1093/sf/soad062
+Full text PDF: https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1103&context=agecon_etds
+
+111. Ward, Matthew, "The legacy of slavery and contemporary racial
+disparities in arrest rates." Sociology of Race and Ethnicity. in press
+2022,. DOI: 10.1177/23326492221082066
+Full text PDF: https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1103&context=agecon_etds
+
+112. Warner, Jared, "The brokenness of broken windows: An introductory
+statistics project on race, policing, and criminal justice." PRIMUS. in
+press 2018,. DOI: 10.1080/10511970.2018.1456498
+Full text PDF: https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1103&context=agecon_etds
+
+113. Wright, Richard; Tekin, Erdal; Topalli, Volkan; McClellan, Chandler;
+Dickinson, Timothy; Rosenfeld, Richard, "Less Cash, Less Crime: Evidence
+from the Electronic Benefit Transfer Program." 19996, Cambridge, MA:
+National Bureau of Economic Research, Mar 2014.
+Abstract: http://www.nber.org/papers/w19996
+Full text PDF: http://www.nber.org/papers/w19996.pdf?new_window=1
+It has been long recognized that cash plays a critical role in fueling
+street crime due to its liquidity and transactional anonymity. In poor
+neighborhoods where street offenses are concentrated, a significant source
+of circulating cash stems from public assistance or welfare payments. In
+the 1990s, the Federal government mandated individual states to convert the
+delivery of their welfare benefits from paper checks to an Electronic
+Benefit Transfer (EBT) system, whereby recipients received and expended
+their funds through debit cards. In this paper, we examine whether the
+reduction in the circulation of cash on the streets associated with EBT
+implementation had an effect on crime. To address this question, we exploit
+the variation in the timing of the EBT implementation across Missouri
+counties. Our results indicate that the EBT program had a negative and
+significant effect on the overall crime rate as well as burglary, assault,
+and larceny. According to our point estimates, the overall crime rate
+decreased by 9.8 percent in response to the EBT program. We also find a
+negative effect on arrests, especially those associated with non-drug
+offenses. EBT implementation had no effect on rape, a crime that is
+unlikely to be motivated by the acquisition of cash. Interestingly, the
+significant drop in crime in the United States over several decades has
+coincided with a period of steady decline in the proportion of financial
+transactions involving cash. In that sense, our findings serve as a fresh
+contribution to the important debate surrounding the factors underpinning
+the great American crime decline.
+
+114. Wu, Guangzhen; Boateng, Francis D.; Lang, Xiaodong, "The spillover
+effect of recreational marijuana legalization on crime: Evidence from
+neighboring states of Colorado and Washington State." Journal of Drug
+Issues. in press 2020,. DOI: 10.1177/0022042620921359
+Abstract: http://www.nber.org/papers/w19996
+Full text PDF: http://www.nber.org/papers/w19996.pdf?new_window=1
+It has been long recognized that cash plays a critical role in fueling
+street crime due to its liquidity and transactional anonymity. In poor
+neighborhoods where street offenses are concentrated, a significant source
+of circulating cash stems from public assistance or welfare payments. In
+the 1990s, the Federal government mandated individual states to convert the
+delivery of their welfare benefits from paper checks to an Electronic
+Benefit Transfer (EBT) system, whereby recipients received and expended
+their funds through debit cards. In this paper, we examine whether the
+reduction in the circulation of cash on the streets associated with EBT
+implementation had an effect on crime. To address this question, we exploit
+the variation in the timing of the EBT implementation across Missouri
+counties. Our results indicate that the EBT program had a negative and
+significant effect on the overall crime rate as well as burglary, assault,
+and larceny. According to our point estimates, the overall crime rate
+decreased by 9.8 percent in response to the EBT program. We also find a
+negative effect on arrests, especially those associated with non-drug
+offenses. EBT implementation had no effect on rape, a crime that is
+unlikely to be motivated by the acquisition of cash. Interestingly, the
+significant drop in crime in the United States over several decades has
+coincided with a period of steady decline in the proportion of financial
+transactions involving cash. In that sense, our findings serve as a fresh
+contribution to the important debate surrounding the factors underpinning
+the great American crime decline.
+
+115. Wu, Guangzhen; Wen, Ming; Wilson, Fernando A., "Impact of recreational
+marijuana legalization on crime: Evidence from Oregon." Journal of Criminal
+Justice. Jan-Feb 2021, 72,. DOI: 10.1016/j.jcrimjus.2020.101742
+Abstract: http://www.nber.org/papers/w19996
+Full text PDF: http://www.nber.org/papers/w19996.pdf?new_window=1
+It has been long recognized that cash plays a critical role in fueling
+street crime due to its liquidity and transactional anonymity. In poor
+neighborhoods where street offenses are concentrated, a significant source
+of circulating cash stems from public assistance or welfare payments. In
+the 1990s, the Federal government mandated individual states to convert the
+delivery of their welfare benefits from paper checks to an Electronic
+Benefit Transfer (EBT) system, whereby recipients received and expended
+their funds through debit cards. In this paper, we examine whether the
+reduction in the circulation of cash on the streets associated with EBT
+implementation had an effect on crime. To address this question, we exploit
+the variation in the timing of the EBT implementation across Missouri
+counties. Our results indicate that the EBT program had a negative and
+significant effect on the overall crime rate as well as burglary, assault,
+and larceny. According to our point estimates, the overall crime rate
+decreased by 9.8 percent in response to the EBT program. We also find a
+negative effect on arrests, especially those associated with non-drug
+offenses. EBT implementation had no effect on rape, a crime that is
+unlikely to be motivated by the acquisition of cash. Interestingly, the
+significant drop in crime in the United States over several decades has
+coincided with a period of steady decline in the proportion of financial
+transactions involving cash. In that sense, our findings serve as a fresh
+contribution to the important debate surrounding the factors underpinning
+the great American crime decline.
+
+116. Zane, Steven N., "Disproportionate Minority Contact and Cumulative
+Disadvantage: Does the Impact of Race and Ethnicity on Juvenile Court
+Outcomes Vary across Macro-Social Context?." Dissertation, Northeastern
+University, 2018.
+Abstract: http://hdl.handle.net/2047/D20290561
+
+117. Zullo, Roland, "Non-market institutions and crime in US counties:
+Hayek v. Polanyi." Review of Social Economy. in press 2019,. DOI:
+10.1080/00346764.2019.1663909
+Abstract: http://hdl.handle.net/2047/D20290561
+
+118. Zullo, Roland, "Should more law enforcement be the answer to crime?."
+In Ward, James D., Policing and Race in America: Economic, Political, and
+Social Dynamics. 123 - 140, New York, NY: Lexington Books,2018.
+Abstract: http://hdl.handle.net/2047/D20290561
+
+119. d'Este, Rocco, "Breaking the Crystal Meth Economy: The Effects of Over
+the Counter Medicine Restrictions on Drug-Related Crime in the United
+States." Job Market Paper. Coventry, England: University of Warwick, 2016.
+Full text PDF: http://www.eief.it/files/2016/01/02-jmp_deste.pdf
+
+120. d'Este, Rocco, "The Effect of Stolen Goods Markets on Crime:
+Pawnshops, Property Thefts and the Gold Rush of the 2000s
+." Nov 2014..
+Full text PDF: http://ces.univ-paris1.fr/ADRES-2015/DOCTORANT/D%27ESTE/D%27ESTE_paper.pdf
