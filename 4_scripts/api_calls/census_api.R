@@ -23,7 +23,8 @@ pacman::p_load(
   stringr,
   janitor,
   censusapi,
-  glue
+  glue,
+  arrow
 )
 
 census_key <- Sys.getenv("CENSUS_API_KEY")
@@ -36,9 +37,11 @@ census_key <- Sys.getenv("CENSUS_API_KEY")
 # Try out censusapi
 apis <- listCensusApis()
 get_str(apis)
+# cps/voting/nov, vintages 2000 to 2024 by 2
 
 # Specifics about acs5
 acs_apis <- listCensusApis(name = 'acs/acs5', vintage = 2022)
+voting <- listCensusApis(name = 'cps/voting/nov', vintage = 2024)
 
 # Metadata for acs5
 meta <- listCensusMetadata('acs/acs5', vintage = 2022)
@@ -53,6 +56,15 @@ meta %>%
          
 # Check acs1 also - might want population from here
 out <- listCensusMetadata('acs/acs1', vintage = 2022)
+
+
+# metadata for voting
+out <- listCensusMetadata('cps/voting/nov', vintage = 2024)
+get_str(out)
+out %>% 
+  filter(str_detect(label, 'vot'))
+out$label %>% unique %>% sort
+# PES1 Did you vote?
 
 
 
@@ -175,6 +187,38 @@ acs1_states_out<- call_census_api(
 )
 get_str(acs1_states_out)
 saveRDS(acs1_states_out, 'temp/acs1_states_out.rds')
+
+
+
+# Voting Data -------------------------------------------------------------
+
+
+# NOTE: we are processing data as we go here, because the API returns raw 
+# outputs of 100mil + rows of answers. So we group by and aggregate here after
+# each year
+
+# PES1 codes: 1 yes, 2 no, -1 not in universe, -2 dont know, -3 refused
+
+# Filter to 1s and 2s only, make 'no' into 0, then get mean for voting rate
+years <- seq(2000, 2024, 2)
+vars = 'PES1' 
+voting_out <- map(years, ~ {
+  call_census_api(
+    state_codes = state_codes,
+    years = .x,
+    vars = vars,
+    census_key = census_key,
+    region = 'state',
+    survey_name = 'cps/voting/nov'
+  ) %>% 
+    filter(PES1 %in% c(1, 2)) %>% 
+    mutate(PES1 = ifelse(PES1 == 2, 0, PES1)) %>% 
+    group_by(state) %>%
+    summarize(voterTurnout = mean(PES1, na.rm = TRUE)) %>% 
+    mutate(year = .x)
+})
+
+saveRDS(voting_out, 'temp/voting_out.rds')
 
 
 

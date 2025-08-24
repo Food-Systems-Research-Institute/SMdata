@@ -388,6 +388,14 @@ res$select_measures$variable_name <- res$select_measures$variable_name %>%
   snakecase::to_lower_camel_case() %>% 
   str_remove('RawValue')
 
+res$select_measures %>%
+  filter(
+    variable_name == 'voterTurnout',
+    str_length(fips) == 5
+  ) %>%
+  group_by(fips) %>%
+  summarize(years = paste0(year, collapse = ', '))
+  
 
 
 # Aggregate and Save ------------------------------------------------------

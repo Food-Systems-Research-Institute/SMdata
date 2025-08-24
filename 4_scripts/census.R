@@ -21,6 +21,11 @@ pacman::p_load(
 results <- list()
 metas <- list()
 
+conflicted::conflicts_prefer(
+  dplyr::lag(),
+  .quiet = TRUE
+)
+
 
 
 # ACS5 --------------------------------------------------------------------
@@ -146,7 +151,7 @@ pop
 pop <- pop %>% 
   group_by(fips) %>% 
   mutate(
-    value = na.approx(value, na.rm = FALSE),
+    value = round(na.approx(value, na.rm = FALSE), 0),
     variable_name = 'population5YearSmooth'
   ) %>% 
   ungroup()
@@ -159,12 +164,75 @@ dat <- bind_rows(dat, pop)
 
 
 
+# Change in Population ----------------------------------------------------
+
+
+# Calculating % change in population by county each year
+# Can we just take smoothed 5 year to do this?
+out <- dat %>% 
+  filter(variable_name == 'population5YearSmooth')
+get_str(out)  
+
+out <- out %>% 
+  pivot_wider(
+    id_cols = c(year, fips),
+    values_from = value,
+    names_from = variable_name
+  ) %>% 
+  group_by(fips) %>% 
+  arrange(year, .by_group = TRUE) %>%
+  mutate(
+    populationChangePerc = (population5YearSmooth - dplyr::lag(population5YearSmooth)) / lag(population5YearSmooth) * 100
+  ) %>%
+  ungroup() 
+get_str(out)
+range(out$populationChangePerc, na.rm = TRUE)
+
+# Back to long format
+out <- out %>% 
+  pivot_longer(
+    cols = c(population5YearSmooth, populationChangePerc),
+    values_to = 'value',
+    names_to = 'variable_name'
+  )
+get_str(out)
+
+# Combine with dataset
+dat <- bind_rows(dat, out)
+get_str(dat)
+
+
+
+# Voting ------------------------------------------------------------------
+
+
+vote <- readRDS('temp/voting_out.rds')
+get_str(vote, 3)
+
+# Processing was in api script - all we have to do is combine, pivot
+vote <- bind_rows(vote) %>% 
+  rename(fips = state) %>% 
+  mutate(fips = str_pad(fips, width = 2, pad = '0')) %>% 
+  pivot_longer(
+    cols = voterTurnout,
+    names_to = 'variable_name',
+    values_to = 'value'
+  )
+get_str(vote)
+
+# Combine with rest of data
+get_str(dat)
+dat <- bind_rows(dat, vote)
+get_str(dat)
+
+
+
 # Metadata ----------------------------------------------------------------
 
 
 meta_vars(dat)
 
-# Load from CSV
+# Load metadata from CSV
 meta <- read_csv('5_objects/metadata_csv/census_meta.csv')
 get_str(meta)
 
@@ -174,6 +242,7 @@ meta <- meta %>%
     resolution = meta_resolution(dat),
     updates = case_when(
       str_detect(variable_name, '5year') ~ 'annual',
+      str_detect(variable_name, 'voterTurnout') ~ '2 years',
       .default = '5 years'
     ),
     latest_year = meta_latest_year(dat),

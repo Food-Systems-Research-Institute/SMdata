@@ -1,5 +1,5 @@
 # iNaturalist
-# 2025-08-08 update
+# 2025-08-24 update
 
 
 # Description -------------------------------------------------------------
@@ -13,9 +13,6 @@
 # Note that a better way to process might be reading chunked csv from the
 # download link itself. However, this will probably take about an hour. To
 # download and then unzip.
-
-# Download link: 
-# https://api.gbif.org/v1/occurrence/download/request/0064098-250717081556266.zip
 
 # TODO: issue where read_chunked_csv fails with about 5% of dataset left due to
 # max string length. Not sure why this is happening or why string length keeps
@@ -40,56 +37,28 @@ pacman::p_load(
 
 
 
-# Load Data ---------------------------------------------------------------
-## Load 2024 ---------------------------------------------------------------
+# Load 2018-2024 ----------------------------------------------------------
 
 
-# Using just 2024 data across Northeast as a test run
-dat <- read_tsv('1_raw/inaturalist/0001192-250711103210423.csv')
-get_str(dat)
-unique(dat$year)
-
-# Check unique species key vs species
-length(unique(dat$speciesKey))
-length(unique(dat$species))
-length(unique(dat$scientificName))
-# Let's use species, don't worry about subspecies in scientific name
-
-# Kingdoms
-get_table(dat$kingdom)
-
-# Filter down to just plants, animals, fungi
-# Then take relevant cols only
-dat <- filter(dat, kingdom %in% c('Animalia', 'Fungi', 'Plantae')) %>% 
-  select(kingdom, species, year, decimalLatitude, decimalLongitude)  
-get_str(dat)
-
-dat <- dat %>% 
-  na.omit() %>% 
-  st_as_sf(coords = c('decimalLongitude', 'decimalLatitude'))
-st_crs(dat) <- 4326
-dat <- dat %>% 
-  st_join(county_prj) %>% 
-  select(kingdom, species, year, fips) %>% 
-  st_drop_geometry()
-
-
-
-## Load 2010-2023 ----------------------------------------------------------
-
+# This is rework, just taking 18 to 24, processing all at once. Hope to avoid
+# the string length problem we had before
 
 # Processing in chunks, saving as parquet files
+# Filtering to animals and plants - these will be metrics for biodiversity
 output_dir <- "1_raw/inaturalist/parquet_chunks"
 if (!dir.exists(output_dir)) dir.create(output_dir)
 
 chunk_filter <- function(df) {
-  df[df$kingdom %in% c("Animalia", "Fungi", "Plantae") & df$year >= 2010,
-     c("kingdom", "species", "year", "decimalLatitude", "decimalLongitude")]
+  df[
+    df$kingdom %in% c("Animalia", "Plantae") & df$year >= 2018,
+    c("kingdom", "species", "year", "decimalLatitude", "decimalLongitude")
+  ]
 }
 
 # Counter to name each chunk file uniquely
 chunk_id <- 0
 
+# Callback function to process each chunk
 callback <- SideEffectChunkCallback$new(function(df, pos) {
   filtered <- chunk_filter(df)
   # Update chunk ID
@@ -101,15 +70,12 @@ callback <- SideEffectChunkCallback$new(function(df, pos) {
   gc()
 })
 
+# Read CSV in chunks, using callback on each chunk, saving to parquet files
 read_tsv_chunked(
-  # file = '1_raw/inaturalist/0001192-250711103210423.csv', # Tester
-  file = "1_raw/inaturalist/0064098-250717081556266/0064098-250717081556266.csv", # Real thing
+  file = "1_raw/inaturalist/0033206-250811113504898/0033206-250811113504898.csv",
   callback = callback,
   chunk_size = 100000 
 )
-# Issue with the last 5% - R caps out at 100 million. Not sure why this is
-# happening though
-# TODO: fix this
 
 # # Read all parquet files together to check
 # dataset <- open_dataset(output_dir, format = "parquet")
@@ -164,32 +130,18 @@ future_iwalk(files, ~ {
 }, .options = furrr_options(seed = TRUE))
 plan(sequential)
 toc()
-# 3 minutes total
 
-# Testing:
-# 118 seconds for 100 sequential
-# 30 seconds for 100 parallel, so 5 minutes total
-# test <- read_parquet(paste0(output, 'chunk_99.parquet'))
-# test
+get_str(read_parquet(paste0(output, 'chunk_99.parquet')))
 
 
 
-# Combine, Group, Rarefy --------------------------------------------------
+# Group and Rarefy --------------------------------------------------------
 
 
-## Combine
-# 2024 test run is all set:
-get_str(dat)
-
-# Read all spatial parquet files together from 2010 to 2023
-bulk <- open_dataset(output, format = "parquet")
-bulk <- collect(bulk)
-get_str(bulk)
-
-# Combine them
-all <- bind_rows(dat, bulk)
+# Read all spatial parquet files together from 2018 to 2024
+all <- open_dataset(output, format = "parquet")
+all <- collect(all)
 get_str(all)
-
 
 ## Group
 # then get abundance table, filter for > 100 observations
@@ -198,6 +150,8 @@ dat_n100 <- all %>%
   filter(n() >= 100) %>%
   ungroup()
 get_str(dat_n100)
+nrow(all) - nrow(dat_n100)
+# Lost very little here - that's good
 
 abund_table <- dat_n100 %>%
   group_by(fips, year, kingdom, species) %>%
@@ -283,12 +237,14 @@ dat <- dat %>%
 get_str(dat)  
   
 # Now pivot longer to put in format for metrics
+# Also remove any missing fips
 dat <- dat %>% 
   pivot_longer(
     cols = !c(fips, year),
     names_to = 'variable_name',
     values_to = 'value'
-  )
+  ) %>% 
+  drop_na(fips)
 get_str(dat)    
 
 
