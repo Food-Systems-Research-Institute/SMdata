@@ -29,7 +29,6 @@
 4_scripts/explore.R
 temp/
 webdb/
-dev/
 
 # Environment files
 .venv

@@ -188,9 +188,11 @@ select_measures <- map(analytic, ~ {
   bind_rows()
 get_str(select_measures)
 
-# Remove population - using census ACS5 here instead
+# NOTE: Removing voter turnout - we are getting this straight from census.
+# county health ranking questions is only in 2020 election anyway
+# Remove population also - using census ACS5 here instead
 select_measures <- select_measures %>% 
-  filter(str_detect(variable_name, 'Population', negate = TRUE))
+  filter(str_detect(variable_name, 'Population|Voter Turnout', negate = TRUE))
 get_str(select_measures)
 
 # Save to results
@@ -277,8 +279,7 @@ metas$select_measures_social <- select_meta_meta %>%
       'community livability',
       'community livability',
       'community embeddedness',
-      'community livability',
-      'food system governance'
+      'community livability'
     ),
     indicator = c(
       'community safety',
@@ -290,8 +291,7 @@ metas$select_measures_social <- select_meta_meta %>%
       'diverse representation',
       'diverse representation',
       'social connectedness',
-      'tbd',
-      'participatory governance'
+      'tbd'
     ),
     units = c(
       rep('percentage', 4),
@@ -300,8 +300,7 @@ metas$select_measures_social <- select_meta_meta %>%
       'index',
       'index',
       'associations per 10,000 residents',
-      'traffic volume per peter of roadway',
-      'percentage'
+      'traffic volume per peter of roadway'
     )
   )
 
