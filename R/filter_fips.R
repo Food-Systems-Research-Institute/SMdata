@@ -10,7 +10,7 @@
 #'   region system (226). `new` = all counties in Northeast, but only
 #'   Connecticut's new governance region system (218). `old` = all counties in
 #'   Northeast, but only Connecticut's old county system (217). `neast` =
-#'   Northeast states and Counties.
+#'   Northeast states and Counties. `states` = Northeast states only.
 #' @param fips_col column specifying fips code.
 #'
 #' @returns A data.frame with filters applied.

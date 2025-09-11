@@ -19,7 +19,7 @@ Northeast. This includes Connecticut's old county system and new governance
 region system (226). \code{new} = all counties in Northeast, but only
 Connecticut's new governance region system (218). \code{old} = all counties in
 Northeast, but only Connecticut's old county system (217). \code{neast} =
-Northeast states and Counties.}
+Northeast states and Counties. \code{states} = Northeast states only.}
 
 \item{fips_col}{column specifying fips code.}
 }
