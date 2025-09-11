@@ -13,6 +13,22 @@
 
 
 
+# Commands ----------------------------------------------------------------
+
+
+# # Data collection
+# sm_call_apis()
+# sm_wrangle()
+# 
+# # Note that these two call each other for some reason
+# sm_export()
+# sm_update()
+# 
+# # Need to test this
+# sm_db()
+
+
+
 # Housekeeping ------------------------------------------------------------
 
 

@@ -156,18 +156,20 @@ openxlsx2::write_xlsx(
 # Save RDS ----------------------------------------------------------------
 
 
-# Save the same data paper meta to objects, to be lumped into sm_data export
-saveRDS(sum, '5_objects/data_paper_meta.rds')
+# NOTE: moving data paper sets to SMdocs. No longer contained in SMdata
 
-# Also save a version as a tree with numbered NONEs to show gaps
-tree <- tab %>% 
-  select(dimension, index, indicator, metric)
-count <- sum(tree$metric == 'NONE')
-tree$metric[tree$metric == 'NONE'] <- paste0('NONE_', 1:count)
-saveRDS(tree, '5_objects/data_paper_tree.rds')
-
-# Also saving all existing metrics for data paper to be lumped into sm_data
-saveRDS(existing_metrics, '5_objects/data_paper_metrics.rds')
+# # Save the same data paper meta to objects, to be lumped into sm_data export
+# saveRDS(sum, '5_objects/data_paper_meta.rds')
+# 
+# # Also save a version as a tree with numbered NONEs to show gaps
+# tree <- tab %>% 
+#   select(dimension, index, indicator, metric)
+# count <- sum(tree$metric == 'NONE')
+# tree$metric[tree$metric == 'NONE'] <- paste0('NONE_', 1:count)
+# saveRDS(tree, '5_objects/data_paper_tree.rds')
+# 
+# # Also saving all existing metrics for data paper to be lumped into sm_data
+# saveRDS(existing_metrics, '5_objects/data_paper_metrics.rds')
 
 
 

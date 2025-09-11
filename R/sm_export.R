@@ -17,7 +17,6 @@
 sm_export <- function(update = TRUE, 
                       load_all = TRUE,
                       refresh_onedrive = FALSE) {
-  source('4_scripts/weights.R')
   source('4_scripts/export_data.R')
   if (update) sm_update()
   if (load_all) devtools::load_all()

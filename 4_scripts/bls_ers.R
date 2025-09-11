@@ -252,6 +252,24 @@ get_str(metas$qcew)
 
 
 
+# BLS CPI -----------------------------------------------------------------
+
+
+# Pulling this from a download for now to check it out. 
+# TODO: Get this from BLS API
+
+# Consumer Price Index for all urban consumers (CPI-U), Northeast
+# Same for Class A and for Class B/C
+cpi <- readxl::read_xlsx(
+  '1_raw/bls/cpi/SeriesReport-20250902175923_338893_CPIU_Northeast.xlsx',
+  skip = 10
+)
+get_str(cpi)
+# Not much to do with this since it is at level of northeast.
+# Don't even have a fips code to give it.
+
+
+
 # ERS Bulk Unemployment ---------------------------------------------------
 
 
