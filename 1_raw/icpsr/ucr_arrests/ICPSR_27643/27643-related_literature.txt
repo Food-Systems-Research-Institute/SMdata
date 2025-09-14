@@ -1,0 +1,93 @@
+Bibliography
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2008
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 27643. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Beck, Brenden, "Uneven Policing: Low-Level Arrests During
+Gentrification, Fiscal Crisis, and Suburbanization." Dissertation, City
+University of New York, 2018.
+Abstract: https://academicworks.cuny.edu/gc_etds/2799/
+
+2. Bell, Brian; Bindler, Anna; Machin, Stephen, "Crime Scars: Recessions
+and the Making of Career Criminals." CEP Discussion Paper No 1284. London,
+UK: London School of Economics and Political Science, Centre for Economic
+Performance, Jul 2014.
+Full text PDF: http://cep.lse.ac.uk/pubs/download/dp1284.pdf
+
+3. Chu, Yu-Wei, "Do Medical Marijuana Laws Increase Hard Drug Use?." May
+15, 2012..
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+4. Chu, Yu-Wei L., "Do medical marijuana laws increase hard-drug use?."
+Journal of Law and Economics. May 2015, 58, (2), 481 - 517. DOI:
+10.1086/684043
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+5. Hackman, Joseph; Hruschka, Daniel, "Fast life histories, not pathogens,
+account for state-level variation in homicide, child maltreatment, and
+family ties in the U.S.." Evolution and Human Behavior. Mar 2013, 34, (2),
+118 - 124. DOI: 10.1016/j.evolhumbehav.2012.11.002
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+6. Hakstian, Anne-Marie G., "Racial and Ethnic Profiling in Massachusetts:
+An Examination of Police Policy and Practice." Dissertation, Northeastern
+University, 2013.
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+7. Kelly, Brian D.; Kole, Maureen, "The Effect of Asset Forfeiture on
+Policing: A Panel Approach - Data Notes." Dec 30, 2013.. DOI:
+10.2139/ssrn.2394360
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+8. Kelly, Brian D.; Kole, Maureen, "The effects of asset forfeiture on
+policing: A panel approach." Economic Inquiry. Jan 2016, 54, (1), 558 -
+575. DOI: 10.1111/ecin.12232
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+9. Litwok, Daniel, "Essays on the Economics of Juvenile Crime and
+Education." Dissertation, Michigan State University, 2015.
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+10. Lum, Cynthia; Vovak, Heather, "Variability in the use of misdemeanor
+arrests by police agencies from 1990 to 2013: An application of group-based
+trajectory modeling." Criminal Justice Policy Review. Jul 2018, 29, (6-7),
+536 - 560. DOI: 10.1177/0887403417731598
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+11. Nguyen, Holly; Reuter, Peter, "How risky is marijuana possession?
+Considering
+the role of age, race, and gender." Crime and Delinquency. Nov 2012, 58,
+(6), 879 - 910. DOI: 10.1177/0011128712461122
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+12. Pattavina, April; Morabito, Melissa; Williams, Linda M., "Examining
+connections between the police and prosecution in sexual assault case
+processing: Does the use of exceptional clearance facilitate a downstream
+orientation?." Victims and Offenders. 2016, 11, (2), 315 - 334. DOI:
+10.1080/15564886.2015.1046622
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+13. Snyder, Howard N., "Arrest in the United States, 1990-2010." Patterns
+and Trends. NCJ 239423, Washington, DC: United States Department of
+Justice, Office of Justice Programs, Bureau of Justice Statistics, Oct
+2012.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=4515
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aus9010.pdf
+Presents annual estimates of arrests in the United States covering the
+period between 1990 and 2010. Based on data collected by the FBI's Uniform
+Crime Reporting Program, this report expands the FBI's set of published
+arrest estimates to include offense-specific arrest estimates grouped by
+age, sex, and race. These breakdowns of arrests and arrest trends provide a
+detailed description of the flow of individuals into the criminal justice
+system over a long period. The national estimates represent arrests by
+state and local law enforcement agencies, and control for variations in
+sample coverage from year to year.

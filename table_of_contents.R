@@ -97,8 +97,8 @@ source('4_scripts/inaturalist.R')
 # Forest Inventory Analysis
 source('4_scripts/fia.R')
 
-# Checking out ICPSR uniform crime data. In progress
-'4_scripts/icpsr.R' 
+# Checking out ICPSR uniform crime data
+source('4_scripts/icpsr.R')
 
 # Spatial data - MRLC LULC, other spatial data. Note long run time
 source('4_scripts/spatial.R')

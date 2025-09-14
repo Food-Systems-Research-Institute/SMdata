@@ -1,0 +1,95 @@
+Bibliography
+Uniform Crime Reporting Program Data: Arrests by Age, Sex, and Race,
+Summarized Yearly, United States, 2009
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 30762. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Beck, Brenden, "Uneven Policing: Low-Level Arrests During
+Gentrification, Fiscal Crisis, and Suburbanization." Dissertation, City
+University of New York, 2018.
+Abstract: https://academicworks.cuny.edu/gc_etds/2799/
+
+2. Bell, Brian; Bindler, Anna; Machin, Stephen, "Crime Scars: Recessions
+and the Making of Career Criminals." CEP Discussion Paper No 1284. London,
+UK: London School of Economics and Political Science, Centre for Economic
+Performance, Jul 2014.
+Full text PDF: http://cep.lse.ac.uk/pubs/download/dp1284.pdf
+
+3. Cox, Robin J.A., "Where Do We Go from Here? Mass Incarceration and the
+Struggle for Civil Rights." Washington, DC: Economic Policy Institute, Jan
+16, 2015.
+Full text PDF: http://s2.epi.org/files/2014/MassIncarcerationReport.pdf
+
+4. Donohue, John J., "A critical look at crime and policing in the United
+States: Comey, Trump, and the puzzling pattern of crime in 2015 and
+beyond." Columbia Law Review. Jun 2017, 117, (5),.
+Full text: https://columbialawreview.org/content/comey-trump-and-the-puzzling-pattern-of-crime-in-2015-and-beyond/
+
+5. Federal Burea of Investigation, "Crime in the United States, 2009:
+Uniform Crime Reports for the United States." Washington, DC: United States
+Department of Justice. Federal Bureau of Investigation, 2009.
+Full text: https://columbialawreview.org/content/comey-trump-and-the-puzzling-pattern-of-crime-in-2015-and-beyond/
+
+6. Federal Bureau of Investigation, "Crime in the United States 2009."
+Updated Sep 2010, Accessed NCJ 231870.
+Full text: http://www2.fbi.gov/ucr/cius2009/index.html
+
+7. Hackman, Joseph; Hruschka, Daniel, "Fast life histories, not pathogens,
+account for state-level variation in homicide, child maltreatment, and
+family ties in the U.S.." Evolution and Human Behavior. Mar 2013, 34, (2),
+118 - 124. DOI: 10.1016/j.evolhumbehav.2012.11.002
+Full text: http://www2.fbi.gov/ucr/cius2009/index.html
+
+8. Koenig, Bryan L.; Van Leeuwen, Florian; Park, Justin H., "Cross-race
+misaggregation: Its detection, a mathematical decomposition, and Simpson's
+Paradox." Evolutionary Behavioral Sciences. Jan 2017, 11, (1), 16 - 22.
+DOI: 10.1037/ebs0000067
+Full text: http://www2.fbi.gov/ucr/cius2009/index.html
+
+9. Litwok, Daniel, "Essays on the Economics of Juvenile Crime and
+Education." Dissertation, Michigan State University, 2015.
+Full text: http://www2.fbi.gov/ucr/cius2009/index.html
+
+10. Liu, Sitian, "Incarceration of African American Men and the Impacts on
+Women and Children." SSRN, Feb 8, 2021.. DOI: 10.2139/ssrn.3601259
+Abstract: https://ssrn.com/abstract=3601259
+
+11. Lum, Cynthia; Vovak, Heather, "Variability in the use of misdemeanor
+arrests by police agencies from 1990 to 2013: An application of group-based
+trajectory modeling." Criminal Justice Policy Review. Jul 2018, 29, (6-7),
+536 - 560. DOI: 10.1177/0887403417731598
+Abstract: https://ssrn.com/abstract=3601259
+
+12. Snyder, Howard N., "Arrest in the United States, 1990-2010." Patterns
+and Trends. NCJ 239423, Washington, DC: United States Department of
+Justice, Office of Justice Programs, Bureau of Justice Statistics, Oct
+2012.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=4515
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aus9010.pdf
+Presents annual estimates of arrests in the United States covering the
+period between 1990 and 2010. Based on data collected by the FBI's Uniform
+Crime Reporting Program, this report expands the FBI's set of published
+arrest estimates to include offense-specific arrest estimates grouped by
+age, sex, and race. These breakdowns of arrests and arrest trends provide a
+detailed description of the flow of individuals into the criminal justice
+system over a long period. The national estimates represent arrests by
+state and local law enforcement agencies, and control for variations in
+sample coverage from year to year.
+
+13. Stuart, Bryan A.; Taylor, Evan J., "The Effect of Social Connectedness
+on Crime: Evidence from the Great Migration." IZA DP No. 12228. Bonn,
+Germany: Institute of Labor Economics, Mar 2019. DOI: 10.2139/ssrn.3390217
+Abstract: https://www.iza.org/publications/dp/12228/the-effect-of-social-connectedness-on-crime-evidence-from-the-great-migration
+
+14. Stuart, Bryan A.; Taylor, Evan J., "The effect of social connectedness
+on crime: Evidence from the Great Migration." Review of Economics and
+Statistics. In press 2019,. DOI: 10.1162/rest_a_00860
+Abstract: https://www.iza.org/publications/dp/12228/the-effect-of-social-connectedness-on-crime-evidence-from-the-great-migration

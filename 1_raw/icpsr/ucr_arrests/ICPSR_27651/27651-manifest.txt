@@ -1,0 +1,51 @@
+File Manifest for ICPSR 27651
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2003. ICPSR27651-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2010-03-11. http://doi.org/10.3886/ICPSR27651.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    27651-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    27651-related_literature.txt        -       -         -       daily       -
+
+    27651-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2003
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    27651-0001-Codebook.pdf             -       -         -       2010-03-11  1a0a153e2751b0bc3871aff31989a5f1
+
+    27651-0001-Data.dta                 -       232,674   78      2010-03-11  573112d29e99c33406c5da33674b6e68
+
+    27651-0001-Data.sav                 -       232,674   78      2010-03-11  3b8ff79abe2716edcf50dd76e0584151
+
+    27651-0001-Data.stc                 -       232,674   78      2010-03-11  b18b99d37d344746c70ccce6c6ca5d04
+
+    27651-0001-Data.tsv                 -       232,674   78      2010-03-11  49ed9e810474b9fef6f79181939445ea
+
+    27651-0001-Data.txt                 418     232,674   78      2010-03-11  16bc4607f383f22d1538d471939c444d
+
+    27651-0001-Setup.dct                -       -         -       2010-03-11  c87686f328e625dff995ee0a9061925e
+
+    27651-0001-Setup.do                 -       -         -       2010-03-11  fc943de61c75d18277d542f6eed3fa4b
+
+    27651-0001-Setup.sas                -       -         -       2010-03-11  2016744763a9cdb6dcaba05834115aa8
+
+    27651-0001-Setup.sps                -       -         -       2010-03-11  02a5f70f8088e33ed1da6c4fd950b1ce
+
+    27651-0001-Supplemental_syntax.do   -       -         -       2010-03-11  a38b360af127ac136569706d84c63999
+
+    27651-0001-Supplemental_syntax.sas  -       -         -       2010-03-11  29835554ec2e1a1c30b7472d9b4c8f11
+

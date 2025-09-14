@@ -1,0 +1,18 @@
+Bibliography
+Uniform Crime Reporting Program Data: Arrests by Age, Sex, and Race,
+Summarized Yearly, United States, 2017
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 38741. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Tregle, Brandon; Nix, Justin; Alpert, Geoffrey P., "Disparity does not
+mean bias: Making sense of observed racial disparities in fatal officer-
+involved shootings with multiple benchmarks." Journal of Crime and Justice.
+2019, 42, (1), 18 - 31. DOI: 10.1080/0735648X.2018.1547269

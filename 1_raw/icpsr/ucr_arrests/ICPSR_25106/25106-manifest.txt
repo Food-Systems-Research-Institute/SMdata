@@ -1,0 +1,51 @@
+File Manifest for ICPSR 25106
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2007. ICPSR25106-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2009-09-28. http://doi.org/10.3886/ICPSR25106.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25106-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    25106-related_literature.txt        -       -         -       daily       -
+
+    25106-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2007
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    25106-0001-Codebook.pdf             -       -         -       2009-09-28  607c2f5cdf48b514e4de32cfb53fe243
+
+    25106-0001-Data.dta                 -       257,738   78      2009-09-28  9bd0b89142a11a7c6203afe831493a74
+
+    25106-0001-Data.sav                 -       257,738   78      2009-09-28  647d494292af3c8d109b83401644d804
+
+    25106-0001-Data.stc                 -       257,738   78      2009-09-28  1c814594d9c204d04c20bd888ae8ecb6
+
+    25106-0001-Data.tsv                 -       257,738   78      2009-09-28  1da69665b5df0de6c3fec04d24176c42
+
+    25106-0001-Data.txt                 418     257,738   78      2009-09-28  182ebf31c56c76a55e6f042b58a49f48
+
+    25106-0001-Setup.dct                -       -         -       2009-09-28  1e48682128e50c7b03de2e60b0f469cd
+
+    25106-0001-Setup.do                 -       -         -       2009-09-28  6a26485db80115e839fe21a10107a3fb
+
+    25106-0001-Setup.sas                -       -         -       2009-09-28  618edef584e589f31ffde1b80a49baa4
+
+    25106-0001-Setup.sps                -       -         -       2009-09-28  dbca29a74b4046870b064896c2897330
+
+    25106-0001-Supplemental_syntax.do   -       -         -       2009-09-28  f24d37159df30f9e5f1888aa15ae8e45
+
+    25106-0001-Supplemental_syntax.sas  -       -         -       2009-09-28  4635288cabad3d5bef6070a7bfebd13a
+

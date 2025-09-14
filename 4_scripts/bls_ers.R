@@ -268,6 +268,44 @@ get_str(cpi)
 # Not much to do with this since it is at level of northeast.
 # Don't even have a fips code to give it.
 
+cpi <- cpi %>% 
+  select(year = Year, value = Annual) %>% 
+  filter(year < 2025)
+
+cpi <- cpi %>% 
+  mutate(
+    fips = '99999',
+    variable_name = 'cpi'
+  )
+get_str(cpi)
+
+results$cpi <- cpi
+
+
+
+## Metadata ----------------------------------------------------------------
+
+
+meta_vars(cpi)
+metas$cpi <- data.frame(
+  dimension = 'economics',
+  index = 'community economy',
+  indicator = 'marketplace',
+  metric = 'consumer price index',
+  variable_name = meta_vars(cpi),
+  axis_name = 'CPI',
+  definition = 'Average annual change in prices paid by urban consumers in the Northeast for food at home, which excludes restaurants, alcohol, and other beverages. Not seasonally adjusted at this scale',
+  resolution = 'Northeast',
+  scope = 'national',
+  updates = 'monthly',
+  latest_year = meta_latest_year(cpi),
+  year = meta_years(cpi),
+  source = 'Bureau of Labor Statistics, Office of Prices and Living Conditions',
+  url = 'https://www.bls.gov/cpi/data.htm'
+) %>% 
+  meta_citation(date = '2025-09-02')
+get_str(metas$cpi)
+
 
 
 # ERS Bulk Unemployment ---------------------------------------------------

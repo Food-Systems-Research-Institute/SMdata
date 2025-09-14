@@ -1,0 +1,51 @@
+File Manifest for ICPSR 22405
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2006. ICPSR22405-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2009-09-28. http://doi.org/10.3886/ICPSR22405.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22405-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    22405-related_literature.txt        -       -         -       daily       -
+
+    22405-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2006
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22405-0001-Codebook.pdf             -       -         -       2009-09-28  dcb27110a0e14d911f5ab7e220ef6b76
+
+    22405-0001-Data.dta                 -       255,663   78      2009-09-28  d89ee0c2c9d74b80cbc2464be80104f2
+
+    22405-0001-Data.sav                 -       255,663   78      2009-09-28  c66d129c4156a67394e96cb22ad78346
+
+    22405-0001-Data.stc                 -       255,663   78      2009-09-28  59a494c9ba457026ce634ce989c7ab28
+
+    22405-0001-Data.tsv                 -       255,663   78      2009-09-28  66883d5eb478be874bf7311af736bc7e
+
+    22405-0001-Data.txt                 418     255,663   78      2009-09-28  c55307f3e2fc8fc772c692a9e872fd61
+
+    22405-0001-Setup.dct                -       -         -       2009-09-28  fa2c622068547962f0ef78bf6aa48acf
+
+    22405-0001-Setup.do                 -       -         -       2009-09-28  61d53438a7b18e38637acac0f1a4ff43
+
+    22405-0001-Setup.sas                -       -         -       2009-09-28  427c47b1725feb2607e0aff10351f01d
+
+    22405-0001-Setup.sps                -       -         -       2009-09-28  7e22fcd71944fb84bae3278b43edd472
+
+    22405-0001-Supplemental_syntax.do   -       -         -       2009-09-28  d5e0ba526ecf7823a1c1910430c3ebc3
+
+    22405-0001-Supplemental_syntax.sas  -       -         -       2009-09-28  96be2c08f67c657fcbfbf3a26dd7861c
+

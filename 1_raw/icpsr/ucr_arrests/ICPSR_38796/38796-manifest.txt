@@ -1,0 +1,88 @@
+File Manifest for ICPSR 38796
+
+United States. Federal Bureau of Investigation. Uniform Crime Reporting
+Program Data: Arrests by Age, Sex, and Race, Summarized Yearly, United
+States, 2021. ICPSR38796-v2. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 2024-07-25.
+http://doi.org/10.3886/ICPSR38796.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38796-descriptioncitation.pdf       -       -         -       2024-07-25  -
+
+    38796-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Six or More Months Dataset
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38796-0001-Codebook-ICPSR.pdf       -       -         -       2024-07-25  3e9a5e937387029087f16d8458857271
+
+    38796-0001-Data.dta                 -       190,830   78      2024-07-25  f567ae5bb291de559691b6db13ea54ce
+
+    38796-0001-Data.rda                 -       190,830   78      2024-07-25  7f3ff99df763a68b2d19704d61c1f902
+
+    38796-0001-Data.sav                 -       190,830   78      2024-07-25  4a594e7e6192df2e87dea4b5c172a05a
+
+    38796-0001-Data.stc                 -       190,830   78      2024-07-25  57f35caa6eddf88ce249b8324048fd37
+
+    38796-0001-Data.tsv                 -       190,830   78      2024-07-25  d62ec8daf9355dce9663464eef141b7e
+
+    38796-0001-Data.txt                 413     190,830   78      2024-07-25  661d521e78d10ad85afcf94301de7ede
+
+    38796-0001-Setup.dct                -       -         -       2024-07-25  3689dbf38d78737eb5ae8d04a9b3327e
+
+    38796-0001-Setup.do                 -       -         -       2024-07-25  d12687fad8e482e8c3f324ae14d09223
+
+    38796-0001-Setup.sas                -       -         -       2024-07-25  afcec8569f66acd56428f34dcfd27944
+
+    38796-0001-Setup.sps                -       -         -       2024-07-25  fa766f1e1aa205bdb75d63c34f7db009
+
+    38796-0001-Supplemental_syntax.do   -       -         -       2024-07-25  5580c8cb92ad4f013c07da5fa1b4e333
+
+    38796-0001-Supplemental_syntax.sas  -       -         -       2024-07-25  b6b3d1d62bf7580c98820863d66dae73
+
+
+DS0002 Twelve Months Dataset
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38796-0002-Codebook-ICPSR.pdf       -       -         -       2024-07-25  e9d8e66b46cddd7b0dd28801ba29d614
+
+    38796-0002-Data.dta                 -       175,289   78      2024-07-25  76151a3fc13294c1d62156aeff9fbae5
+
+    38796-0002-Data.rda                 -       175,289   78      2024-07-25  9a150a3fc87ac95bf25e2916290e0cd2
+
+    38796-0002-Data.sav                 -       175,289   78      2024-07-25  a4b88a2d5df0a570945484f64d162156
+
+    38796-0002-Data.stc                 -       175,289   78      2024-07-25  7bdc88f1032fd7b66df59773502352aa
+
+    38796-0002-Data.tsv                 -       175,289   78      2024-07-25  f7a8921d1d41b8ff789a1756f45c1b0b
+
+    38796-0002-Data.txt                 413     175,289   78      2024-07-25  bb26772a034dbcf08e6a612926cfcf24
+
+    38796-0002-Setup.dct                -       -         -       2024-07-25  bda77bf1f028cbbebe167536d3451163
+
+    38796-0002-Setup.do                 -       -         -       2024-07-25  77481360d6a7374e242c6c83a7543ced
+
+    38796-0002-Setup.sas                -       -         -       2024-07-25  d1eee207799cf5241081cff7ff4a6a2c
+
+    38796-0002-Setup.sps                -       -         -       2024-07-25  fa0665349acbd835d21255c9b3849bbe
+
+    38796-0002-Supplemental_syntax.do   -       -         -       2024-07-25  bd0ccf83b87cb1d9f2ed2f385c164742
+
+    38796-0002-Supplemental_syntax.sas  -       -         -       2024-07-25  047b2542b386229fdb0ca1f0d036a4f6
+
+
+Version History
+
+2024-07-25 Revised data were released.

@@ -1,0 +1,110 @@
+Bibliography
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2004
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 4461. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Beck, Brenden, "Uneven Policing: Low-Level Arrests During
+Gentrification, Fiscal Crisis, and Suburbanization." Dissertation, City
+University of New York, 2018.
+Abstract: https://academicworks.cuny.edu/gc_etds/2799/
+
+2. Bell, Brian; Bindler, Anna; Machin, Stephen, "Crime Scars: Recessions
+and the Making of Career Criminals." CEP Discussion Paper No 1284. London,
+UK: London School of Economics and Political Science, Centre for Economic
+Performance, Jul 2014.
+Full text PDF: http://cep.lse.ac.uk/pubs/download/dp1284.pdf
+
+3. Bush, Delsa R., "Perceived Justice and Barriers and Facilitators to the
+Attainment of Leadership Positions in Local and County Law Enforcement
+Organizations in the State of Florida." dissertation, Lynn University,
+2009.
+Abstract: http://spiral.lynn.edu/etds/282/
+Full text PDF: http://spiral.lynn.edu/cgi/viewcontent.cgi?article=1282&context=etds
+
+4. Chu, Yu-Wei, "Do Medical Marijuana Laws Increase Hard Drug Use?." May
+15, 2012..
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+5. Chu, Yu-Wei L., "Do medical marijuana laws increase hard-drug use?."
+Journal of Law and Economics. May 2015, 58, (2), 481 - 517. DOI:
+10.1086/684043
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+6. Dalmadge, Cretson Leo; Cain, Monica, "U.S. counties' vulnerability to
+methamphetamine labs." Journal of Drug Issues. Apr 2015, 45, (2), 118 -
+132. DOI: 10.1177/0022042614559841
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+7. Donohue, John J., "A critical look at crime and policing in the United
+States: Comey, Trump, and the puzzling pattern of crime in 2015 and
+beyond." Columbia Law Review. Jun 2017, 117, (5),.
+Full text: https://columbialawreview.org/content/comey-trump-and-the-puzzling-pattern-of-crime-in-2015-and-beyond/
+
+8. Federal Bureau of Investigation, "Crime in the United States, 2004:
+Uniform Crime Reports." Washington, DC: United States Department of
+Justice, Federal Bureau of Investigation, 2005.
+Abstract: http://www.fbi.gov/ucr/cius_04/
+Full text PDF: http://www.fbi.gov/ucr/cius_04/documents/CIUS2004.pdf
+
+9. Federal Bureau of Investigation, Uniform Crime Reporting Handbook.
+Washington, DC: United States Department of Justice, Federal Bureau of
+Investigation, 1984.
+Abstract: http://www.fbi.gov/ucr/cius_04/
+Full text PDF: http://www.fbi.gov/ucr/cius_04/documents/CIUS2004.pdf
+
+10. Kelly, Brian D.; Kole, Maureen, "The Effect of Asset Forfeiture on
+Policing: A Panel Approach - Data Notes." Dec 30, 2013.. DOI:
+10.2139/ssrn.2394360
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+11. Kelly, Brian D.; Kole, Maureen, "The effects of asset forfeiture on
+policing: A panel approach." Economic Inquiry. Jan 2016, 54, (1), 558 -
+575. DOI: 10.1111/ecin.12232
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+12. Litwok, Daniel, "Essays on the Economics of Juvenile Crime and
+Education." Dissertation, Michigan State University, 2015.
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+13. Lum, Cynthia; Vovak, Heather, "Variability in the use of misdemeanor
+arrests by police agencies from 1990 to 2013: An application of group-based
+trajectory modeling." Criminal Justice Policy Review. Jul 2018, 29, (6-7),
+536 - 560. DOI: 10.1177/0887403417731598
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+14. Nguyen, Holly; Reuter, Peter, "How risky is marijuana possession?
+Considering
+the role of age, race, and gender." Crime and Delinquency. Nov 2012, 58,
+(6), 879 - 910. DOI: 10.1177/0011128712461122
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+15. Schwartz, Jennifer; Rookey, Bryan D., "The narrowing gender gap in
+arrests: Assessing competing explanations using self-report, traffic
+fatality, and official data on drunk driving, 1980-2004." Criminology. Aug
+2008, 46, (3), 637 - 671. DOI: 10.1111/j.1745-9125.2008.00121.x
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+16. Snyder, Howard N., "Arrest in the United States, 1990-2010." Patterns
+and Trends. NCJ 239423, Washington, DC: United States Department of
+Justice, Office of Justice Programs, Bureau of Justice Statistics, Oct
+2012.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=4515
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aus9010.pdf
+Presents annual estimates of arrests in the United States covering the
+period between 1990 and 2010. Based on data collected by the FBI's Uniform
+Crime Reporting Program, this report expands the FBI's set of published
+arrest estimates to include offense-specific arrest estimates grouped by
+age, sex, and race. These breakdowns of arrests and arrest trends provide a
+detailed description of the flow of individuals into the criminal justice
+system over a long period. The national estimates represent arrests by
+state and local law enforcement agencies, and control for variations in
+sample coverage from year to year.

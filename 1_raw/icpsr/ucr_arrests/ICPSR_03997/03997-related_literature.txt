@@ -1,0 +1,160 @@
+Bibliography
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2000
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 3997. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Akpom, Uchenna N.; Doss, Adrian D., "Estimating the impact of state
+government spending and the economy on crime rates." Journal of Law and
+Conflict Resolution. Feb 2018, 10, (2), 9 - 18. DOI: 10.5897/JLCR2016.0250
+
+2. Barton, Michael S.; Jensen, Bonnie Lynne; Kaufman, Joanne M., "Social
+disorganization theory and the college campus." Journal of Criminal
+Justice. May-Jun 2010, 38, (3), 245 - 254. DOI:
+10.1016/j.jcrimjus.2010.02.010
+
+3. Beck, Brenden, "Uneven Policing: Low-Level Arrests During
+Gentrification, Fiscal Crisis, and Suburbanization." Dissertation, City
+University of New York, 2018.
+Abstract: https://academicworks.cuny.edu/gc_etds/2799/
+
+4. Bell, Brian; Bindler, Anna; Machin, Stephen, "Crime Scars: Recessions
+and the Making of Career Criminals." CEP Discussion Paper No 1284. London,
+UK: London School of Economics and Political Science, Centre for Economic
+Performance, Jul 2014.
+Full text PDF: http://cep.lse.ac.uk/pubs/download/dp1284.pdf
+
+5. Bishopp, Stephen A.; Worrall, John L., "Do state asset forfeiture laws
+explain the upward trend in drug arrests?." Journal of Crime and Justice.
+2009, 32, (2), 117 - 138. DOI: 10.1080/0735648X.2009.9721272
+Full text PDF: http://cep.lse.ac.uk/pubs/download/dp1284.pdf
+
+6. Chu, Yu-Wei, "Do Medical Marijuana Laws Increase Hard Drug Use?." May
+15, 2012..
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+7. Chu, Yu-Wei L., "Do medical marijuana laws increase hard-drug use?."
+Journal of Law and Economics. May 2015, 58, (2), 481 - 517. DOI:
+10.1086/684043
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+8. Eitle, David; Monahan, Susanne, "Revisiting the racial threat thesis:
+The role of police organizational characteristics in predicting race-
+specific drug arrest rates." Justice Quarterly. Sep 2009, 26, (3), 528 -
+561. DOI: 10.1080/07418820802427817
+Full text PDF: https://www.msu.edu/~chuyuwei/harddrug.pdf
+
+9. Federal Bureau of Investigation, "Crime in the United States - 2000."
+Updated 2000, Accessed 02/25/2008.
+Full text: http://www.fbi.gov/ucr/00cius.htm
+
+10. Federal Bureau of Investigation, "Crime in the United States 2000:
+Uniform Crime Reports." NCJ 192008, Washington, DC: United States
+Department of Justice, Federal Bureau of Investigation, 2001.
+Full text PDF: http://www.fbi.gov/ucr/cius_00/contents.pdf
+In addition to the annual UCR statistics, this document contains a special
+section "Analysis of Motor Vehicle Theft Using Survival Model." See:
+http://www.fbi.gov/ucr/cius_00/00crime5.pdf
+
+11. Federal Bureau of Investigation, Uniform Crime Reporting Handbook:
+National Incident-Based Reporting System (NIBRS) Edition. Washington, DC:
+United States Department of Justice, Federal Bureau of Investigation, 1992.
+Full text PDF: http://www.fbi.gov/ucr/cius_00/contents.pdf
+In addition to the annual UCR statistics, this document contains a special
+section "Analysis of Motor Vehicle Theft Using Survival Model." See:
+http://www.fbi.gov/ucr/cius_00/00crime5.pdf
+
+12. Kelly, Brian D.; Kole, Maureen, "The Effect of Asset Forfeiture on
+Policing: A Panel Approach - Data Notes." Dec 30, 2013.. DOI:
+10.2139/ssrn.2394360
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+13. Kelly, Brian D.; Kole, Maureen, "The effects of asset forfeiture on
+policing: A panel approach." Economic Inquiry. Jan 2016, 54, (1), 558 -
+575. DOI: 10.1111/ecin.12232
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+14. Kutateladze, Besiki, Is America Really So Punitive? : Exploring a
+Continuum of U. S. State Criminal Justice Policies. El Paso, TX: LFB
+Scholarly Publishing, 2009.
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+15. Litwok, Daniel, "Essays on the Economics of Juvenile Crime and
+Education." Dissertation, Michigan State University, 2015.
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+16. Lum, Cynthia; Vovak, Heather, "Variability in the use of misdemeanor
+arrests by police agencies from 1990 to 2013: An application of group-based
+trajectory modeling." Criminal Justice Policy Review. Jul 2018, 29, (6-7),
+536 - 560. DOI: 10.1177/0887403417731598
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+17. Nguyen, Holly; Reuter, Peter, "How risky is marijuana possession?
+Considering
+the role of age, race, and gender." Crime and Delinquency. Nov 2012, 58,
+(6), 879 - 910. DOI: 10.1177/0011128712461122
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+18. Ousey, Graham C.; Lee, Matthew R., "Whose civic community? Testing
+alternative hypotheses of the relationship between civic community and
+racial inequality in arest rates." Sociological Spectrum. 2010, 30, (5),
+550 - 579. DOI: 10.1080/02732173.2010.496104
+Abstract: https://ssrn-com.proxy.lib.umich.edu/abstract=2394360
+
+19. Perry, Steven W., "American Indians and Crime: A BJS Statistical
+Profile, 1992-2002." NCJ 203097, Washington, DC: United States Department
+of Justice, Bureau of Justice Statistics, Dec 2004.
+Full text: http://www.bjs.gov/content/pub/ascii/aic02.txt
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aic02.pdf
+Summarizes data on American Indians in the criminal justice system and
+reports the rates and characteristics of violent crimes experienced by
+American Indians.
+
+20. Schwartz, Jennifer; Rookey, Bryan D., "The narrowing gender gap in
+arrests: Assessing competing explanations using self-report, traffic
+fatality, and official data on drunk driving, 1980-2004." Criminology. Aug
+2008, 46, (3), 637 - 671. DOI: 10.1111/j.1745-9125.2008.00121.x
+Full text: http://www.bjs.gov/content/pub/ascii/aic02.txt
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aic02.pdf
+Summarizes data on American Indians in the criminal justice system and
+reports the rates and characteristics of violent crimes experienced by
+American Indians.
+
+21. Snyder, Howard N., "Arrest in the United States, 1990-2010." Patterns
+and Trends. NCJ 239423, Washington, DC: United States Department of
+Justice, Office of Justice Programs, Bureau of Justice Statistics, Oct
+2012.
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=4515
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aus9010.pdf
+Presents annual estimates of arrests in the United States covering the
+period between 1990 and 2010. Based on data collected by the FBI's Uniform
+Crime Reporting Program, this report expands the FBI's set of published
+arrest estimates to include offense-specific arrest estimates grouped by
+age, sex, and race. These breakdowns of arrests and arrest trends provide a
+detailed description of the flow of individuals into the criminal justice
+system over a long period. The national estimates represent arrests by
+state and local law enforcement agencies, and control for variations in
+sample coverage from year to year.
+
+22. Worrall, John L.; Kovandzic, Tomislav V., "Is policing for profit?
+Answers from asset forfeiture." Criminology and Public Policy. May 2008, 7,
+(2), 219 - 244. DOI: 10.1111/j.1745-9133.2008.00504.x
+Abstract: http://www.bjs.gov/index.cfm?ty=pbdetail&iid=4515
+Full text PDF: http://www.bjs.gov/content/pub/pdf/aus9010.pdf
+Presents annual estimates of arrests in the United States covering the
+period between 1990 and 2010. Based on data collected by the FBI's Uniform
+Crime Reporting Program, this report expands the FBI's set of published
+arrest estimates to include offense-specific arrest estimates grouped by
+age, sex, and race. These breakdowns of arrests and arrest trends provide a
+detailed description of the flow of individuals into the criminal justice
+system over a long period. The national estimates represent arrests by
+state and local law enforcement agencies, and control for variations in
+sample coverage from year to year.

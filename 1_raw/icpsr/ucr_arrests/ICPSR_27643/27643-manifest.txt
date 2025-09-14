@@ -1,0 +1,51 @@
+File Manifest for ICPSR 27643
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2008. ICPSR27643-v1. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2010-04-14. http://doi.org/10.3886/ICPSR27643.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    27643-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    27643-related_literature.txt        -       -         -       daily       -
+
+    27643-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2008
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    27643-0001-Codebook.pdf             -       -         -       2010-04-14  236abbf8238de7a194811959b6f8f944
+
+    27643-0001-Data.dta                 -       244,898   78      2010-04-14  39930c75fd9ac2422fb2878ef3f2edb7
+
+    27643-0001-Data.sav                 -       244,898   78      2010-04-14  739a188360d496130b00833d5a546f05
+
+    27643-0001-Data.stc                 -       244,898   78      2010-04-14  4e6def20b23109b840ceb84ab90f1d38
+
+    27643-0001-Data.tsv                 -       244,898   78      2010-04-14  676b27ef10e6c7767c52dc3dca81c63d
+
+    27643-0001-Data.txt                 418     244,898   78      2010-04-14  ae0b7191535ff161e06359d27e40f307
+
+    27643-0001-Setup.dct                -       -         -       2010-04-14  f31f3df52f9edd03ed5f2bebec928d60
+
+    27643-0001-Setup.do                 -       -         -       2010-04-14  253f9f82eb66017ca32ab1b2bca9b310
+
+    27643-0001-Setup.sas                -       -         -       2010-04-14  085c2e333f80c84a62ecb234d487a550
+
+    27643-0001-Setup.sps                -       -         -       2010-04-14  b41e7df5d0c4610cbb2ab16a65307338
+
+    27643-0001-Supplemental_syntax.do   -       -         -       2010-04-14  20f152408c5d3895dd1e8c0be4bd7e19
+
+    27643-0001-Supplemental_syntax.sas  -       -         -       2010-04-14  9e39f57de26a3dc17ce5ad8ab6d016d8
+

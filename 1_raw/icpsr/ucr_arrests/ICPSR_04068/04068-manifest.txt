@@ -1,0 +1,58 @@
+File Manifest for ICPSR 4068
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2002. ICPSR04068-v2. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2009-09-28. http://doi.org/10.3886/ICPSR04068.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04068-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    04068-related_literature.txt        -       -         -       daily       -
+
+    04068-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2002
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04068-0001-Codebook.pdf             -       -         -       2009-09-28  cbb8eebd21fd8379d0aec57a7804ff9b
+
+    04068-0001-Data.dta                 -       249,818   78      2009-09-28  3ea4d3032b17b5cb8ff12e31646bb43a
+
+    04068-0001-Data.sav                 -       249,818   78      2009-09-28  38cecfe09b60c4135b49bdbe3d00e248
+
+    04068-0001-Data.stc                 -       249,818   78      2009-09-28  14544ce583c4ec1349bb9fa29321ddb4
+
+    04068-0001-Data.tsv                 -       249,818   78      2009-09-28  eb58fe3350fa29a0a143a5acdc6d6489
+
+    04068-0001-Data.txt                 418     249,818   78      2009-09-28  e5a200893cc3b9e54f62f18027ebdd19
+
+    04068-0001-Setup.dct                -       -         -       2009-09-28  046ae1f061a5d7c0258a4c456d3400d3
+
+    04068-0001-Setup.do                 -       -         -       2009-09-28  4ea495ef31ff2bdaaf2fa174eb802cb1
+
+    04068-0001-Setup.sas                -       -         -       2009-09-28  6b4cb5ebb48f2f01d80a8e57807899ad
+
+    04068-0001-Setup.sps                -       -         -       2009-09-28  9c45db2e67d50232f518bda614051e63
+
+    04068-0001-Supplemental_syntax.do   -       -         -       2009-09-28  f90837c4a5501ed40dbcf93467f0453e
+
+    04068-0001-Supplemental_syntax.sas  -       -         -       2009-09-28  5bfca2fdd07762d93734e5a952fc27c0
+
+
+Version History
+
+2009-09-28 Reprocessed to adjust variable widths and match the other
+studies in the series.

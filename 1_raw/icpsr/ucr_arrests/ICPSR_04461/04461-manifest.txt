@@ -1,0 +1,58 @@
+File Manifest for ICPSR 4461
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2004. ICPSR04461-v2. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2009-09-28. http://doi.org/10.3886/ICPSR04461.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04461-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    04461-related_literature.txt        -       -         -       daily       -
+
+    04461-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2004
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04461-0001-Codebook.pdf             -       -         -       2009-09-28  1a6b58ce3b5e3d6f57b4002d16edba98
+
+    04461-0001-Data.dta                 -       253,957   78      2009-09-28  e502ad985a7722594138e99b72690dc8
+
+    04461-0001-Data.sav                 -       253,957   78      2009-09-28  4fea00f045f985ba9ffa9ac2f766f2da
+
+    04461-0001-Data.stc                 -       253,957   78      2009-09-28  3ceaf2d0a1a4663e0b4e04f3c7b9b668
+
+    04461-0001-Data.tsv                 -       253,957   78      2009-09-28  85348da8dbbc3c5fea4388b20a09caa6
+
+    04461-0001-Data.txt                 418     253,957   78      2009-09-28  b0716f822f8779c9d216064a8afb376d
+
+    04461-0001-Setup.dct                -       -         -       2009-09-28  4c9d6452fa3db48bc99f198c96b3d6a7
+
+    04461-0001-Setup.do                 -       -         -       2009-09-28  32e3abf44d27c2b9aa6e55c1496cc0cf
+
+    04461-0001-Setup.sas                -       -         -       2009-09-28  dff2974356e6d9ac41439cbda3fe543f
+
+    04461-0001-Setup.sps                -       -         -       2009-09-28  d2d8797f94be29e7dd0e9e26d48e5171
+
+    04461-0001-Supplemental_syntax.do   -       -         -       2009-09-28  8d368eaf6231e712ff70aa76c3d0f28a
+
+    04461-0001-Supplemental_syntax.sas  -       -         -       2009-09-28  37acdb67d68604bd7bb9dbc46ce6c9bd
+
+
+Version History
+
+2009-09-28 Reprocessed to adjust variable widths and match the other
+studies in the series.

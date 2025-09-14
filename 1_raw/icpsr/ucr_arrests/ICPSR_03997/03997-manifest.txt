@@ -1,0 +1,58 @@
+File Manifest for ICPSR 3997
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data [United States]: Arrests by Age, Sex,
+and Race, Summarized Yearly, 2000. ICPSR03997-v2. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2009-09-28. http://doi.org/10.3886/ICPSR03997.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03997-descriptioncitation.pdf       -       -         -       2017-04-03  -
+
+    03997-related_literature.txt        -       -         -       daily       -
+
+    03997-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data [United States]: Arrests by
+Age, Sex, and Race, Summarized Yearly, 2000
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    03997-0001-Codebook.pdf             -       -         -       2009-09-28  f1f257a2d83e560cdef1e36eb8921823
+
+    03997-0001-Data.dta                 -       232,357   78      2009-09-28  4b982b0d04664c165c78c1b72fbc698c
+
+    03997-0001-Data.sav                 -       232,357   78      2009-09-28  7c9c3382e8e177cc7d76228cdd79b7ce
+
+    03997-0001-Data.stc                 -       232,357   78      2009-09-28  152dabc9c068b195228aea06b59d5239
+
+    03997-0001-Data.tsv                 -       232,357   78      2009-09-28  3f63f5c04d1bb8db264f2aec54ec36fd
+
+    03997-0001-Data.txt                 418     232,357   78      2009-09-28  c04fa4b4f85142448d807c62e61958f9
+
+    03997-0001-Setup.dct                -       -         -       2009-09-28  3b08df7cf89590b70f6a34b6be94d158
+
+    03997-0001-Setup.do                 -       -         -       2009-09-28  ed49e847fad25ea3977a61594d3cfd11
+
+    03997-0001-Setup.sas                -       -         -       2009-09-28  db51766e6c28720f8cd43c4dd064c503
+
+    03997-0001-Setup.sps                -       -         -       2009-09-28  bdf3f161852e4631589ae637cb080f54
+
+    03997-0001-Supplemental_syntax.do   -       -         -       2009-09-28  75ae0d91a86c69e33f39e71ad79ccbe1
+
+    03997-0001-Supplemental_syntax.sas  -       -         -       2009-09-28  a3c4c8f377fa5a6ebc1078da9dd64f7e
+
+
+Version History
+
+2009-09-28 Reprocessed to adjust variable widths and match the other
+studies in the series.

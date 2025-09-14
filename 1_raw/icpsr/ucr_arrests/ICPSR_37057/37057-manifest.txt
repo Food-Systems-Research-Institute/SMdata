@@ -1,0 +1,53 @@
+File Manifest for ICPSR 37057
+
+United States. Federal Bureau of Investigation. Uniform Crime Reporting
+Program Data: Arrests by Age, Sex, and Race, Summarized Yearly, United
+States, 2016. ICPSR37057-v1. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 2018-08-17.
+http://doi.org/10.3886/ICPSR37057.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37057-descriptioncitation.pdf       -       -         -       2018-08-17  -
+
+    37057-related_literature.txt        -       -         -       daily       -
+
+    37057-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data: Arrests by Age, Sex, and Race,
+Summarized Yearly, United States, 2016
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37057-0001-Codebook.pdf             -       -         -       2018-08-17  fdd307442185af775aff1b83784b1f86
+
+    37057-0001-Data.dta                 -       264,685   78      2018-08-17  daf9837dd10b955e0e1e0ba9eff79a56
+
+    37057-0001-Data.rda                 -       264,685   78      2018-08-17  f2a647e671530169f2a4181b74898170
+
+    37057-0001-Data.sav                 -       264,685   78      2018-08-17  9dfca50cde107933bbc9944788b19cbf
+
+    37057-0001-Data.stc                 -       264,685   78      2018-08-17  25e2e68f03871179a7d5ecf05490e91f
+
+    37057-0001-Data.tsv                 -       264,685   78      2018-08-17  ce010070fad59390f546c9a2b98ca9fb
+
+    37057-0001-Data.txt                 415     264,685   78      2018-08-17  4dcefb3e69ec1d56c5f0225c4ee98666
+
+    37057-0001-Setup.dct                -       -         -       2018-08-17  313badc18cf3720570e1414447ea8163
+
+    37057-0001-Setup.do                 -       -         -       2018-08-17  4d5aec11b7ab671d1e49eaa3acf3edff
+
+    37057-0001-Setup.sas                -       -         -       2018-08-17  4c8edab505bfd4fcb7e46aa75d83a5f5
+
+    37057-0001-Setup.sps                -       -         -       2018-08-17  1e85a3acce4b09a897a14c6d5a0d8e94
+
+    37057-0001-Supplemental_syntax.do   -       -         -       2018-08-17  8e476faf0981a68180c6dcc881756497
+
+    37057-0001-Supplemental_syntax.sas  -       -         -       2018-08-17  e676ba00d297ce842e0b75347804732f
+

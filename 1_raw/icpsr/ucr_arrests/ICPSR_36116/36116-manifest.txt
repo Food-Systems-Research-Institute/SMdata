@@ -1,0 +1,53 @@
+File Manifest for ICPSR 36116
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data: Arrests by Age, Sex, and Race,
+Summarized Yearly, United States, 2013. ICPSR36116-v1. Ann Arbor, MI:
+Inter-university Consortium for Political and Social Research
+[distributor], 2015-04-30. http://doi.org/10.3886/ICPSR36116.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36116-descriptioncitation.pdf       -       -         -       2018-05-25  -
+
+    36116-related_literature.txt        -       -         -       daily       -
+
+    36116-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Uniform Crime Reporting Program Data: Arrests by Age, Sex, and Race,
+Summarized Yearly, United States, 2013
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36116-0001-Codebook.pdf             -       -         -       2015-04-30  dc346c81f39a180cffe3a88f19b6640d
+
+    36116-0001-Data.dta                 -       240,971   78      2015-04-30  e911c80ab9f0fedf3005ff8dab6cdd1d
+
+    36116-0001-Data.rda                 -       240,971   78      2015-04-30  91a1bef8be97b0a62235ad40a6c1e357
+
+    36116-0001-Data.sav                 -       240,971   78      2015-04-30  a97f28cdde80f0bc6b2866c5e53fe6d6
+
+    36116-0001-Data.stc                 -       240,971   78      2015-04-30  88c0048b822e2b3306635ecb1992d896
+
+    36116-0001-Data.tsv                 -       240,971   78      2015-04-30  7f08f9009382b3b6bfdddc7bb01e787e
+
+    36116-0001-Data.txt                 418     240,971   78      2015-04-30  386f40a1bd1c3e03dbdbcd40efefc9c8
+
+    36116-0001-Setup.dct                -       -         -       2015-04-30  bd86200816da0c88772027430d9b44e2
+
+    36116-0001-Setup.do                 -       -         -       2015-04-30  eff5101ec114f84195457c51ddcd19a1
+
+    36116-0001-Setup.sas                -       -         -       2015-04-30  20c49b344097001fced2379de975979d
+
+    36116-0001-Setup.sps                -       -         -       2015-04-30  235ab7bd85565471d8419e5538c83f7b
+
+    36116-0001-Supplemental_syntax.do   -       -         -       2015-04-30  a856d260c38616f84cc80e40e018ce5d
+
+    36116-0001-Supplemental_syntax.sas  -       -         -       2015-04-30  14ee902ca228a8f942580f78e3116fbd
+

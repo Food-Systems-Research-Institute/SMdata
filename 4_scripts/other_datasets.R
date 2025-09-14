@@ -229,6 +229,7 @@ metas$ghgs
 
 ## Load
 lakes <- read_csv('1_raw/epa/nars/lakes_data_for_population_estimates_2022.csv')
+get_str(lakes)
 
 lakes_meta <- read_tsv(
   '1_raw/epa/nars/lakes_metadata.txt',
@@ -245,14 +246,6 @@ lakes %>%
 lakes %>% 
   filter(PSTL_CODE == 'VT') %>% 
   get_str()
-# Plot points in VT
-# vt <- lakes %>% 
-#   filter(PSTL_CODE == 'VT') %>% 
-#   sf::st_as_sf(coords = c('LON_DD83', 'LAT_DD83'))
-# sf::st_crs(vt) <- 4269
-# get_str(vt)
-# mapview(vt)
-
 
 # Meta
 get_str(lakes_meta)
@@ -266,6 +259,7 @@ lakes_meta %>%
 lake_dat <- lakes %>% 
   select(
     PSTL_CODE,
+    year = DSGN_CYCLE,
     ends_with('COND'),
     -DRAWDOWN_COND
   ) %>% 
@@ -284,21 +278,114 @@ lake_dat <- lakes %>%
   ) %>% 
   
   # Group by geography and take mean of condition scores
-  group_by(PSTL_CODE) %>% 
+  group_by(PSTL_CODE, year) %>% 
   summarize(across(matches('COND$'), ~ mean(.x, na.rm = TRUE))) %>% 
+  ungroup() %>% 
   pivot_longer(
     cols = ends_with('COND'),
     names_to = 'variable_name',
     values_to = 'value'
   ) %>% 
   inner_join(state_key, by = join_by(PSTL_CODE == state)) %>% 
-  select(fips = state_code, variable_name, value) %>% 
-  mutate(year = '2022') %>% 
+  select(fips = state_code, year, variable_name, value) %>% 
   filter(variable_name != 'RDIS_COND')
 get_str(lake_dat)
 
+# Check Vermont
+lake_dat %>% 
+  filter(fips == '50')
+
 results$lakes <- lake_dat
 
+
+
+## All Lakes ---------------------------------------------------------------
+
+
+# ## Load
+# # lakes <- read_csv('1_raw/epa/nars/lakes_data_for_population_estimates_2022.csv')
+# # lakes2 <- read_csv('1_raw/epa/nars/lakes_data_for_population_estimates_2017.csv')
+# # get_str(lakes)
+# # get_str(lakes2)
+# paths <- list.files(
+#   path = '1_raw/epa/nars/',
+#   pattern = '.*lakes.*\\.csv',
+#   full.names = TRUE
+# )
+# 
+# lakes_meta <- read_tsv(
+#   '1_raw/epa/nars/lakes_metadata.txt',
+#   col_names = TRUE
+# )
+# 
+# # Load all
+# all_lakes <- map(paths, ~ read_csv(.x))
+# get_str(all_lakes)
+# get_str(all_lakes, 3)
+# 
+# 
+# ## Explore
+# # Lake data
+# get_str(lakes)
+# lakes %>% 
+#   filter(PSTL_CODE %in% fips_key$state_code) %>% 
+#   get_str()
+# lakes %>% 
+#   filter(PSTL_CODE == 'VT') %>% 
+#   get_str()
+# # Plot points in VT
+# # vt <- lakes %>% 
+# #   filter(PSTL_CODE == 'VT') %>% 
+# #   sf::st_as_sf(coords = c('LON_DD83', 'LAT_DD83'))
+# # sf::st_crs(vt) <- 4269
+# # get_str(vt)
+# # mapview(vt)
+# 
+# 
+# # Meta
+# get_str(lakes_meta)
+# lakes_meta %>% 
+#   filter(str_detect(COLUMN_NAME, 'COND$')) %>% 
+#   select(COLUMN_NAME, LEGAL_VALUES)
+# # Condition variables are ordinal
+# 
+# ## Clean
+# # Using condition variables, recoding them as integers
+# lake_dat <- lakes %>% 
+#   select(
+#     PSTL_CODE,
+#     ends_with('COND'),
+#     -DRAWDOWN_COND
+#   ) %>% 
+#   mutate(
+#     across(matches('^ACID|^CHLA|^LITCVR|^LITRIPCVR|^NTL|^PTL|^RDIS|^RVEG'), ~ case_when(
+#       .x == 'Good' ~ 3,
+#       .x == 'Fair' ~ 2,
+#       .x == 'Poor' ~ 1,
+#       .default = NA
+#     )),
+#     across(matches('^CYLSPER|^ENT_|MICX_'), ~ case_when(
+#       .x == 'Above Benchmark' ~ 1,
+#       .x == 'At or Below Benchmark' ~ 0,
+#       .default = NA
+#     ))
+#   ) %>% 
+#   
+#   # Group by geography and take mean of condition scores
+#   group_by(PSTL_CODE) %>% 
+#   summarize(across(matches('COND$'), ~ mean(.x, na.rm = TRUE))) %>% 
+#   pivot_longer(
+#     cols = ends_with('COND'),
+#     names_to = 'variable_name',
+#     values_to = 'value'
+#   ) %>% 
+#   inner_join(state_key, by = join_by(PSTL_CODE == state)) %>% 
+#   select(fips = state_code, variable_name, value) %>% 
+#   mutate(year = '2022') %>% 
+#   filter(variable_name != 'RDIS_COND')
+# get_str(lake_dat)
+# 
+# results$lakes <- lake_dat
 
 
 ### Metadata ----------------------------------------------------------------
@@ -339,6 +426,11 @@ metas$lakes
 # Go back and fix variable names from dataset
 results$lakes <- results$lakes %>% 
   mutate(variable_name = paste0('lakes', snakecase::to_upper_camel_case(variable_name)))
+
+# Check
+results$lakes %>% 
+  group_by(variable_name, fips, year) %>% 
+  summarize(count = n())
 
 
 
@@ -725,6 +817,7 @@ census$local_spending <- read_xlsx(
 ) %>% 
   select(state = 1, sfaLocalFoodCosts = 4)
 get_str(census)
+get_str(census, 3)
 
 # Now we can put them together
 # all_states <- fips_key$state_code[!is.na(fips_key$state_code)]
@@ -1467,7 +1560,6 @@ good_vars <- all_vars %>%
 good_vars
 
 # Crosswalk for cdc var, variable_name, definition
-# TODO: update this with text from dictionary
 crosswalk <- data.frame(cdc_var = good_vars) %>% 
   arrange(cdc_var) %>% 
   mutate(
@@ -1511,12 +1603,22 @@ dat <- imap(out, ~ {
 })
 get_str(dat)
 get_str(dat, 3)
-map(dat, ~ unique(.x$variable_name))
+# map(dat, ~ unique(.x$variable_name))
 # Some variables started later, 1 in 2023, 2 more in 2024
 
 # Bind into one DF
 dat <- bind_rows(dat)
 get_str(dat)
+
+# Check for var coverage by year
+vars <- meta_vars(dat)
+map(vars, ~ {
+  dat %>% 
+    filter(variable_name == .x) %>% 
+    group_by(year) %>% 
+    summarize(count = n())
+}) %>% 
+  setNames(c(vars))
 
 results$places <- dat
 
