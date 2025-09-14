@@ -19,6 +19,7 @@
 1_raw/inaturalist/
 1_raw/usda/rma/
 1_raw/usfs
+1_raw/icpsr
 
 # More large files
 5_objects/spatial/
