@@ -14,8 +14,9 @@
 #' @param fips_col column specifying fips code.
 #'
 #' @returns A data.frame with filters applied.
-#' @import dplyr
-#' @import stringr
+#' @importFrom dplyr select filter
+#' @importFrom stringr str_length str_detect
+#' @importFrom assertthat assert_that
 #' @export
 #'
 #' @examples
@@ -24,6 +25,23 @@
 filter_fips <- function(df, 
                         scope = c('all', 'counties', 'new', 'old', 'states', 'us', 'neast'),
                         fips_col = 'fips') {
+  assertthat::assert_that(
+    'data.frame' %in% class(df),
+    msg = paste('df must be a data.frame object, not a', class(df))
+  )
+  assertthat::assert_that(
+    !is.null(scope) & length(scope) == 1,
+    msg = paste('scope must be a character string of length 1 and must not be NULL')
+  )
+  assertthat::assert_that(
+    scope %in% c('all', 'counties', 'new', 'old', 'states', 'us', 'neast'),
+    msg = paste('scope argument must be one of: all, counties, new, old, states, us, neast')
+  )
+  assertthat::assert_that(
+    fips_col %in% names(df),
+    msg = paste0('fips_col ("', fips_col, '") must be a column in df')
+  )
+  
   # Match to one of arguments if it is a short version
   scope <- match.arg(scope)
   
@@ -34,23 +52,23 @@ filter_fips <- function(df,
     
   } else if (scope == 'neast') {
     subset <- fips_key %>% 
-      dplyr::filter(str_length(fips) == 5 | (!is.na(state_code) & state_code != 'US')) %>% 
-      pull(fips)
+      dplyr::filter(stringr::str_length(fips) == 5 | (!is.na(state_code) & state_code != 'US')) %>% 
+      dplyr::pull(fips)
     out <- df %>% 
       dplyr::filter(.data[[fips_col]] %in% subset) 
     
   } else if (scope == 'counties') {
     subset <- fips_key %>% 
       dplyr::filter(str_length(fips) == 5) %>% 
-      pull(fips)
+      dplyr::pull(fips)
     out <- df %>% 
       dplyr::filter(.data[[fips_col]] %in% subset)
     
   } else if (scope == 'new') {
     subset <- fips_key %>% 
       dplyr::filter(
-        str_length(fips) == 5,
-        !str_detect(fips, '^09.*[1-9]$')
+        stringr::str_length(fips) == 5,
+        !stringr::str_detect(fips, '^09.*[1-9]$')
       ) %>% 
       pull(fips)
     out <- df %>% 
@@ -59,8 +77,8 @@ filter_fips <- function(df,
   } else if (scope == 'old') {
     subset <- fips_key %>% 
       dplyr::filter(
-        str_length(fips) == 5,
-        !str_detect(fips, '^09.*0$')
+        stringr::str_length(fips) == 5,
+        !stringr::str_detect(fips, '^09.*0$')
       ) %>% 
       pull(fips)
     out <- df %>% 
@@ -69,7 +87,7 @@ filter_fips <- function(df,
   } else if (scope == 'states') {
     subset <- fips_key %>% 
       dplyr::filter(
-        str_length(fips) == 2,
+        stringr::str_length(fips) == 2,
         is.na(county_name),
         state_name != 'US'
       ) %>% 
