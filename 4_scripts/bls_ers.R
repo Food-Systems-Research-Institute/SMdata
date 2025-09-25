@@ -154,6 +154,7 @@ metas$qcew <- metas$qcew %>%
     year = '2023',
     updates = 'annual',
     warehouse = FALSE,
+    latest_year = meta_latest_year(results$qcew),
     source = 'U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages (2023)',
     url = 'https://www.bls.gov/cew/'
   ) %>% 
@@ -162,7 +163,6 @@ metas$qcew <- metas$qcew %>%
   
 get_str(metas$qcew)
 try(check_n_records(results$qcew, metas$qcew, 'QCEW'))
-
 
 
 
@@ -218,22 +218,36 @@ dat <- dat %>%
   )
 get_str(dat)
 
-results$qcew <- dat
-meta_vars(dat) %>% 
-  str_subset('^oty')
+# Check for 0s and NAs
+meta_vars(dat)
+dat %>% filter(variable_name == 'annualAvgWklyWageNAICS11')
+dat %>% filter(variable_name == 'annualAvgEstabsCountNAICS11')
+dat %>% filter(variable_name == 'annualAvgEmplvlNAICS11')
+
+# Check weekly wage 0s to NAs. Doesn't make sense for them to be 0.
+# But we could have 0 establishments or 0 employees
+dat <- dat %>% 
+  mutate(value = case_when(
+    variable_name == 'annualAvgWklyWageNAICS11' & value == 0 ~ NA,
+    .default = value
+  ))
+dat %>% filter(variable_name == 'annualAvgWklyWageNAICS11')
+
+get_str(dat)
+results$bulk <- dat
 
 
 
 ## Metadata ----------------------------------------------------------------
 
 
-meta_vars(dat)
-metas$qcew <- data.frame(variable_name = meta_vars(results$qcew)) %>% 
+(vars <- meta_vars(dat))
+metas$bulk <- data.frame(variable_name = meta_vars(results$bulk)) %>% 
   mutate(
     dimension = 'economics',
     index = 'community economy',
     indicator = case_when(
-      str_detect(variable_name, 'estabs') ~ 'business failure rate of food business',
+      str_detect(variable_name, 'Estabs') ~ 'business failure rate of food business',
       .default = 'wealth/income distribution'
     ),
     metric = variable_name,
@@ -244,7 +258,7 @@ metas$qcew <- data.frame(variable_name = meta_vars(results$qcew)) %>%
     updates = 'annual',
     latest_year = meta_latest_year(dat),
     year = meta_years(dat),
-    source = 'U.S. Bureau of Labor Statistics, Quarterly Census of Employment and Wages (2023)',
+    source = 'U.S. Bureau of Labor Statistics, Census of Employment and Wages (2023)',
     url = 'https://www.bls.gov/cew/'
   ) %>% 
   meta_citation(date = '2025-07-03')

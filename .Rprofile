@@ -37,6 +37,7 @@ if (interactive()) {
     purrr::flatten(),
     base::intersect(),
     base::union(),
+    testthat::matches(),
     .quiet = TRUE
   )
 }

@@ -581,140 +581,6 @@ get_str(metas$forest_carbon)
 
 
 
-# TreeMap 2016 ------------------------------------------------------------
-
-
-# NOTE: dropping this for now, waiting on newer datasets
-
-# # Run python script to aggregate TreeMap2016 data by counties
-# path_list <- dir(
-#   '1_raw/spatial/usfs_treemap/',
-#   pattern = '*.tif',
-#   full.names = TRUE
-# )
-# df_names <- path_list %>% 
-#   str_split_i('2016_', 2) %>% 
-#   str_remove('.tif') %>% 
-#   str_to_lower()
-# 
-# # Load python function to get means of raster value within each polygon
-# reticulate::source_python('3_functions/spatial/raster_mean_by_polygon.py')
-# 
-# # Map over path list to run function on each one
-# county_path = '2_clean/spatial/ne_counties_2024.gpkg'
-# counties_out <- map2(path_list, df_names, ~ raster_mean_by_polygon(county_path, .x, .y))
-# get_str(counties_out)
-# 
-# # Do it for states as well. 
-# # Note this one takes a while! Whole country raster. Maybe an hour?
-# states_path = '2_clean/spatial/all_states.gpkg'
-# get_time()
-# states_out <- map2(path_list, df_names, ~ raster_mean_by_polygon(states_path, .x, .y))
-# get_str(states_out)
-# 
-# # Save outputs for posterity
-# list(states_out, counties_out) %>% 
-#   saveRDS('5_objects/spatial/processing/treemap_aggregation_out.RDS')
-
-
-
-# # Pick up saved dataset, then combine, rename, put in variable format
-# treemap_agg <- readRDS('5_objects/spatial/processing/treemap_aggregation_out.RDS')
-# treemap_dat <- map(treemap_agg, ~ {
-#   .x %>% 
-#     purrr::reduce(inner_join) %>% 
-#     setNames(c(
-#       'fips',
-#       'forestCarbonLive',
-#       'forestCarbonDeadStanding',
-#       'forestCarbonDeadDown',
-#       'forestCanopyCover',
-#       'forestLiveTreeVolume',
-#       'forestLiveTrees',
-#       'forestDeadTrees',
-#       'forestStandHeight'
-#     )) %>% 
-#     pivot_longer(
-#       cols = !fips,
-#       names_to = 'variable_name',
-#       values_to = 'value'
-#     ) %>% 
-#     mutate(year = '2016')
-# }) %>% 
-#   bind_rows()
-# get_str(treemap_dat)
-# 
-# # Save to results
-# results$treemap <- treemap_dat
-
-
-
-## Metadata ----------------------------------------------------------------
-
-
-# get_str(treemap_dat)
-# (vars <- get_vars(treemap_dat))
-# 
-# metas$treemap <- data.frame(
-#   variable_name = vars,
-#   metric = c(
-#     'Forest canopy cover',
-#     'Forest carbon - dead and down',
-#     'Forest carbon - standing dead',
-#     'Forest carbon - live standing',
-#     'Dead trees per forested acre',
-#     'Live trees per forested acre',
-#     'Forest live tree volume per acre',
-#     'Forest stand height'
-#   ),
-#   definition = c(
-#     'Mean live Canopy cover percentage derived from the Forest Vegatation Simulator',
-#     'Mean carbon (tons per acre) of woody material greater than 3 inches in diameter on the ground, and stumps and their roots greater than 3 inches in diameter. Estimated from models based on geographic area, forest type, and live tree carbon density (Smith and Heath 2008).',
-#     'Mean carbon, standing dead (tons per acre).',
-#     'Mean carbon, live above ground (tons per acre).',
-#     'Number of live trees (diamater > 5 inches) per acre',
-#     'Number of standing dead trees (diamater > 5 inches) per acre',
-#     'Mean volume, live, cubic feet per acre.',
-#     'Height of dominant trees, in feet, derivedf from the Forest Vegatation Simulator'
-#   ),
-#   axis_name = c(
-#     'Canopy Cover (%)',
-#     'Dead Down Carbon (tons / acre)',
-#     'Dead Standing Carbon (tons / acre)',
-#     'Live Standing (tons / acre)',
-#     'Live Trees / acre',
-#     'Dead Trees / acre',
-#     'Live Tree Volume (ft^3 / acre)',
-#     'Stand Height (ft)'
-#   ),
-#   dimension = "environment",
-#   index = 'biodiversity',
-#   indicator = c(
-#     'tree vigor',
-#     rep('above ground biomass', 3),
-#     rep('tree vigor', 4)
-#   ),
-#   units = c(
-#     'percentage',
-#     rep('tons / acre', 3),
-#     rep('number / acre', 2),
-#     'cubic feet / acre',
-#     'feet'
-#   ),
-#   scope = 'national',
-#   resolution = 'county, state',
-#   year = '2016',
-#   latest_year = '2016',
-#   updates = "8 years",
-#   source = 'TreeMap 2016: A tree-level model of the forests of the conterminous United States circa 2016',
-#   url = 'https://data.fs.usda.gov/geodata/rastergateway/treemap/index.php',
-#   citation = 'Riley, Karin L.; Grenfell, Isaac C.; Finney, Mark A.; Shaw, John D. 2021. TreeMap 2016: A tree-level model of the forests of the conterminous United States circa 2016. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0074'
-# )
-# 
-# get_str(metas$treemap)
-
-
-
 # Cropland Data Layer -----------------------------------------------------
 
 
@@ -1037,36 +903,6 @@ get_str(metas$nature_serve)
 
 
 
-# SSURGO ------------------------------------------------------------------
-
-
-# Reduce to northeast mask
-
-# reticulate::source_python('3_functions/spatial/mask_rasters.py')
-# mask_rasters(
-#   input_dir = '1_raw/spatial/ssurgo/gSSURGO_CONUS/',
-#   output_dir = '1_raw/spatial/mrlc_lulc/neast',
-#   aoi_path = '2_clean/spatial/neast_mask.gpkg'
-# )
-
-# surgo <- sf::read_sf('1_raw/spatial/ssurgo/gSSURGO_CONUS/gSSURGO_CONUS.gdb/')
-# get_str(surgo)
-
-
-# # Save gpkg as shapefile to download from WSS
-# mask <- sf::read_sf('2_clean/spatial/neast_mask.gpkg')
-# sf::write_sf(mask, '2_clean/spatial/neast_mask.shp')
-# 
-# # Load some gsmsoil data
-# gsm <- sf::st_read('1_raw/spatial/ssurgo/wss_gsmsoil/wss_gsmsoil_CT_[2016-10-13]/wss_gsmsoil_CT_[2016-10-13]/spatial/')
-# gsm
-# 
-# # Another
-# out <- sf::st_read('1_raw/spatial/ssurgo/wss_gsmsoil/wss_gsmsoil_CT_[2016-10-13]/wss_gsmsoil_CT_[2016-10-13]/spatial/')
-# out
-
-
-
 # PRISM -------------------------------------------------------------------
 
 
@@ -1074,22 +910,17 @@ get_str(metas$nature_serve)
 prism_set_dl_dir("1_raw/spatial/prism/")
 
 # Get total precipitation (rain and snow)
-get_prism_annual(
-  "ppt", 
-  years = 2000:2024,
-  keepZip = FALSE
-)
+# get_prism_annual(
+#   "ppt", 
+#   years = 2000:2024,
+#   keepZip = FALSE
+# )
 
 # Check archive
 (archive <- prism_archive_ls())
 
 # Check metadata
 df <- pd_get_md(archive[[1]])
-
-# Load one to check
-# bil <- stars::read_stars('1_raw/spatial/prism/PRISM_ppt_stable_4kmM3_2024_bil/PRISM_ppt_stable_4kmM3_2024_bil.bil')
-# bil
-# mapview(bil)
 
 # Get all paths
 paths <- ls_prism_data(absPath = TRUE)
@@ -1113,16 +944,17 @@ get_str(out)
 dat <- imap(out, ~ {
   .x %>% 
     mutate(year = str_sub(.y, start = 2)) %>% 
-    rename(annualPrecipMM = sum)
+    rename(annualPrecipCM = sum)
 }) %>% 
   bind_rows() %>% 
   pivot_longer(
-    cols = annualPrecipMM,
+    cols = annualPrecipCM,
     values_to = 'value',
     names_to = 'variable_name'
-  )
+  ) %>% 
+  mutate(value = round(value / 1000, 1))
 get_str(dat)
-
+  
 results$prism <- dat
 
 
@@ -1134,12 +966,12 @@ meta_vars(results$prism)
 
 metas$prism <- data.frame(
   variable_name = meta_vars(results$prism),
-  metric = 'Annual precipitation (mm)',
-  definition = 'Sum of annual precipitation by county in mm',
-  axis_name = 'Annual Precip (mm)',
+  metric = 'Annual precipitation (cm)',
+  definition = 'Sum of annual precipitation by county in cm',
+  axis_name = 'Annual Precip (cm)',
   dimension = 'environment',
   index = 'species and habitat',
-  units = 'mm',
+  units = 'cm',
   scope = 'national',
   resolution = '4km',
   year = meta_years(results$prism),
@@ -1151,18 +983,6 @@ metas$prism <- data.frame(
   meta_citation(date = '2025-07-14')
 
 get_str(metas$prism)
-
-
-
-# NWI ---------------------------------------------------------------------
-
-
-# Wetland inventory
-# https://www.fws.gov/program/national-wetlands-inventory/download-state-wetlands-data
-dat <- sf::st_read('1_raw/spatial/nwi/VT_geodatabase_wetlands.gdb/')
-dat <- sf::st_read('1_raw/spatial/nwi/NY_geodatabase_wetlands.gdb/')
-dat
-mapview(dat)
 
 
 

@@ -1869,6 +1869,10 @@ dat <- dat %>%
   )
 get_str(dat)
 
+# Divide all values by 1000 so they are tractable
+dat <- dat %>% 
+  mutate(value = round(value / 1000, 1))
+
 results$indemnities <- dat
 
 
@@ -1886,8 +1890,8 @@ metas$indemnities <- data.frame(
   indicator = 'use of ag/farm/crop insurance',
   definition = 'Sum of indemnity amounts for all final loss amounts (stage code = FL)',
   metric = 'Total indemnities',
-  units = 'usd',
-  axis_name = 'Indemnities ($)',
+  units = '1000 usd',
+  axis_name = 'Indemnities ($1000)',
   annotation = NA,
   scope = NA,
   resolution = 'county',

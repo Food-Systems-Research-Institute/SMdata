@@ -27,6 +27,11 @@ pacman::p_load(
   readr
 )
 
+conflicted::conflicts_prefer(
+  testthat::matches(),
+  .quiet = TRUE
+)
+
 
 
 # Pull Excel --------------------------------------------------------------

@@ -27,6 +27,10 @@ pacman::p_load(
   arrow
 )
 
+conflicted::conflicts_prefer(
+  testthat::matches(),
+  .quiet = TRUE
+)
 
 
 # Aggregate ---------------------------------------------------------------
@@ -40,10 +44,12 @@ metrics <- read_all_rds('5_objects/metrics/')
 # Keep all the weird variables, cv percent, disclosure, value codes, margins
 # Just make sure year is numeric
 metrics_agg <- map(metrics, ~ {
-  .x %>% 
-    mutate(across(c(year, value), as.character)) %>% 
-    select(-any_of(c('metric', 'county_name')))
-  }) %>% 
+  suppressWarnings(
+    .x %>% 
+      mutate(across(c(year, value), as.numeric)) %>% 
+      select(-any_of(c('metric', 'county_name')))
+  )
+}) %>% 
   bind_rows() %>% 
   select(fips, year, variable_name, value)
 # get_str(metrics_agg)
@@ -97,8 +103,8 @@ file.remove(paths)
 
 # Also save a parquet file
 pq_paths <- c(
-  '6_outputs/metrics.parquet', 
-  '../SMdocs/data/metrics.parquet'
+  '6_outputs/metrics.parquet'
+  # '../SMdocs/data/metrics.parquet'
 )
 walk(pq_paths, ~ write_parquet(metrics_agg, .x))
 
@@ -161,7 +167,7 @@ sm_data <- list_flatten(sm_data, name_spec = "{inner}")
 
 # Paths to SMdocs and SMexplorer. Also keeping a copy in outputs
 sm_data_paths <- c(
-  '../SMdocs/data/sm_data.rds',
+  # '../SMdocs/data/sm_data.rds',
   '../SMexplorer/dev/data/sm_data.rds',
   '6_outputs/sm_data.rds'
 )
@@ -194,7 +200,7 @@ spatial <- list_flatten(spatial, name_spec = "{inner}")
 
 # Save spatial data in those places also
 spatial_paths <- c(
-  '../SMdocs/data/sm_spatial.rds',
+  # '../SMdocs/data/sm_spatial.rds',
   '../SMexplorer/dev/data/sm_spatial.rds',
   '6_outputs/sm_spatial.rds'
 )

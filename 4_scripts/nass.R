@@ -1,5 +1,5 @@
 # NASS
-# 2025-07-10 update
+# 2025-09-25 update
 
 
 # Housekeeping ------------------------------------------------------------
@@ -480,15 +480,57 @@ get_str(dat)
 
 
 
+# Transformations ---------------------------------------------------------
+
+
+# Dividing some metrics by 1e3 or 1e6 to make them more tractable.
+trans <- dat %>% 
+  meta_vars() %>% 
+  str_subset(regex('landValPerAcre|expPF|animalandcrop', ignore_case = TRUE))
+trans
+
+# Check
+dat %>% filter(variable_name == trans[1])
+dat %>% filter(variable_name == trans[2])
+dat %>% filter(variable_name == trans[3])
+
+dat <- dat %>% 
+  mutate(value = case_when(
+    variable_name %in% trans ~ value / 1000,
+    .default = value
+  ))
+
+# Check
+dat %>% filter(variable_name == trans[1])
+dat %>% filter(variable_name == trans[2])
+dat %>% filter(variable_name == trans[3])
+
+# Adjust nass params to account for transformations
+get_str(nass_params)
+nass_params %>% 
+  filter(variable_name %in% trans) %>% 
+  select(variable_name, units)
+nass_params <- nass_params %>% 
+  mutate(units = case_when(
+    variable_name %in% trans ~ '1000 usd',
+    .default = units
+  ))
+nass_params %>% 
+  filter(variable_name %in% trans) %>% 
+  select(variable_name, units)
+
+
+
 # Metadata ----------------------------------------------------------------
 
 
 get_str(dat)
 get_str(nass_params)
+
 (vars <- meta_vars(dat))
 dat_df <- data.frame(variable_name = vars)
 
-# Join nass params with variable names from dat to start metadata
+# Join NASS params with variable names from dat to start metadata
 meta <- nass_params %>% 
   filter(source_desc == 'CENSUS') %>%
   right_join(dat_df) %>% 
