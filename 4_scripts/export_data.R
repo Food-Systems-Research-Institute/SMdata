@@ -126,6 +126,10 @@ sm_data$metadata <- meta_agg
 # Crosswalk for weighting variable names and metrics
 sm_data$weighting <- readRDS('5_objects/weighting_vars.rds')
 
+# Add county land and water area as utility dataset
+sm_data$areas <- readRDS('5_objects/areas.rds')
+
+
 # NOTE: Removing data paper objects - moving these into SMdocs
 # Data paper metadata, tree, and metrics
 # sm_data$data_paper_meta <- readRDS('5_objects/data_paper_meta.rds')

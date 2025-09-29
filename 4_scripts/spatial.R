@@ -4,8 +4,7 @@
 # Land use diversity from MRLC, forest health and complexity from USDS TreeMap,
 # Crop diversity from USDA Cropland Data Layer, biodiversity from NatureServe
 
-# NOTE: we are dropping TreeMap2016 data for now. Hopefully getting newer 
-# datasets soon.
+# NOTE: worth splitting this script to reduce run times when we need to update
 
 
 
@@ -947,14 +946,29 @@ dat <- imap(out, ~ {
     rename(annualPrecipCM = sum)
 }) %>% 
   bind_rows() %>% 
-  pivot_longer(
-    cols = annualPrecipCM,
-    values_to = 'value',
-    names_to = 'variable_name'
-  ) %>% 
-  mutate(value = round(value / 1000, 1))
+  mutate(annualPrecipCM = round(annualPrecipCM / 1000, 1))
 get_str(dat)
   
+# Divide precipitation by total county area to get cm/sqkm of land
+get_str(SMdata::county_areas)
+areas <- SMdata::county_areas %>% 
+  select(fips, area_sqkm)
+get_str(areas)
+
+dat <- left_join(dat, areas) %>% 
+  mutate(annualPrecipCMSqKm = annualPrecipCM / area_sqkm) %>% 
+  select(-area_sqkm)
+get_str(dat)
+
+# Pivot longer to fit metrics
+dat <- dat %>% 
+  pivot_longer(
+    cols = !c(fips, year),
+    values_to = 'value',
+    names_to = 'variable_name'
+  )
+get_str(dat)
+
 results$prism <- dat
 
 
@@ -966,12 +980,15 @@ meta_vars(results$prism)
 
 metas$prism <- data.frame(
   variable_name = meta_vars(results$prism),
-  metric = 'Annual precipitation (cm)',
-  definition = 'Sum of annual precipitation by county in cm',
-  axis_name = 'Annual Precip (cm)',
+  metric = c('Annual precipitation (cm)', 'Annual precipitation per sq km (cm)'),
+  definition = c(
+    'Sum of annual precipitation by county in cm',
+    'Annual precipitation by county in cm/sq km'
+  ),
+  axis_name = c('Total Annual Precip (cm)', 'Precip (cm/sq km)'),
   dimension = 'environment',
   index = 'species and habitat',
-  units = 'cm',
+  units = c('cm', 'cm/sq km'),
   scope = 'national',
   resolution = '4km',
   year = meta_years(results$prism),
@@ -999,4 +1016,3 @@ saveRDS(out$result, '5_objects/metrics/lulc.RDS')
 saveRDS(out$meta, '5_objects/metadata/lulc_meta.RDS')
 
 clear_data(gc = TRUE)
-
