@@ -274,24 +274,45 @@ get_str(metas$qcew)
 
 # Consumer Price Index for all urban consumers (CPI-U), Northeast
 # Same for Class A and for Class B/C
-cpi <- readxl::read_xlsx(
-  '1_raw/bls/cpi/SeriesReport-20250902175923_338893_CPIU_Northeast.xlsx',
+# cpi <- readxl::read_xlsx(
+#   '1_raw/bls/cpi/SeriesReport-20250902175923_338893_CPIU_Northeast.xlsx',
+#   skip = 10
+# )
+
+# All items
+cpi_all <- readxl::read_xlsx(
+  '1_raw/bls/cpi/SeriesReport-20251008130852_CPIU_northeast_all_items.xlsx',
   skip = 10
 )
-get_str(cpi)
+get_str(cpi_all)
+
+# Food at home
+cpi_fah <- readxl::read_xlsx(
+  '1_raw/bls/cpi/SeriesReport-20251008130728_CPIU_northeast_food_at_home.xlsx',
+  skip = 10
+)
+get_str(cpi_fah)
+
+# Make list of both
+cpi <- list(cpi_all, cpi_fah) %>% 
+  setNames(c('cpiAllItems', 'cpiFoodAtHome'))
+get_str(cpi, 3)
+
 # Not much to do with this since it is at level of northeast.
-# Don't even have a fips code to give it.
+# Don't even have a fips code to give it. Just put it in a usable format
 
-cpi <- cpi %>% 
-  select(year = Year, value = Annual) %>% 
-  filter(year < 2025)
-
-cpi <- cpi %>% 
-  mutate(
-    fips = '99999',
-    variable_name = 'cpi'
-  )
-get_str(cpi)
+cpi <- imap(cpi, ~ {
+  .x %>% 
+    select(year = Year, value = Annual) %>% 
+    filter(year < 2025) %>% 
+    mutate(
+      fips = '99999',
+      variable_name = .y
+    )
+}) %>% 
+  bind_rows()
+get_str(cpi, 3)
+meta_vars(cpi)
 
 results$cpi <- cpi
 
@@ -305,10 +326,19 @@ metas$cpi <- data.frame(
   dimension = 'economics',
   index = 'community economy',
   indicator = 'marketplace',
-  metric = 'consumer price index',
+  metric = c(
+    'consumer price index - all items', 
+    'consumer price index - food at home'
+  ),
   variable_name = meta_vars(cpi),
-  axis_name = 'CPI',
-  definition = 'Average annual change in prices paid by urban consumers in the Northeast for food at home, which excludes restaurants, alcohol, and other beverages. Not seasonally adjusted at this scale',
+  axis_name = c(
+    'CPI - All Items',
+    'CPI - Food at Home'
+  ),
+  definition = c(
+    'Average annual change in prices paid by urban consumers in the Northeast for all items',
+    'Average annual change in prices paid by urban consumers in the Northeast for food at home, which excludes restaurants, alcohol, and other beverages'
+  ),
   resolution = 'Northeast',
   scope = 'national',
   updates = 'monthly',
@@ -317,7 +347,7 @@ metas$cpi <- data.frame(
   source = 'Bureau of Labor Statistics, Office of Prices and Living Conditions',
   url = 'https://www.bls.gov/cpi/data.htm'
 ) %>% 
-  meta_citation(date = '2025-09-02')
+  meta_citation(date = '2025-10-08')
 get_str(metas$cpi)
 
 
