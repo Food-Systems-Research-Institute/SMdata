@@ -147,13 +147,13 @@ count <- sum(tree$metric == 'NONE')
 tree$metric[tree$metric == 'NONE'] <- paste0('NONE_', 1:count)
 sm_data$refined_tree <- tree
 
-# Add fixed refined tree with all the indicators
+# Add fixed refined tree with all the indicators from workshops
 fixed_tree <- read.csv('2_clean/trees/fixed_tree.csv')
 count <- sum(fixed_tree$metric == 'NONE')
 fixed_tree$metric[fixed_tree$metric == 'NONE'] <- paste0('NONE_', 1:count)
 sm_data$fixed_tree <- fixed_tree
 
-# Also add new tree (reducing metrics for RFPP and Frontiers)
+# Also add new tree (reducing metrics for RFPP and data inventory paper)
 new_tree <- read.csv('2_clean/trees/new_tree.csv')
 count <- sum(new_tree$metric == 'NONE')
 new_tree$metric[new_tree$metric == 'NONE'] <- paste0('NONE_', 1:count)

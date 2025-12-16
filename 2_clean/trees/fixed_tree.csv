@@ -81,7 +81,7 @@
 80,health,food security,food affordability,WIC eligibility rate,wicPercEligible
 81,health,food security,food affordability,"WIC-authorized stores/1,000 pop",nWicsGrocPTH
 82,health,food security,food agency,NONE,NONE
-83,health,happiness,happiness tbd,NONE,NONE
+83,health,happiness,happiness index,NONE,NONE
 84,health,intention to consume pbp,intention to consume pbp tbd,NONE,NONE
 85,health,mental health,mental health tbd,Frequent mental distress,frequentMentalDistress
 86,health,mental health,mental health tbd,Poor mental health days,poorMentalHealthDays
@@ -112,6 +112,7 @@
 111,health,physical health,physical health tbd,Motor vehicle crash deaths,motorVehicleCrashDeaths
 112,health,physical health,physical health tbd,Premature age-adjusted mortality,prematureAgeAdjustedMortality
 113,health,physical health,physical health tbd,Teen births,teenBirths
+,health,physical health,presence of obesity,NONE,NONE
 114,health,stability agency,farmer agency to improve,NONE,NONE
 115,production,imports vs exports,total quantity exported,Value of total agricultural exports,exportsTotalAgricultural
 116,production,imports vs exports,total quantity imported,value of top five imports,importsTopFive

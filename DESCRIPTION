@@ -1,6 +1,6 @@
 Package: SMdata
-Title: Access Sustainability Metrics data, metadata, and function
-Version: 0.0.0.9008
+Title: Access Sustainability Metrics data, metadata, and functions
+Version: 0.0.0.9009
 Authors@R: 
     person("Christopher", "Donovan", , "christopher.donovan@uvm.edu", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
