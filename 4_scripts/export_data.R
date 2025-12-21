@@ -52,7 +52,12 @@ metrics_agg <- map(metrics, ~ {
 }) %>% 
   bind_rows() %>% 
   select(fips, year, variable_name, value)
-# get_str(metrics_agg)
+get_str(metrics_agg)
+
+metrics_agg %>% 
+  filter(variable_name == 'receiptsAllForestProducts') %>% 
+  pull(year) %>% 
+  range()
 
 
 

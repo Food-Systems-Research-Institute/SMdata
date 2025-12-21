@@ -183,7 +183,7 @@ get_str(nass_params)
 
 
 
-# Old Census Calls --------------------------------------------------------
+## Old Census Calls --------------------------------------------------------
 
 
 # These stopped working because some short_desc were not acceptable in some
@@ -375,7 +375,7 @@ params <- list(
   state_fips_code = states_only[1:9],
   freq_desc = 'ANNUAL'
 )
-years <- seq(2002, 2022, 1)
+years <- seq(2002, 2024, 1)
 survey_out <- map(years, \(yr) {
   cat(
     '\nDownloading year ', yr, ' (', which(years == yr), ' of ', length(years), ')\n\n',
@@ -390,7 +390,7 @@ survey_out <- map(years, \(yr) {
 get_str(survey_out)
 
 # Save this to API outs
-saveRDS(survey_out, '5_objects/api_outs/neast_nass_survey_2002_2022.rds')
+saveRDS(survey_out, '5_objects/api_outs/neast_nass_survey_2002_2024.rds')
 
 
 

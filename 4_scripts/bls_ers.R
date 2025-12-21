@@ -359,7 +359,7 @@ get_str(metas$cpi)
 # https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/
 
 bls_bulk <- read_xlsx(
-  '1_raw/bls/Unemployment.xlsx',
+  path = '1_raw/bls/Unemployment.xlsx',
   sheet = 1,
   skip = 4
 )
@@ -576,7 +576,7 @@ results$imports <- imports
 ## Exports -----------------------------------------------------------------
 
 
-exports_raw <- read_csv('1_raw/usda/ers_state_trade/state_exports.csv') %>% 
+exports_raw <- read_csv('1_raw/usda/ers_state_trade/state-trade-estimates.csv') %>% 
   setNames(c(snakecase::to_snake_case(names(.))))
 get_str(exports_raw)
 get_str(state_key)
@@ -687,7 +687,7 @@ metas$import_export <- data.frame(
   citation = paste0(
     'USDA ERS (2023). State Agricultural Trade Data. Accessed from ',
     'https://www.ers.usda.gov/data-products/state-agricultural-trade-data/, ',
-    'December 16th, 2024.'
+    'December 21st, 2025.'
   )
 ) %>% 
   
@@ -717,7 +717,7 @@ metas$import_export
 # 'Download all data in CSV file'
 
 # Load csv file from ERS
-raw <- read_csv('1_raw/usda/ers_wealth_and_income/FarmIncome_WealthStatisticsData_February2025.csv') %>% 
+raw <- read_csv('1_raw/usda/ers_wealth_and_income/FarmIncome_WealthStatisticsData_September2025.csv') %>%
   janitor::clean_names()
 get_str(raw)
 
@@ -744,20 +744,20 @@ get_table(raw$year)
 # Goes back to 1910, but scant data
 # Looks like 2024 and 2025 are still incomplete
 
-# Check 2024
+# Check 2025
 raw %>% 
-  filter(year == 2024) %>% 
+  filter(year == 2025) %>% 
   pull(state) %>% 
   unique
-# 2024 and 2025 are ONLY for US. No good. So just take up to 2023
+# 2025 is ONLY for US. No good. So just take up to 2024
 
-# Pull relevant vars for years going back to 2000, and up to 2023
+# Pull relevant vars for years going back to 2000, and up to 2024
 # Then ditch irrelevant columns
 get_str(raw)
 ers_dat <- raw %>% 
   filter(
     year > 2000, 
-    year <= 2023, 
+    year <= 2024, 
     variable_description_total %in% relevant_vars
   ) %>% 
   select(
@@ -843,6 +843,11 @@ ers_dat$variable_name %>% unique
 # Save to results list
 results$ers_income_wealth <- ers_dat
 
+# results$ers_income_wealth %>% 
+#   filter(variable_name == 'receiptsAllForestProducts') %>% 
+#   pull(year) %>% 
+#   range()
+
 
 
 ## Metadata ----------------------------------------------------------------
@@ -884,7 +889,7 @@ metas$ers_income_wealth <- ers_crosswalk %>%
     source = 'U.S. Department of Agriculture, Economic Research Service. (2025, February 6). Farm Income and Wealth Statistics.',
     url = 'https://www.ers.usda.gov/data-products/farm-income-and-wealth-statistics/data-files-us-and-state-level-farm-income-and-wealth-statistics'
 ) %>%  
-  meta_citation(date = '2025-02-12')
+  meta_citation(date = '2025-12-21')
 
 metas$ers_income_wealth
 
@@ -897,7 +902,7 @@ metas$ers_income_wealth
 out <- aggregate_metrics(results, metas)
 
 # Check record counts
-check_n_records(out$result, out$meta, 'other')
+# check_n_records(out$result, out$meta, 'BLS ERS')
 
 saveRDS(out$result, '5_objects/metrics/bls_ers.RDS')
 saveRDS(out$meta, '5_objects/metadata/bls_ers_meta.RDS')

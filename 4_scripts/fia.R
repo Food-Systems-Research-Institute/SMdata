@@ -1,12 +1,13 @@
 # FIA
-# 2025-08-04
+# 2025-12-21
 
 
 # Description -------------------------------------------------------------
 
 
-# Data from Forest Inventory Analysis. Querying from SQLite database. Would be
-# worth figuring out how to avoid downloading whole thing though
+# Downloaded a SQLite database for each Northeast state from FIA
+# https://research.fs.usda.gov/products/dataandtools/fia-datamart
+# Otherwise the whole database is 65+ GB
 
 
 
@@ -21,7 +22,8 @@ pacman::p_load(
   readxl,
   tibble,
   tidyr,
-  openxlsx2
+  openxlsx2,
+  arrow
 )
 
 conflicts_prefer(openxlsx2::read_xlsx)
@@ -34,64 +36,52 @@ results <- list()
 
 
 
-# Chunking ----------------------------------------------------------------
+# Loop through each state -------------------------------------------------
 
-
-pacman::p_load(
-  arrow,
-  dplyr,
-  readr
+paths <- list.files(
+  "1_raw/usfs/FIADB_northeast_states/",
+  pattern = "*.db",
+  full.names = TRUE,
 )
+names <- paths %>% 
+  str_split_i('_', 6) %>% 
+  str_sub(end = 2)
 
-# Filter function
-chunk_filter <- function(df, pos) {
-  df %>%
-    select(INVYR, STATECD, COUNTYCD, SPCD, DIA) %>%
-    filter(INVYR >= 2022)
-}
+walk2(paths, names, ~ {
+  save_path <- paste0('1_raw/usfs/FIADB_northeast_states/partials/', .y, '.parquet')
+  con <- dbConnect(RSQLite::SQLite(), .x)
+  df <- tbl(con, 'tree')
+  df %>% 
+    select(
+      year = INVYR,
+      state_fips = STATECD,
+      county_fips = COUNTYCD,
+      species = SPCD,
+      dia = DIA
+    ) %>% 
+    filter(year >= 2000) %>% 
+    collect() %>% 
+    write_parquet(save_path)
+  dbDisconnect(con)
+})
 
-output_file <- 'temp/chunked_output.csv'
-if (file.exists(output_file)) file.remove(output_file)
 
-read_csv_chunked(
- file = "1_raw/usfs/CSV_FIADB_ENTIRE/ENTIRE_TREE.csv",
- callback = SideEffectChunkCallback$new(function(df, pos) {
-   filtered <- chunk_filter(df, pos)
-   write_csv(filtered, output_file, append = file.exists(output_file))
- }),
- chunk_size = 100000
+# Put them all together
+paths <- list.files(
+  '1_raw/usfs/FIADB_northeast_states/partials/',
+  pattern = '*.parquet',
+  full.names = TRUE
 )
-
-# Read it back
-test <- read_csv('temp/chunked_output.csv')
-get_size(test)
-get_str(test)
-# Noice
+dat <- map(paths, ~ {
+  read_parquet(.x)
+}) %>% 
+  bind_rows()
+get_str(dat)
 
 
 
 # Wrangle -----------------------------------------------------------------
 
-
-# Connect to SQLite database
-con <- dbConnect(
-  RSQLite::SQLite(),
-  "1_raw/usfs/SQLite_FIADB_ENTIRE/SQLite_FIADB_ENTIRE.db"
-)
-tree <- tbl(con, 'tree')
-
-# Filter data
-tree <- tree %>%
-  select(
-    year = INVYR,
-    state_fips = STATECD,
-    county_fips = COUNTYCD,
-    species = SPCD,
-    dia = DIA
-  ) %>% 
-  filter(year >= 2000)
-dat <- collect(tree)
-get_str(dat)
 
 # Fix fips
 dat <- dat %>% 
@@ -100,7 +90,6 @@ dat <- dat %>%
     county_fips = sprintf("%03d", county_fips),
     fips = paste0(state_fips, county_fips)
   )
-  # select(year, fips, species, dia)
 get_str(dat)
 
 # Check coverage of fips
@@ -115,18 +104,8 @@ dat %>%
 
 # Check coverage of fips in 2024
 dat %>% 
-  filter(year == 2023) %>% 
+  filter(year == 2024) %>% 
   group_by(fips) %>% 
-  summarize(count = n())
-
-# Seems like 2021 is last full year, then it dips after that
-# 2022 and 2023 are okay, but 2024 is super slim. Shouldn't even use this
-
-# Remove 2024 from dataset
-dat <- filter(dat, year != 2024)
-get_str(dat)
-dat %>% 
-  group_by(year) %>% 
   summarize(count = n())
 
 
@@ -272,7 +251,7 @@ metas <- data.frame(
   source = 'U.S. Department of Agriculture, Forest Service (2025). Forest Inventory Analysis.',
   url = 'https://research.fs.usda.gov/products/dataandtools/fia-datamart'
 ) %>% 
-  meta_citation(date = '2025-08-04')
+  meta_citation(date = '2025-12-21')
 get_str(metas)
 
 
@@ -286,6 +265,4 @@ check_n_records(results, metas, 'Forest Inventory Analysis')
 saveRDS(results, '5_objects/metrics/fia.RDS')
 saveRDS(metas, '5_objects/metadata/fia_meta.RDS')
 
-dbDisconnect(con)
 clear_data(gc = TRUE)
-

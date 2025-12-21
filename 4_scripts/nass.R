@@ -23,9 +23,9 @@ pacman::p_load(
 # api parameters to start metadata
 # Note that we can consolidate some of these
 census <- readRDS('5_objects/api_outs/neast_nass_census_2002_2022.rds')
-census <- readRDS('5_objects/api_outs/neast_nass_census_2002_2022_test.rds') %>% 
-  unique()
-survey <- readRDS('5_objects/api_outs/neast_nass_survey_2002_2022.rds')
+# census <- readRDS('5_objects/api_outs/neast_nass_census_2002_2022_test.rds') %>% 
+#   unique()
+survey <- readRDS('5_objects/api_outs/neast_nass_survey_2002_2024.rds')
 farm <- readRDS('5_objects/api_outs/neast_nass_farm_2002_2022.rds')
 og <- readRDS('5_objects/api_outs/neast_nass_og_2002_2022.rds')
 
@@ -241,7 +241,30 @@ dat <- calculate_var(
   'totalSalesValueAddedWholesale',
   'retailSalesPropWholesale'
 )
-# Note that this should be a target I guess, 50/50?
+
+# Get total salesValueAdded (direct + wholesale)
+# This is not coming through from the API calls
+dat <- dat %>%
+  filter(variable_name %in% c('totalSalesValueAddedDirect', 'totalSalesValueAddedWholesale')) %>%
+  pivot_wider(
+    id_cols = c(fips, year),
+    values_from = value,
+    names_from = variable_name
+  ) %>%
+  mutate(
+    salesValueAdded = totalSalesValueAddedDirect + totalSalesValueAddedWholesale,
+    .keep = 'unused'
+  ) %>%
+  pivot_longer(
+    cols = !c(fips, year),
+    values_to = 'value',
+    names_to = 'variable_name'
+  ) %>%
+  bind_rows(dat)
+
+dat$variable_name %>%
+  unique() %>%
+  str_subset('salesValueAdded')
 
 # Proportion of value added sales to total commodity sales
 dat <- calculate_var(
