@@ -405,3 +405,20 @@ INFO [2026-01-15 22:28:59] Logger initialized: logs/pipeline.log
 INFO [2026-01-15 22:29:43] Logger initialized: logs/pipeline.log
 INFO [2026-01-15 22:30:04] Logger initialized: logs/pipeline.log
 INFO [2026-01-15 22:30:21] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:37:50] Logger initialized: logs/pipeline.log
+INFO [2026-01-16 09:22:26] Logger initialized: logs/pipeline.log
+INFO [2026-01-16 09:23:18] Logger initialized: logs/pipeline.log
+INFO [2026-01-16 09:23:18] [process_census] Starting Census processing
+INFO [2026-01-16 09:23:18] [wrangle_census] Wrangling raw data
+INFO [2026-01-16 09:23:24] [census_wrangled] Validation: 8/35 checks passed
+INFO [2026-01-16 09:23:24] [census_wrangled] Report saved: logs/validation/census_wrangled_20260116_092324.html
+WARN [2026-01-16 09:23:24] [census_wrangled] Validation failed for checks: 
+INFO [2026-01-16 09:23:24] [wrangle_census] Complete
+INFO [2026-01-16 09:23:24] Rows: 19716 | Vars: 30
+INFO [2026-01-16 09:23:25] [census_final] Validation: 8/35 checks passed
+INFO [2026-01-16 09:23:26] [census_final] Report saved: logs/validation/census_final_20260116_092325.html
+WARN [2026-01-16 09:23:26] [census_final] Validation failed for checks: 
+INFO [2026-01-16 09:23:26] [process_census] Processing complete
+INFO [2026-01-16 09:23:26] Rows: 19716 | Vars: 30
+INFO [2026-01-16 09:23:36] Logger initialized: logs/pipeline.log
+INFO [2026-01-16 09:23:50] Logger initialized: logs/pipeline.log
