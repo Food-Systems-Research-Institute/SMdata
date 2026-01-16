@@ -5077,6 +5077,24 @@
       "Repository": "https://packagemanager.posit.co/cran/latest",
       "Encoding": "UTF-8"
     },
+    "prettyR": {
+      "Package": "prettyR",
+      "Version": "2.2-3",
+      "Source": "Repository",
+      "Title": "Pretty Descriptive Stats",
+      "Date": "2019-04-08",
+      "Author": "Jim Lemon <drjimlemon@gmail.com>, Philippe Grosjean <phgrosjean@sciviews.org>",
+      "Maintainer": "Jim Lemon <drjimlemon@gmail.com>",
+      "Description": "Functions for conventionally formatting descriptive stats, reshaping data frames and formatting R output as HTML.",
+      "Imports": [
+        "grDevices",
+        "stats",
+        "utils"
+      ],
+      "License": "GPL (>= 2)",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",

@@ -21,6 +21,9 @@
 1_raw/usfs
 1_raw/icpsr
 
+dev/1_raw/
+dev/2_clean/
+
 # More large files
 5_objects/spatial/
 2_clean/spatial/

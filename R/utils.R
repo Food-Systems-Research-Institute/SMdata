@@ -141,6 +141,15 @@ create_final_validator <- function(data, min_rows = 100) {
     )
 }
 
+
+# Create Census-specific validation agent for API output
+create_census_api_validator <- function(data) {
+  pointblank::create_agent(data) %>%
+    pointblank::rows_distinct() %>%
+    pointblank::col_exists(columns = c("year", "state")) %>%
+    pointblank::col_vals_not_null(columns = "year")
+}
+
 check_data <- function(data, checks = list(), step = "check") {
   agent <- pointblank::create_agent(data)
 

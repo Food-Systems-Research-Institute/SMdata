@@ -91,3 +91,317 @@ WARN [2026-01-15 20:55:18] [process_nass_final] Validation failed for checks: 8
 INFO [2026-01-15 20:55:18] [process_nass] Processing complete
 INFO [2026-01-15 20:55:18] Rows: 20251 | Vars: 261
 INFO [2026-01-15 21:05:31] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:21:38] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:26:34] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:26:51] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:27:07] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:27:07] [call_api_census_acs5] Starting ACS5 API calls
+INFO [2026-01-15 21:37:54] [call_api_census_acs5] Complete
+INFO [2026-01-15 21:37:54] Rows: 679 | Vars: 32
+INFO [2026-01-15 21:38:15] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:38:33] testing
+INFO [2026-01-15 21:42:35] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:45:27] test
+INFO [2026-01-15 21:47:17] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:47:30] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:47:30] [call_api_census_voting] Starting voting API calls
+INFO [2026-01-15 21:47:31] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:31] State: 09 | Year: 2000
+INFO [2026-01-15 21:47:31] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:31] State: 23 | Year: 2000
+INFO [2026-01-15 21:47:32] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:32] State: 25 | Year: 2000
+INFO [2026-01-15 21:47:33] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:33] State: 33 | Year: 2000
+INFO [2026-01-15 21:47:34] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:47:34] State: 34 | Year: 2000
+INFO [2026-01-15 21:47:35] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:35] State: 09 | Year: 2002
+INFO [2026-01-15 21:47:35] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:35] State: 23 | Year: 2002
+INFO [2026-01-15 21:47:36] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:36] State: 25 | Year: 2002
+INFO [2026-01-15 21:47:37] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:37] State: 33 | Year: 2002
+INFO [2026-01-15 21:47:37] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:47:37] State: 34 | Year: 2002
+INFO [2026-01-15 21:47:38] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:38] State: 09 | Year: 2004
+INFO [2026-01-15 21:47:39] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:39] State: 23 | Year: 2004
+INFO [2026-01-15 21:47:39] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:39] State: 25 | Year: 2004
+INFO [2026-01-15 21:47:40] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:40] State: 33 | Year: 2004
+INFO [2026-01-15 21:47:41] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:47:41] State: 34 | Year: 2004
+INFO [2026-01-15 21:47:41] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:41] State: 09 | Year: 2006
+INFO [2026-01-15 21:47:42] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:42] State: 23 | Year: 2006
+INFO [2026-01-15 21:47:43] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:43] State: 25 | Year: 2006
+INFO [2026-01-15 21:47:43] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:43] State: 33 | Year: 2006
+INFO [2026-01-15 21:47:44] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:47:44] State: 34 | Year: 2006
+INFO [2026-01-15 21:47:45] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:45] State: 09 | Year: 2008
+INFO [2026-01-15 21:47:45] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:45] State: 23 | Year: 2008
+INFO [2026-01-15 21:47:46] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:46] State: 25 | Year: 2008
+INFO [2026-01-15 21:47:47] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:47] State: 33 | Year: 2008
+INFO [2026-01-15 21:47:47] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:47:47] State: 34 | Year: 2008
+INFO [2026-01-15 21:47:48] [call_api_census_voting] Complete
+INFO [2026-01-15 21:47:48] Rows: 25 | Vars: 3
+INFO [2026-01-15 21:47:48] [call_api_census_acs1] Starting ACS1 API calls
+INFO [2026-01-15 21:47:48] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:47:48] State: 09 | Year: 2000
+INFO [2026-01-15 21:47:49] State: 09 | Year: 2001
+INFO [2026-01-15 21:47:49] State: 09 | Year: 2002
+INFO [2026-01-15 21:47:50] State: 09 | Year: 2003
+INFO [2026-01-15 21:47:50] State: 09 | Year: 2004
+INFO [2026-01-15 21:47:51] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:47:51] State: 23 | Year: 2000
+INFO [2026-01-15 21:47:52] State: 23 | Year: 2001
+INFO [2026-01-15 21:47:52] State: 23 | Year: 2002
+INFO [2026-01-15 21:47:53] State: 23 | Year: 2003
+INFO [2026-01-15 21:47:54] State: 23 | Year: 2004
+INFO [2026-01-15 21:47:54] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:47:54] State: 25 | Year: 2000
+INFO [2026-01-15 21:47:55] State: 25 | Year: 2001
+INFO [2026-01-15 21:47:55] State: 25 | Year: 2002
+INFO [2026-01-15 21:47:56] State: 25 | Year: 2003
+INFO [2026-01-15 21:47:57] State: 25 | Year: 2004
+INFO [2026-01-15 21:47:57] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:47:57] State: 33 | Year: 2000
+INFO [2026-01-15 21:47:58] State: 33 | Year: 2001
+INFO [2026-01-15 21:47:58] State: 33 | Year: 2002
+INFO [2026-01-15 21:47:59] State: 33 | Year: 2003
+INFO [2026-01-15 21:48:00] State: 33 | Year: 2004
+INFO [2026-01-15 21:48:00] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:48:00] State: 34 | Year: 2000
+INFO [2026-01-15 21:48:01] State: 34 | Year: 2001
+INFO [2026-01-15 21:48:01] State: 34 | Year: 2002
+INFO [2026-01-15 21:48:02] State: 34 | Year: 2003
+INFO [2026-01-15 21:48:03] State: 34 | Year: 2004
+INFO [2026-01-15 21:48:03] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:48:03] State: 09 | Year: 2000
+INFO [2026-01-15 21:48:04] State: 09 | Year: 2001
+INFO [2026-01-15 21:48:04] State: 09 | Year: 2002
+INFO [2026-01-15 21:48:05] State: 09 | Year: 2003
+INFO [2026-01-15 21:48:06] State: 09 | Year: 2004
+INFO [2026-01-15 21:48:06] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:48:06] State: 23 | Year: 2000
+INFO [2026-01-15 21:48:07] State: 23 | Year: 2001
+INFO [2026-01-15 21:48:07] State: 23 | Year: 2002
+INFO [2026-01-15 21:48:08] State: 23 | Year: 2003
+INFO [2026-01-15 21:48:09] State: 23 | Year: 2004
+INFO [2026-01-15 21:48:09] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:48:09] State: 25 | Year: 2000
+INFO [2026-01-15 21:48:10] State: 25 | Year: 2001
+INFO [2026-01-15 21:48:10] State: 25 | Year: 2002
+INFO [2026-01-15 21:48:11] State: 25 | Year: 2003
+INFO [2026-01-15 21:48:12] State: 25 | Year: 2004
+INFO [2026-01-15 21:48:12] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:48:12] State: 33 | Year: 2000
+INFO [2026-01-15 21:48:13] State: 33 | Year: 2001
+INFO [2026-01-15 21:48:13] State: 33 | Year: 2002
+INFO [2026-01-15 21:48:14] State: 33 | Year: 2003
+INFO [2026-01-15 21:48:15] State: 33 | Year: 2004
+INFO [2026-01-15 21:48:15] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:48:15] State: 34 | Year: 2000
+INFO [2026-01-15 21:48:16] State: 34 | Year: 2001
+INFO [2026-01-15 21:48:16] State: 34 | Year: 2002
+INFO [2026-01-15 21:48:17] State: 34 | Year: 2003
+INFO [2026-01-15 21:48:18] State: 34 | Year: 2004
+INFO [2026-01-15 21:51:18] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:51:28] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:51:28] [call_api_census_acs1] Starting ACS1 API calls
+INFO [2026-01-15 21:51:28] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:51:28] State: 09 | Year: 2000
+INFO [2026-01-15 21:51:29] State: 09 | Year: 2001
+INFO [2026-01-15 21:51:30] State: 09 | Year: 2002
+INFO [2026-01-15 21:51:30] State: 09 | Year: 2003
+INFO [2026-01-15 21:51:31] State: 09 | Year: 2004
+INFO [2026-01-15 21:51:32] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:51:32] State: 23 | Year: 2000
+INFO [2026-01-15 21:51:32] State: 23 | Year: 2001
+INFO [2026-01-15 21:51:33] State: 23 | Year: 2002
+INFO [2026-01-15 21:51:34] State: 23 | Year: 2003
+INFO [2026-01-15 21:51:34] State: 23 | Year: 2004
+INFO [2026-01-15 21:51:35] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:51:35] State: 25 | Year: 2000
+INFO [2026-01-15 21:51:35] State: 25 | Year: 2001
+INFO [2026-01-15 21:51:36] State: 25 | Year: 2002
+INFO [2026-01-15 21:51:37] State: 25 | Year: 2003
+INFO [2026-01-15 21:51:37] State: 25 | Year: 2004
+INFO [2026-01-15 21:51:38] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:51:38] State: 33 | Year: 2000
+INFO [2026-01-15 21:51:39] State: 33 | Year: 2001
+INFO [2026-01-15 21:51:39] State: 33 | Year: 2002
+INFO [2026-01-15 21:51:40] State: 33 | Year: 2003
+INFO [2026-01-15 21:51:40] State: 33 | Year: 2004
+INFO [2026-01-15 21:51:41] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:51:41] State: 34 | Year: 2000
+INFO [2026-01-15 21:51:42] State: 34 | Year: 2001
+INFO [2026-01-15 21:51:42] State: 34 | Year: 2002
+INFO [2026-01-15 21:51:43] State: 34 | Year: 2003
+INFO [2026-01-15 21:51:43] State: 34 | Year: 2004
+INFO [2026-01-15 21:51:44] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:51:44] State: 09 | Year: 2000
+INFO [2026-01-15 21:51:45] State: 09 | Year: 2001
+INFO [2026-01-15 21:51:45] State: 09 | Year: 2002
+INFO [2026-01-15 21:51:46] State: 09 | Year: 2003
+INFO [2026-01-15 21:51:47] State: 09 | Year: 2004
+INFO [2026-01-15 21:51:47] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:51:47] State: 23 | Year: 2000
+INFO [2026-01-15 21:51:48] State: 23 | Year: 2001
+INFO [2026-01-15 21:51:48] State: 23 | Year: 2002
+INFO [2026-01-15 21:51:49] State: 23 | Year: 2003
+INFO [2026-01-15 21:51:50] State: 23 | Year: 2004
+INFO [2026-01-15 21:51:50] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:51:50] State: 25 | Year: 2000
+INFO [2026-01-15 21:51:51] State: 25 | Year: 2001
+INFO [2026-01-15 21:51:51] State: 25 | Year: 2002
+INFO [2026-01-15 21:51:52] State: 25 | Year: 2003
+INFO [2026-01-15 21:51:53] State: 25 | Year: 2004
+INFO [2026-01-15 21:51:53] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:51:53] State: 33 | Year: 2000
+INFO [2026-01-15 21:51:54] State: 33 | Year: 2001
+INFO [2026-01-15 21:51:54] State: 33 | Year: 2002
+INFO [2026-01-15 21:51:55] State: 33 | Year: 2003
+INFO [2026-01-15 21:51:56] State: 33 | Year: 2004
+INFO [2026-01-15 21:51:56] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:51:56] State: 34 | Year: 2000
+INFO [2026-01-15 21:51:57] State: 34 | Year: 2001
+INFO [2026-01-15 21:51:57] State: 34 | Year: 2002
+INFO [2026-01-15 21:51:58] State: 34 | Year: 2003
+INFO [2026-01-15 21:51:59] State: 34 | Year: 2004
+INFO [2026-01-15 21:53:47] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:54:01] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:54:02] [call_api_census_acs1] Starting ACS1 API calls
+INFO [2026-01-15 21:54:02] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:54:02] State: 09 | Year: 2000
+INFO [2026-01-15 21:54:02] State: 09 | Year: 2001
+INFO [2026-01-15 21:54:03] State: 09 | Year: 2002
+INFO [2026-01-15 21:54:04] State: 09 | Year: 2003
+INFO [2026-01-15 21:54:04] State: 09 | Year: 2004
+INFO [2026-01-15 21:54:05] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:54:05] State: 23 | Year: 2000
+INFO [2026-01-15 21:54:05] State: 23 | Year: 2001
+INFO [2026-01-15 21:54:06] State: 23 | Year: 2002
+INFO [2026-01-15 21:54:07] State: 23 | Year: 2003
+INFO [2026-01-15 21:54:07] State: 23 | Year: 2004
+INFO [2026-01-15 21:54:08] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:54:08] State: 25 | Year: 2000
+INFO [2026-01-15 21:54:09] State: 25 | Year: 2001
+INFO [2026-01-15 21:54:09] State: 25 | Year: 2002
+INFO [2026-01-15 21:54:10] State: 25 | Year: 2003
+INFO [2026-01-15 21:54:10] State: 25 | Year: 2004
+INFO [2026-01-15 21:54:11] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:54:11] State: 33 | Year: 2000
+INFO [2026-01-15 21:54:12] State: 33 | Year: 2001
+INFO [2026-01-15 21:54:12] State: 33 | Year: 2002
+INFO [2026-01-15 21:54:13] State: 33 | Year: 2003
+INFO [2026-01-15 21:54:14] State: 33 | Year: 2004
+INFO [2026-01-15 21:54:14] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:54:14] State: 34 | Year: 2000
+INFO [2026-01-15 21:54:15] State: 34 | Year: 2001
+INFO [2026-01-15 21:54:15] State: 34 | Year: 2002
+INFO [2026-01-15 21:54:16] State: 34 | Year: 2003
+INFO [2026-01-15 21:54:17] State: 34 | Year: 2004
+INFO [2026-01-15 21:54:17] Starting state: 09 (1 of 5)
+INFO [2026-01-15 21:54:17] State: 09 | Year: 2000
+INFO [2026-01-15 21:54:18] State: 09 | Year: 2001
+INFO [2026-01-15 21:54:19] State: 09 | Year: 2002
+INFO [2026-01-15 21:54:19] State: 09 | Year: 2003
+INFO [2026-01-15 21:54:20] State: 09 | Year: 2004
+INFO [2026-01-15 21:54:20] Starting state: 23 (2 of 5)
+INFO [2026-01-15 21:54:20] State: 23 | Year: 2000
+INFO [2026-01-15 21:54:21] State: 23 | Year: 2001
+INFO [2026-01-15 21:54:22] State: 23 | Year: 2002
+INFO [2026-01-15 21:54:22] State: 23 | Year: 2003
+INFO [2026-01-15 21:54:23] State: 23 | Year: 2004
+INFO [2026-01-15 21:54:23] Starting state: 25 (3 of 5)
+INFO [2026-01-15 21:54:23] State: 25 | Year: 2000
+INFO [2026-01-15 21:54:24] State: 25 | Year: 2001
+INFO [2026-01-15 21:54:25] State: 25 | Year: 2002
+INFO [2026-01-15 21:54:25] State: 25 | Year: 2003
+INFO [2026-01-15 21:54:26] State: 25 | Year: 2004
+INFO [2026-01-15 21:54:26] Starting state: 33 (4 of 5)
+INFO [2026-01-15 21:54:26] State: 33 | Year: 2000
+INFO [2026-01-15 21:54:27] State: 33 | Year: 2001
+INFO [2026-01-15 21:54:28] State: 33 | Year: 2002
+INFO [2026-01-15 21:54:28] State: 33 | Year: 2003
+INFO [2026-01-15 21:54:29] State: 33 | Year: 2004
+INFO [2026-01-15 21:54:29] Starting state: 34 (5 of 5)
+INFO [2026-01-15 21:54:29] State: 34 | Year: 2000
+INFO [2026-01-15 21:54:30] State: 34 | Year: 2001
+INFO [2026-01-15 21:54:31] State: 34 | Year: 2002
+INFO [2026-01-15 21:54:31] State: 34 | Year: 2003
+INFO [2026-01-15 21:54:32] State: 34 | Year: 2004
+INFO [2026-01-15 21:54:32] [call_api_census_acs1] Complete
+INFO [2026-01-15 21:54:32] Rows: 0 | Vars: 0
+INFO [2026-01-15 21:54:33] [process_census] Starting Census processing
+INFO [2026-01-15 21:54:33] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:55:05] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:56:00] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:56:00] [process_census] Starting Census processing
+INFO [2026-01-15 21:56:00] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:56:39] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:56:39] [process_census] Starting Census processing
+INFO [2026-01-15 21:56:39] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:56:55] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:56:55] [process_census] Starting Census processing
+INFO [2026-01-15 21:56:55] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:57:59] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:58:00] [process_census] Starting Census processing
+INFO [2026-01-15 21:58:00] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:58:24] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:58:25] [process_census] Starting Census processing
+INFO [2026-01-15 21:58:25] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:58:39] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:58:40] [process_census] Starting Census processing
+INFO [2026-01-15 21:58:40] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:59:03] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:59:03] [process_census] Starting Census processing
+INFO [2026-01-15 21:59:03] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 21:59:26] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 21:59:26] [process_census] Starting Census processing
+INFO [2026-01-15 21:59:26] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 22:00:08] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:00:08] [process_census] Starting Census processing
+INFO [2026-01-15 22:00:08] [wrangle_census] Wrangling raw data
+INFO [2026-01-15 22:00:11] [census_wrangled] Validation: 8/35 checks passed
+INFO [2026-01-15 22:00:12] [census_wrangled] Report saved: logs/validation/census_wrangled_20260115_220011.html
+WARN [2026-01-15 22:00:12] [census_wrangled] Validation failed for checks: 
+INFO [2026-01-15 22:00:12] [wrangle_census] Complete
+INFO [2026-01-15 22:00:12] Rows: 19716 | Vars: 30
+INFO [2026-01-15 22:00:13] [census_final] Validation: 8/35 checks passed
+INFO [2026-01-15 22:00:14] [census_final] Report saved: logs/validation/census_final_20260115_220013.html
+WARN [2026-01-15 22:00:14] [census_final] Validation failed for checks: 
+INFO [2026-01-15 22:00:14] [process_census] Processing complete
+INFO [2026-01-15 22:00:14] Rows: 19716 | Vars: 30
+INFO [2026-01-15 22:02:12] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:02:31] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:06:38] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:10:04] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:10:49] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:11:27] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:20:42] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:21:38] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:23:50] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:25:50] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:26:18] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:26:36] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:26:53] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:27:59] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:28:41] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:28:59] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:29:43] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:30:04] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 22:30:21] Logger initialized: logs/pipeline.log

@@ -14,13 +14,15 @@ tar_option_set(
 set_test_mode(TRUE)
 setup_logger()
 # devtools::load_all() in _targets.R - preserves environment (no callr)
-# tar_debug() wrapper around tar_make()
+# Call load_all() again manually - tar_debug() does not run _targets.R
+# tar_debug() wrapper around tar_make().
 # tar_visnetwork()
 # tar_invalidate()
 
 # Proper Workflow
 # Manually call devtools::install()
 # Add SMdata to tar_option_set packages below
+# Then call tar_make() - automatically runs _targets.R
 
 
 # Debug -------------------------------------------------------------------
@@ -46,10 +48,11 @@ list(
     )
   ),
 
-  ## NASS API ----------------------------------------------------------------
+  ## NASS --------------------------------------------------------------------
+  ### API ---------------------------------------------------------------------
   tar_target(
     nass_params_path,
-    '5_objects/api_parameters/nass_api_parameters.csv',
+    'inputs/nass_api_parameters.csv',
     format = 'file'
   ),
   tar_target(
@@ -83,7 +86,7 @@ list(
     packages = c('rnassqs', 'purrr')
   ),
 
-  ## NASS Wrangling ----------------------------------------------------------
+  ### Wrangling ---------------------------------------------------------------
   tar_target(
     nass_combined,
     wrangle_nass_combine(nass_census_out, nass_survey_out, nass_farm_out, nass_organic_out)
@@ -107,5 +110,59 @@ list(
     nass_metadata,
     create_nass_metadata(nass_data, nass_params),
     packages = c('dplyr', 'stringr')
+  ),
+
+
+  ## Census ------------------------------------------------------------------
+  ### API ---------------------------------------------------------------------
+  tar_target(
+    census_meta_path,
+    'inputs/census_meta.csv',
+    format = 'file'
+  ),
+  tar_target(
+    census_acs5_out,
+    call_api_census_acs5(config),
+    packages = c('censusapi', 'purrr', 'dplyr', 'glue', 'stringr')
+  ),
+  tar_target(
+    census_acs1_out,
+    call_api_census_acs1(config),
+    packages = c('censusapi', 'purrr', 'dplyr', 'glue', 'stringr')
+  ),
+  tar_target(
+    census_voting_out,
+    call_api_census_voting(config),
+    packages = c('censusapi', 'purrr', 'dplyr', 'glue', 'stringr')
+  ),
+
+  ### Wrangling ---------------------------------------------------------------
+  tar_target(
+    census_combined,
+    wrangle_census_combine(census_acs5_out, census_acs1_out, census_voting_out)
+  ),
+  tar_target(
+    census_data,
+    process_census(census_combined),
+    packages = c('dplyr', 'tidyr', 'stringr', 'zoo')
+  ),
+  tar_target(
+    census_metadata,
+    create_census_metadata(census_data, census_meta_path),
+    packages = c('dplyr', 'stringr', 'readr')
+  ),
+  
+  ## Combine -----------------------------------------------------------------
+  tar_target(
+    metrics_parquet,
+    create_metrics_parquet(census_data, nass_data),
+    packages = c('dplyr', 'arrow'),
+    format = 'file'
+  ),
+  tar_target(
+    metadata_parquet,
+    create_metadata_parquet(census_data, nass_data),
+    packages = c('dplyr', 'arrow'),
+    format = 'file'
   )
 )

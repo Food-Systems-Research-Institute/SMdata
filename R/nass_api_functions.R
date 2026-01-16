@@ -40,14 +40,14 @@ call_api_nass_census <- function(nass_params, nass_api_fips, config) {
   vars <- limit_calls(census_params$short_desc, config$api_limit)
   
   out <- imap(vars, ~ {
-    cat('\n\nStarting:', .x, '\n', .y, 'of', length(vars), '\n')
+    logger::log_info("NASS Census: {.x} ({.y} of {length(vars)})")
     params[['short_desc']] <- .x
     Sys.sleep(config$api_sleep)
     tryCatch({
       nassqs(params)
     },
       error = function(e) {
-        message('Error. Returning NULL')
+        logger::log_warn("NASS Census error: {e$message}")
         return(NULL)
       }
     )
@@ -76,14 +76,14 @@ call_api_nass_farm <- function(nass_params, nass_api_fips, config) {
   years <- limit_calls(seq(config$year_start, config$year_end %||% 2022, 5), config$api_limit)
 
   out <- purrr::map(years, \(yr) {
-    cat('\nDownloading year ', yr, ' (', which(years == yr), ' of ', length(years), ')\n\n', sep = '')
+    logger::log_info("NASS Farm: Year {yr} ({which(years == yr)} of {length(years)})")
     param_set <- params
     param_set[['year']] <- yr
     Sys.sleep(config$api_sleep)
     tryCatch({
       nassqs(param_set)
     }, error = function(e) {
-      message('Error')
+      logger::log_warn("NASS Farm error: {e$message}")
       return(NULL)
     })
   }) %>%
@@ -109,14 +109,14 @@ call_api_nass_organic <- function(nass_params, nass_api_fips, config) {
   years <- limit_calls(seq(config$year_start, config$year_end %||% 2022, 5), config$api_limit)
 
   out <- purrr::map(years, \(yr) {
-    cat('\nDownloading year ', yr, ' (', which(years == yr), ' of ', length(years), ')\n\n', sep = '')
+    logger::log_info("NASS Organic: Year {yr} ({which(years == yr)} of {length(years)})")
     param_set <- params
     param_set[['year']] <- yr
     Sys.sleep(config$api_sleep)
     tryCatch({
       nassqs(param_set)
     }, error = function(e) {
-      message('Error')
+      logger::log_warn("NASS Organic error: {e$message}")
       return(NULL)
     })
   }) %>%
@@ -139,14 +139,14 @@ call_api_nass_survey <- function(nass_api_fips, config) {
   years <- limit_calls(seq(config$year_start, config$year_end %||% 2024, 1), config$api_limit)
 
   out <- purrr::map(years, \(yr) {
-    cat('\nDownloading year ', yr, ' (', which(years == yr), ' of ', length(years), ')\n\n', sep = '')
+    logger::log_info("NASS Survey: Year {yr} ({which(years == yr)} of {length(years)})")
     param_set <- params
     param_set[['year']] <- yr
     Sys.sleep(config$api_sleep)
     tryCatch({
       nassqs(param_set)
     }, error = function(e) {
-      message('Error')
+      logger::log_warn("NASS Survey error: {e$message}")
       return(NULL)
     })
   }) %>%
