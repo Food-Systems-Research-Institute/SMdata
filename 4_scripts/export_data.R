@@ -54,11 +54,6 @@ metrics_agg <- map(metrics, ~ {
   select(fips, year, variable_name, value)
 get_str(metrics_agg)
 
-metrics_agg %>% 
-  filter(variable_name == 'receiptsAllForestProducts') %>% 
-  pull(year) %>% 
-  range()
-
 
 
 ## Metadata ---------------------------------------------------------------
@@ -66,12 +61,10 @@ metrics_agg %>%
 
 # Load metadata
 meta <- read_all_rds('5_objects/metadata/')
-# get_str(meta)
 
 # Combine them, warehouse is FALSE if not included
 meta_agg <- bind_rows(meta) %>% 
   select(-any_of('warehouse'))
-# get_str(meta_agg)
 
 # If there is no axis name, make it the variable_name
 meta_agg <- meta_agg %>% 
@@ -134,13 +127,6 @@ sm_data$weighting <- readRDS('5_objects/weighting_vars.rds')
 # Add county land and water area as utility dataset
 sm_data$areas <- readRDS('5_objects/areas.rds')
 
-
-# NOTE: Removing data paper objects - moving these into SMdocs
-# Data paper metadata, tree, and metrics
-# sm_data$data_paper_meta <- readRDS('5_objects/data_paper_meta.rds')
-# sm_data$data_paper_tree <- readRDS('5_objects/data_paper_tree.rds')
-# sm_data$data_paper_metrics <- readRDS('5_objects/data_paper_metrics.rds')
-
 # Spatial objects and references
 sm_data$fips <- read_all_rds(path = '5_objects/', pattern = '_key.rds$|^all_fips')
 
@@ -176,7 +162,6 @@ sm_data <- list_flatten(sm_data, name_spec = "{inner}")
 
 # Paths to SMdocs and SMexplorer. Also keeping a copy in outputs
 sm_data_paths <- c(
-  # '../SMdocs/data/sm_data.rds',
   '../SMexplorer/dev/data/sm_data.rds',
   '6_outputs/sm_data.rds'
 )

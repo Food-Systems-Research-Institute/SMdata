@@ -1,0 +1,93 @@
+INFO [2026-01-15 20:31:39] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:33:44] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:35:12] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:35:22] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:35:39] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:36:36] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:36:47] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:36:47] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:36:47] Rows: 21317 | Vars: 39
+SUCCESS [2026-01-15 20:36:47] [nass_combined input] Validation passed
+INFO [2026-01-15 20:36:47] [wrangle_nass] Wrangling raw data
+SUCCESS [2026-01-15 20:36:50] [wrangle_nass output] Validation passed
+INFO [2026-01-15 20:36:50] [wrangle_nass] Complete
+INFO [2026-01-15 20:36:50] Rows: 20251 | Vars: 261
+INFO [2026-01-15 20:36:50] [calculate_nass_derived] Calculating derived variables
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'd2cSalesPropTotal': totalSalesCommodities
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'salesValueAddedDirectPropTotal': totalSalesCommodities
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'salesValueAddedWholesalePropTotal': totalSalesCommodities
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'incomeAgTourismRecPropTotal': totalIncomeAgTourismRecreation, totalFarmIncome
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'fertExpensePropTotalExpense': expensesFertilizerLimeSoilCond, totalOperatingExpenses
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'fuelExpensePropTotalExpense': totalFuelExpenses, totalOperatingExpenses
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'ftmProdRatio': nFemProducers, nMaleProducers
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'incomeCropAnimalInsurancePropTotal': totalIncomeCropAnimalInsurance, totalFarmIncome
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'propOpsOrganic': nOpsOrganic, nOperations
+WARN [2026-01-15 20:36:50] [calculate_var] Missing variables for 'salesValueAddedPropTotal': totalSalesCommodities
+INFO [2026-01-15 20:38:47] test
+INFO [2026-01-15 20:43:11] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:43:18] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:43:18] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:43:18] Rows: 21317 | Vars: 39
+SUCCESS [2026-01-15 20:43:18] [nass_combined input] Validation passed
+INFO [2026-01-15 20:43:18] [wrangle_nass] Wrangling raw data
+SUCCESS [2026-01-15 20:43:20] [wrangle_nass output] Validation passed
+INFO [2026-01-15 20:43:20] [wrangle_nass] Complete
+INFO [2026-01-15 20:43:20] Rows: 20251 | Vars: 261
+INFO [2026-01-15 20:43:20] [calculate_nass_derived] Calculating derived variables
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'd2cSalesPropTotal': totalSalesCommodities
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'salesValueAddedDirectPropTotal': totalSalesCommodities
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'salesValueAddedWholesalePropTotal': totalSalesCommodities
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'incomeAgTourismRecPropTotal': totalIncomeAgTourismRecreation, totalFarmIncome
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'fertExpensePropTotalExpense': expensesFertilizerLimeSoilCond, totalOperatingExpenses
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'fuelExpensePropTotalExpense': totalFuelExpenses, totalOperatingExpenses
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'ftmProdRatio': nFemProducers, nMaleProducers
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'incomeCropAnimalInsurancePropTotal': totalIncomeCropAnimalInsurance, totalFarmIncome
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'propOpsOrganic': nOpsOrganic, nOperations
+WARN [2026-01-15 20:43:20] [calculate_var] Missing variables for 'salesValueAddedPropTotal': totalSalesCommodities
+INFO [2026-01-15 20:44:19] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:44:19] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:44:19] Rows: 21317 | Vars: 39
+INFO [2026-01-15 20:49:58] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:50:08] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:50:09] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:50:09] Rows: 21317 | Vars: 39
+INFO [2026-01-15 20:51:13] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:51:13] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:51:13] Rows: 21317 | Vars: 39
+INFO [2026-01-15 20:51:41] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:51:41] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:51:41] Rows: 21317 | Vars: 39
+INFO [2026-01-15 20:51:43] [nass_combined_input] Validation: 4/35 checks passed
+INFO [2026-01-15 20:51:44] [nass_combined_input] Report saved: logs/validation/nass_combined_input_20260115_205143.html
+WARN [2026-01-15 20:51:44] [nass_combined_input] Validation failed for checks: 5
+INFO [2026-01-15 20:51:44] [wrangle_nass] Wrangling raw data
+INFO [2026-01-15 20:51:47] [wrangle_nass_output] Validation: 8/35 checks passed
+INFO [2026-01-15 20:51:47] [wrangle_nass_output] Report saved: logs/validation/wrangle_nass_output_20260115_205147.html
+WARN [2026-01-15 20:51:47] [wrangle_nass_output] Validation failed for checks: 
+INFO [2026-01-15 20:51:47] [wrangle_nass] Complete
+INFO [2026-01-15 20:51:47] Rows: 20251 | Vars: 261
+INFO [2026-01-15 20:51:48] [process_nass_final] Validation: 7/35 checks passed
+INFO [2026-01-15 20:51:48] [process_nass_final] Report saved: logs/validation/process_nass_final_20260115_205148.html
+WARN [2026-01-15 20:51:48] [process_nass_final] Validation failed for checks: 8
+INFO [2026-01-15 20:51:48] [process_nass] Processing complete
+INFO [2026-01-15 20:51:48] Rows: 20251 | Vars: 261
+INFO [2026-01-15 20:53:20] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:54:11] testing
+INFO [2026-01-15 20:55:10] Logger initialized: logs/pipeline.log
+INFO [2026-01-15 20:55:10] [process_nass] Starting NASS processing
+INFO [2026-01-15 20:55:10] Rows: 21317 | Vars: 39
+INFO [2026-01-15 20:55:11] [nass_combined_input] Validation: 4/35 checks passed
+INFO [2026-01-15 20:55:12] [nass_combined_input] Report saved: logs/validation/nass_combined_input_20260115_205511.html
+WARN [2026-01-15 20:55:12] [nass_combined_input] Validation failed for checks: 5
+INFO [2026-01-15 20:55:12] [wrangle_nass] Wrangling raw data
+INFO [2026-01-15 20:55:15] [wrangle_nass_output] Validation: 8/35 checks passed
+INFO [2026-01-15 20:55:16] [wrangle_nass_output] Report saved: logs/validation/wrangle_nass_output_20260115_205515.html
+WARN [2026-01-15 20:55:16] [wrangle_nass_output] Validation failed for checks: 
+INFO [2026-01-15 20:55:16] [wrangle_nass] Complete
+INFO [2026-01-15 20:55:16] Rows: 20251 | Vars: 261
+INFO [2026-01-15 20:55:18] [process_nass_final] Validation: 7/35 checks passed
+INFO [2026-01-15 20:55:18] [process_nass_final] Report saved: logs/validation/process_nass_final_20260115_205518.html
+WARN [2026-01-15 20:55:18] [process_nass_final] Validation failed for checks: 8
+INFO [2026-01-15 20:55:18] [process_nass] Processing complete
+INFO [2026-01-15 20:55:18] Rows: 20251 | Vars: 261
+INFO [2026-01-15 21:05:31] Logger initialized: logs/pipeline.log
